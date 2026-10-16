@@ -166,5 +166,9 @@
   "quran_loading": "جاري التحميل",
   "quran_error": "فشل التحميل",
   "quran_retry": "إعادة المحاولة",
-  "quran_attribution": "المصدر: Tanzil.net"
+  "quran_attribution": "المصدر: Tanzil.net",
+  "verse_actions_copy": "نسخ",
+  "verse_actions_share": "مشاركة",
+  "verse_actions_cancel": "إلغاء",
+  "verse_actions_copied": "تم النسخ"
 }

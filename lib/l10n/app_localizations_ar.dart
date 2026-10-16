@@ -471,4 +471,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get quran_attribution => 'المصدر: Tanzil.net';
+
+  @override
+  String get verse_actions_copy => 'نسخ';
+
+  @override
+  String get verse_actions_share => 'مشاركة';
+
+  @override
+  String get verse_actions_cancel => 'إلغاء';
+
+  @override
+  String get verse_actions_copied => 'تم النسخ';
 }

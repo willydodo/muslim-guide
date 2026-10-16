@@ -985,6 +985,30 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'المصدر: Tanzil.net'**
   String get quran_attribution;
+
+  /// No description provided for @verse_actions_copy.
+  ///
+  /// In ar, this message translates to:
+  /// **'نسخ'**
+  String get verse_actions_copy;
+
+  /// No description provided for @verse_actions_share.
+  ///
+  /// In ar, this message translates to:
+  /// **'مشاركة'**
+  String get verse_actions_share;
+
+  /// No description provided for @verse_actions_cancel.
+  ///
+  /// In ar, this message translates to:
+  /// **'إلغاء'**
+  String get verse_actions_cancel;
+
+  /// No description provided for @verse_actions_copied.
+  ///
+  /// In ar, this message translates to:
+  /// **'تم النسخ'**
+  String get verse_actions_copied;
 }
 
 class _AppLocalizationsDelegate

@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:muslim_guide/app/theme/app_theme.dart';
 import 'package:muslim_guide/features/quran/data/quran_asset_loader.dart';
 import 'package:muslim_guide/features/quran/data/quran_repository.dart';
+import 'package:muslim_guide/features/quran/domain/surah.dart';
 import 'package:muslim_guide/features/quran/presentation/quran_index_screen.dart';
 import 'package:muslim_guide/l10n/app_localizations.dart';
 
@@ -38,6 +39,11 @@ QuranRepository failingQuranRepository() {
 class _ThrowingQuranLoader extends QuranAssetLoader {
   /// Creates a throwing loader.
   new() : super(assetBundle: _ThrowingBundle(), assetPath: 'throwing');
+
+  @override
+  Future<List<Surah>> load() async {
+    throw Exception('asset failed');
+  }
 }
 
 /// Bundle backing [_ThrowingQuranLoader] (never read).

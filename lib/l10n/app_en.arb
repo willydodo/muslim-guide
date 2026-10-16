@@ -166,5 +166,9 @@
   "quran_loading": "Loading",
   "quran_error": "Failed to load",
   "quran_retry": "Retry",
-  "quran_attribution": "Source: Tanzil.net"
+  "quran_attribution": "Source: Tanzil.net",
+  "verse_actions_copy": "Copy",
+  "verse_actions_share": "Share",
+  "verse_actions_cancel": "Cancel",
+  "verse_actions_copied": "Copied"
 }

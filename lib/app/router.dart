@@ -15,6 +15,7 @@ import 'package:muslim_guide/features/prayer/presentation/screens/location_picke
 import 'package:muslim_guide/features/prayer/presentation/screens/prayer_times_screen.dart';
 import 'package:muslim_guide/features/qibla/presentation/qibla_screen.dart';
 import 'package:muslim_guide/features/quran/presentation/quran_index_screen.dart';
+import 'package:muslim_guide/features/quran/presentation/surah_reader_screen.dart';
 import 'package:muslim_guide/features/settings/presentation/screens/calculation_settings_screen.dart';
 import 'package:muslim_guide/features/settings/presentation/screens/notifications_settings_screen.dart';
 import 'package:muslim_guide/features/splash/presentation/splash_screen.dart';
@@ -70,11 +71,22 @@ final routerProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => const LocationPickerScreen(),
       ),
       GoRoute(path: '/qibla', builder: (context, state) => const QiblaScreen()),
-      // Phase 06 Task 2: Quran index. The /quran/surah/:id sub-route
-      // lands in Step 5 with SurahReaderScreen.
+      // Phase 06 Task 2: Quran index + Mushaf reader (Step 5).
       GoRoute(
         path: '/quran',
         builder: (context, state) => const QuranIndexScreen(),
+        routes: [
+          GoRoute(
+            path: 'surah/:id',
+            builder: (context, state) {
+              final id = int.tryParse(state.pathParameters['id'] ?? '');
+              if (id == null || id < 1 || id > 114) {
+                return const QuranIndexScreen();
+              }
+              return SurahReaderScreen(surahId: id);
+            },
+          ),
+        ],
       ),
       GoRoute(
         path: '/diagnostics/notifications',

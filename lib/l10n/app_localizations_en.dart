@@ -477,4 +477,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get quran_attribution => 'Source: Tanzil.net';
+
+  @override
+  String get verse_actions_copy => 'Copy';
+
+  @override
+  String get verse_actions_share => 'Share';
+
+  @override
+  String get verse_actions_cancel => 'Cancel';
+
+  @override
+  String get verse_actions_copied => 'Copied';
 }
