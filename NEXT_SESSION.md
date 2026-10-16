@@ -8,11 +8,11 @@
 | Item | Value |
 |---|---|
 | Repository | `willydodo/muslim-guide` |
-| HEAD | `a5d45c7f750d28fc05a9c4a24934f84181d6e06b` |
+| HEAD | `9f6b001a3363488a54a27234ebcfcc50194a59cb` |
 | CI | Passing on HEAD — [run 3](https://github.com/willydodo/muslim-guide/actions/runs/38943680092) |
 | Approvals | APR-0001 and APR-0002 are APPROVED |
 | Approval tags | `approval/phase-A-v1`, `approval/phase-B-v1` |
-| Latest commit | `a5d45c7` — `chore: exclude docs/_local` |
+| Latest commit | `9f6b001` - `docs: update NEXT_SESSION for Phase 06 Task 2` |
 
 ## Completed phases and work
 
@@ -69,6 +69,6 @@
 
 ## Notes
 
-- CI was verified passing for `a5d45c7` on `main`.
+- CI was verified passing for `9f6b001` on `main`.
 - The active repository is `willydodo/muslim-guide`; no migration to another repository is needed.
 - User-local files under `docs/_local/` are excluded from Git.
