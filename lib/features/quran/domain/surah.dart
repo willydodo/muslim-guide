@@ -31,6 +31,11 @@ enum RevelationType {
 ///
 /// Integrity is enforced at parse time: [verseCount] must match the
 /// decoded verses, and verse numbers must be sequential from 1.
+///
+/// The display basmala header is enriched by the asset loader, never by
+/// the JSON factory: surah 1 keeps the basmala as verse 1, surah 9
+/// (At-Tawba) has none, and every other surah carries it separately while
+/// its verse 1 keeps only the verse text.
 class Surah {
   /// Creates a surah.
   const new({
@@ -41,6 +46,7 @@ class Surah {
     required this.revelation,
     required this.order,
     required this.verses,
+    this.basmala,
   });
 
   /// Creates a surah from decoded JSON.
@@ -148,4 +154,10 @@ class Surah {
 
   /// Verses in mushaf order.
   final List<Verse> verses;
+
+  /// Display basmala header, enriched by the loader.
+  ///
+  /// Surah 1: the basmala text (also verse 1, shown inline). Surah 9: null.
+  /// Any other surah: the basmala text, shown as a separate header.
+  final String? basmala;
 }

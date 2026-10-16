@@ -128,7 +128,7 @@ void main() {
       expect(fatiha.verses, hasLength(7));
     });
 
-    test('preserves every verse text verbatim', () async {
+    test('asset text preserved (basmala + verses rebuild verse 1)', () async {
       final payload = realAssetPayload();
       final loader = QuranAssetLoader(
         assetBundle: FakeQuranAssetBundle(payload),
@@ -140,11 +140,68 @@ void main() {
         final rawVerses =
             (rawSurahs[i] as Map<String, dynamic>)['verses'] as List<dynamic>;
         for (var j = 0; j < surahs[i].verses.length; j++) {
-          expect(
-            surahs[i].verses[j].text,
-            (rawVerses[j] as Map<String, dynamic>)['text'],
-          );
+          final rawText = (rawVerses[j] as Map<String, dynamic>)['text'];
+          if (surahs[i].id == 1 || surahs[i].id == 9 || j > 0) {
+            expect(surahs[i].verses[j].text, rawText);
+          } else {
+            expect(
+              '${surahs[i].basmala} ${surahs[i].verses[j].text}',
+              rawText,
+            );
+          }
         }
+      }
+    });
+
+    test('Surah 1 (Al-Fatiha) — basmala is verse 1', () async {
+      final loader = QuranAssetLoader(
+        assetBundle: FakeQuranAssetBundle(realAssetPayload()),
+      );
+      final surahs = await loader.load();
+      final surah = surahs.firstWhere((item) => item.id == 1);
+      expect(surah.basmala, isNotNull);
+      expect(surah.verses.first.text, contains('بِسْمِ'));
+      expect(surah.basmala, surah.verses.first.text);
+      expect(surah.verseCount, 7);
+      expect(surah.verses, hasLength(7));
+    });
+
+    test('Surah 2 (Al-Baqara) — basmala separated', () async {
+      final loader = QuranAssetLoader(
+        assetBundle: FakeQuranAssetBundle(realAssetPayload()),
+      );
+      final surahs = await loader.load();
+      final surah = surahs.firstWhere((item) => item.id == 2);
+      expect(surah.basmala, isNotNull);
+      expect(surah.basmala, contains('بِسْمِ'));
+      expect(surah.verses.first.text, isNot(startsWith('بِسْمِ')));
+      expect(surah.verses.first.text, startsWith('الٓمٓ'));
+      expect(surah.verseCount, 286);
+      expect(surah.verses, hasLength(286));
+    });
+
+    test('Surah 9 (At-Tawba) — no basmala', () async {
+      final loader = QuranAssetLoader(
+        assetBundle: FakeQuranAssetBundle(realAssetPayload()),
+      );
+      final surahs = await loader.load();
+      final surah = surahs.firstWhere((item) => item.id == 9);
+      expect(surah.basmala, isNull);
+    });
+
+    test('all surahs except 1 and 9 carry the basmala', () async {
+      final loader = QuranAssetLoader(
+        assetBundle: FakeQuranAssetBundle(realAssetPayload()),
+      );
+      final surahs = await loader.load();
+      for (final surah in surahs) {
+        if (surah.id == 1 || surah.id == 9) continue;
+        expect(surah.basmala, isNotNull, reason: 'Surah ${surah.id}');
+        expect(
+          surah.verses.first.text,
+          isNot(startsWith('بِسْمِ')),
+          reason: 'Surah ${surah.id}',
+        );
       }
     });
 

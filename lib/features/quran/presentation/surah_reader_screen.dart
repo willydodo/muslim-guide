@@ -43,9 +43,53 @@ class SurahReaderScreen extends ConsumerWidget {
                 retryLabel: loc.quran_retry,
                 onRetry: () => ref.invalidate(surahProvider(surahId)),
               ),
-          data: (surah) => _MushafPage(surah: surah),
+          data: (surah) => MushafWithBasmala(surah: surah),
         ),
       ),
+    );
+  }
+}
+
+/// Mushaf paragraph with the display basmala header.
+///
+/// Surah 1 (basmala is verse 1) and surah 9 (no basmala) render inline;
+/// every other surah shows [Surah.basmala] as a centered header above the
+/// connected verses.
+class MushafWithBasmala extends StatelessWidget {
+  /// Creates the basmala wrapper.
+  const new({required this.surah, super.key});
+
+  /// Surah rendered below the header.
+  final Surah surah;
+
+  /// Testing key for the separate basmala header.
+  static const basmalaKey = ValueKey<String>('basmala-header');
+
+  @override
+  Widget build(BuildContext context) {
+    if (surah.id == 1 || surah.id == 9 || surah.basmala == null) {
+      return _MushafPage(surah: surah);
+    }
+    return Column(
+      children: [
+        Padding(
+          key: basmalaKey,
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.l,
+            vertical: AppSpacing.m,
+          ),
+          child: Text(
+            surah.basmala!,
+            style: AppTypography.quran.copyWith(
+              color: Theme.of(context).colorScheme.onSurface,
+            ),
+            textAlign: TextAlign.center,
+            textDirection: TextDirection.rtl,
+          ),
+        ),
+        const Divider(height: 1),
+        Expanded(child: _MushafPage(surah: surah)),
+      ],
     );
   }
 }
@@ -100,6 +144,7 @@ class _MushafPageState extends State<_MushafPage> {
             '${widget.surah.nameAr}, '
             '${widget.surah.verses.length}',
         child: RichText(
+          key: const ValueKey('mushaf-paragraph'),
           textDirection: TextDirection.rtl,
           textAlign: TextAlign.justify,
           text: TextSpan(

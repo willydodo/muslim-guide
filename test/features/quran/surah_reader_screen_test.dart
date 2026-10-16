@@ -57,7 +57,9 @@ void main() {
         repository: realQuranRepository(),
       );
       expect(tester.takeException(), isNull);
-      final richText = tester.widget<RichText>(find.byType(RichText).first);
+      final richText = tester.widget<RichText>(
+        find.byKey(const ValueKey('mushaf-paragraph')),
+      );
       expect(richText.text.toPlainText().length, greaterThan(1000));
     });
 
@@ -85,6 +87,35 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.byType(VerseActionsSheet), findsOneWidget);
       expect(find.text('name-1 · 1'), findsOneWidget);
+    });
+
+    testWidgets('Surah 2 shows a separate basmala header', (tester) async {
+      await pumpReader(
+        tester,
+        surahId: 2,
+        repository: realQuranRepository(),
+      );
+      expect(find.byKey(MushafWithBasmala.basmalaKey), findsOneWidget);
+    });
+
+    testWidgets('Surah 1 does NOT show a separate basmala header', (
+      tester,
+    ) async {
+      await pumpReader(
+        tester,
+        surahId: 1,
+        repository: realQuranRepository(),
+      );
+      expect(find.byKey(MushafWithBasmala.basmalaKey), findsNothing);
+    });
+
+    testWidgets('Surah 9 shows no basmala header', (tester) async {
+      await pumpReader(
+        tester,
+        surahId: 9,
+        repository: realQuranRepository(),
+      );
+      expect(find.byKey(MushafWithBasmala.basmalaKey), findsNothing);
     });
 
     testWidgets('renders at 200% text scale without overflow', (

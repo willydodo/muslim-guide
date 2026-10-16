@@ -39,6 +39,26 @@ void main() {
       expect(surah.verses, hasLength(7));
     });
 
+    test('Surah 1 — basmala is verse 1', () async {
+      final surah = await realQuranRepository().getSurah(1);
+      expect(surah.basmala, surah.verses.first.text);
+      expect(surah.verseCount, 7);
+      expect(surah.verses, hasLength(7));
+    });
+
+    test('Surah 2 — basmala separated in data', () async {
+      final surah = await realQuranRepository().getSurah(2);
+      expect(surah.basmala, isNotNull);
+      expect(surah.verses.first.text, startsWith('الٓمٓ'));
+      expect(surah.verseCount, 286);
+      expect(surah.verses, hasLength(286));
+    });
+
+    test('Surah 9 — no basmala', () async {
+      final surah = await realQuranRepository().getSurah(9);
+      expect(surah.basmala, isNull);
+    });
+
     test('returns a stub surah from the fake repository', () async {
       final surah = await fakeQuranRepository([stubSurah()]).getSurah(1);
       expect(surah.verses, hasLength(2));

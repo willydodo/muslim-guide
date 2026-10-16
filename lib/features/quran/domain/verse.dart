@@ -1,8 +1,9 @@
 /// A single Quranic verse (ayah) from the bundled Uthmani asset.
 ///
-/// The [text] is preserved verbatim from
-/// `assets/content/quran/quran-uthmani.json` (Phase 06 Task 2 decision:
-/// display literally — no basmala splitting, no normalization).
+/// The [text] comes from `assets/content/quran/quran-uthmani.json`. The JSON
+/// itself is never modified (Tanzil "do not modify" term); the asset loader
+/// only separates the basmala display header for surahs other than 1 and 9,
+/// so verse 1 of those surahs carries the verse text without the header.
 class Verse {
   /// Creates a verse.
   const new({
@@ -38,6 +39,12 @@ class Verse {
   /// Ayah number within the surah (1-based).
   final int number;
 
-  /// Uthmani text, verbatim from the asset.
+  /// Uthmani text from the asset (basmala header separated by the loader
+  /// for surahs other than 1 and 9).
   final String text;
+
+  /// Returns a copy with [text] replaced.
+  Verse copyWith({String? text}) {
+    return Verse(surahId: surahId, number: number, text: text ?? this.text);
+  }
 }
