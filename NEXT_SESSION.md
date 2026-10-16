@@ -1,74 +1,71 @@
-# NEXT SESSION — Phase 06 Task 2
+# NEXT SESSION — Phase 06 Device Test
 
-> **Last updated:** 2026-10-16
-> **Current phase:** Phase 06 — Task 2 (Quran Mushaf View)
+> **آخر تحديث:** 2026-10-17
+> **المرحلة:** Phase 06 Task 2 ✅ مكتمل
 
-## Project state
+## حالة المشروع
 
-| Item | Value |
+| البند | القيمة |
 |---|---|
-| Repository | `willydodo/muslim-guide` |
-| HEAD | `9f6b001a3363488a54a27234ebcfcc50194a59cb` |
-| CI | Passing on HEAD — [run 3](https://github.com/willydodo/muslim-guide/actions/runs/38943680092) |
-| Approvals | APR-0001 and APR-0002 are APPROVED |
-| Approval tags | `approval/phase-A-v1`, `approval/phase-B-v1` |
-| Latest commit | `9f6b001` - `docs: update NEXT_SESSION for Phase 06 Task 2` |
+| Repo | `willydodo/muslim-guide` |
+| HEAD | `614ad734a5442570cd1c982c16ba1aa8482056cf` |
+| CI | ⏳ يُتحقق يدويًا (لا وصول API من هنا) |
+| approvals | APR-0001 + APR-0002 APPROVED |
+| tags | approval/phase-A-v1, approval/phase-B-v1 |
 
-## Completed phases and work
+## المراحل المكتملة
 
-- Phases 00–04: complete.
-- Phase 05 (Azkar skeleton): complete; content pack deferred.
-- Phase 06 Task 1 (Quran data and font): complete.
-  - `assets/content/quran/quran-uthmani.json`: 114 surahs, 6236 verses.
-  - `assets/fonts/AmiriQuran.ttf`.
-  - DEC-0030 selects JSON storage; OD-0003 is closed.
-  - Tanzil asset remains `SOURCE_IDENTIFIED`, not `APPROVED`.
-  - OD-0004 search normalization is deferred to Phase 12; Quran search is excluded from Phase 06.
+- Phase 00 → 04 ✅
+- Phase 05 (Azkar skeleton) ✅
+- **Phase 06 Task 1 (Quran data)** ✅
+- **Phase 06 Task 2 (Mushaf View)** ✅
 
-## Current task: Phase 06 Task 2 — Mushaf View
+## المتبقي — Phase 06 Device Test (1-2 ساعة)
 
-### Scope
+### الجهاز
+- **Oppo A95** (CPH2365, Android 13, ColorOS) — متصل (`db692b78`)
 
-- Domain models: `Surah`, `Verse`, `QuranContent`.
-- Quran repository and asset loader.
-- Providers for Quran index and current surah.
-- Screens: Quran index and surah reader.
-- Widgets: surah list item, connected Mushaf text, verse tap handling, and verse actions sheet.
-- Router paths: `/quran` and `/quran/surah/:id`.
-- Localization keys for the Quran screens and actions.
-- Focused unit/widget/integration tests.
-- Device verification on the available Oppo reference device.
+### الاختبارات
+1. فتح التطبيق → Splash → Home
+2. القرآن → فهرس 114 سورة
+3. الفاتحة → Mushaf view
+4. ضغط آية → Sheet
+5. نسخ → SnackBar
+6. مشاركة → Share sheet
+7. عُد للفهرس
+8. البقرة (286 آية) → scroll سلس
+9. **Cold start < 2.0s**
+10. تبديل EN → الواجهة EN
+11. Text scale 200% → بلا overflow
+12. وضع طيران → يعمل
 
-### Constraints
+### Evidence
+- `docs/phase-06-output-report.md`
+- لقطات شاشة
 
-- Mushaf-style connected Quran text; tapping an ayah opens its actions sheet.
-- No tafsir (Phase 06b), recitation (Phase 07), or search (Phase 12).
-- Use Amiri Quran font.
-- Quran text direction is always RTL.
-- Never write Quran text to Hive.
-- Preserve the source verse text exactly.
-- Run `flutter analyze --fatal-infos` after each file change.
-- Do not mark Tanzil `APPROVED` without the required human content/licensing review.
+## المراحل القادمة
 
-## References
+### Phase 06b (اختياري — التفاسير)
+- تفسير ابن كثير + البغوي + الطبري
+- shamela.ws (Public Domain)
+- OD-0028
 
-- `phases/06.md` is not present yet; use `phases/README.md` and `NEXT_SESSION.md` until the phase specification is created.
-- `docs/UI_VISION.md` §3, Quran recipe.
-- `03-decisions.md` (DEC-0015 through DEC-0030).
-- `04-open-decisions.md`.
-- `approvals.yaml`.
-- `assets/content/quran/quran-uthmani.json`.
+### Phase 07 (التلاوة)
+- Wikimedia Commons CC0
+- OD-0007
+- audio_service + just_audio
 
-## Protocol for the next session
+### Phase 08 (التقويم)
+- OD-0005
 
-1. Read this file and `docs/DIRECTOR_PLAYBOOK.md`.
-2. Read `phases/README.md`, the Quran recipe in `docs/UI_VISION.md` §3, relevant decisions/open decisions, and AI development rules.
-3. Verify current `HEAD`, approvals, tags, CI, and worktree state; do not rely on this snapshot if the repository has moved.
-4. Present the five planning answers required by `docs/DIRECTOR_PLAYBOOK.md`: blocking open decisions, proposed files, required packages, first implementation steps, and verification approach.
-5. Wait for Abdo's approval before changing code.
+### Phase 09 (v1.0)
+- تثبيت + إطلاق
 
-## Notes
+## البروتوكول
 
-- CI was verified passing for `9f6b001` on `main`.
-- The active repository is `willydodo/muslim-guide`; no migration to another repository is needed.
-- User-local files under `docs/_local/` are excluded from Git.
+**افتح جلسة جديدة:**
+1. اقرأ `NEXT_SESSION.md`
+2. اقرأ `docs/DIRECTOR_PLAYBOOK.md`
+3. اقرأ `phases/06.md`
+4. أجب على الأسئلة (وفق DIRECTOR_PLAYBOOK)
+5. انتظر موافقة Abdo
