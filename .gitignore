@@ -62,3 +62,10 @@ spike/evidence/*.xml
 *_hang_log.txt
 int_test_output.txt
 splash_hang_log.txt
+
+# User local files (not for repo)
+*.docx
+*.pdf
+~$*
+«·√–ﬂ«—.*
+docs/«·√–ﬂ«—.*
