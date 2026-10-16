@@ -434,4 +434,41 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get azkar_empty_pending_pack => 'مكتبة الأذكار قيد الإعداد';
+
+  @override
+  String get quran_title => 'القرآن الكريم';
+
+  @override
+  String get quran_index_title => 'فهرس السور';
+
+  @override
+  String quran_surah_verse_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count آية',
+      few: '$count آيات',
+      two: 'آيتان',
+      one: 'آية واحدة',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get quran_revelation_meccan => 'مكية';
+
+  @override
+  String get quran_revelation_medinan => 'مدنية';
+
+  @override
+  String get quran_loading => 'جاري التحميل';
+
+  @override
+  String get quran_error => 'فشل التحميل';
+
+  @override
+  String get quran_retry => 'إعادة المحاولة';
+
+  @override
+  String get quran_attribution => 'المصدر: Tanzil.net';
 }

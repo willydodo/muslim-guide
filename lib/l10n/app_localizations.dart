@@ -931,6 +931,60 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'مكتبة الأذكار قيد الإعداد'**
   String get azkar_empty_pending_pack;
+
+  /// No description provided for @quran_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'القرآن الكريم'**
+  String get quran_title;
+
+  /// No description provided for @quran_index_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'فهرس السور'**
+  String get quran_index_title;
+
+  /// Verse count label for a surah row (Latin digits via interpolation, DEC-0026)
+  ///
+  /// In ar, this message translates to:
+  /// **'{count, plural, one{آية واحدة} two{آيتان} few{{count} آيات} other{{count} آية}}'**
+  String quran_surah_verse_count(int count);
+
+  /// No description provided for @quran_revelation_meccan.
+  ///
+  /// In ar, this message translates to:
+  /// **'مكية'**
+  String get quran_revelation_meccan;
+
+  /// No description provided for @quran_revelation_medinan.
+  ///
+  /// In ar, this message translates to:
+  /// **'مدنية'**
+  String get quran_revelation_medinan;
+
+  /// No description provided for @quran_loading.
+  ///
+  /// In ar, this message translates to:
+  /// **'جاري التحميل'**
+  String get quran_loading;
+
+  /// No description provided for @quran_error.
+  ///
+  /// In ar, this message translates to:
+  /// **'فشل التحميل'**
+  String get quran_error;
+
+  /// No description provided for @quran_retry.
+  ///
+  /// In ar, this message translates to:
+  /// **'إعادة المحاولة'**
+  String get quran_retry;
+
+  /// No description provided for @quran_attribution.
+  ///
+  /// In ar, this message translates to:
+  /// **'المصدر: Tanzil.net'**
+  String get quran_attribution;
 }
 
 class _AppLocalizationsDelegate

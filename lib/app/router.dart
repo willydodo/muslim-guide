@@ -14,6 +14,7 @@ import 'package:muslim_guide/features/onboarding/presentation/language_selection
 import 'package:muslim_guide/features/prayer/presentation/screens/location_picker_screen.dart';
 import 'package:muslim_guide/features/prayer/presentation/screens/prayer_times_screen.dart';
 import 'package:muslim_guide/features/qibla/presentation/qibla_screen.dart';
+import 'package:muslim_guide/features/quran/presentation/quran_index_screen.dart';
 import 'package:muslim_guide/features/settings/presentation/screens/calculation_settings_screen.dart';
 import 'package:muslim_guide/features/settings/presentation/screens/notifications_settings_screen.dart';
 import 'package:muslim_guide/features/splash/presentation/splash_screen.dart';
@@ -69,6 +70,12 @@ final routerProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => const LocationPickerScreen(),
       ),
       GoRoute(path: '/qibla', builder: (context, state) => const QiblaScreen()),
+      // Phase 06 Task 2: Quran index. The /quran/surah/:id sub-route
+      // lands in Step 5 with SurahReaderScreen.
+      GoRoute(
+        path: '/quran',
+        builder: (context, state) => const QuranIndexScreen(),
+      ),
       GoRoute(
         path: '/diagnostics/notifications',
         builder: (context, state) => const NotificationDiagnosticsScreen(),

@@ -21,4 +21,11 @@ class AppTypography {
     height: 2,
     letterSpacing: 0,
   );
+
+  /// Style for surah names in the index (Amiri Quran, Phase 06 Task 2).
+  static const TextStyle surahName = TextStyle(
+    fontFamily: 'AmiriQuran',
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+  );
 }

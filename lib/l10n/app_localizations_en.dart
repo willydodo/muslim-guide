@@ -442,4 +442,39 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get azkar_empty_pending_pack => 'Azkar library is being prepared';
+
+  @override
+  String get quran_title => 'The Quran';
+
+  @override
+  String get quran_index_title => 'Surahs';
+
+  @override
+  String quran_surah_verse_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count verses',
+      one: '1 verse',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get quran_revelation_meccan => 'Meccan';
+
+  @override
+  String get quran_revelation_medinan => 'Medinan';
+
+  @override
+  String get quran_loading => 'Loading';
+
+  @override
+  String get quran_error => 'Failed to load';
+
+  @override
+  String get quran_retry => 'Retry';
+
+  @override
+  String get quran_attribution => 'Source: Tanzil.net';
 }
