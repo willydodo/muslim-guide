@@ -1028,12 +1028,6 @@ abstract class AppLocalizations {
   /// **'اليوم'**
   String get hijri_today;
 
-  /// Days remaining until a Hijri event
-  ///
-  /// In ar, this message translates to:
-  /// **'{count, plural, one{غداً} two{بعد يومين} few{بعد {count} أيام} other{بعد {count} يوم}}'**
-  String hijri_event_days_remaining(int count);
-
   /// No description provided for @hijri_loading.
   ///
   /// In ar, this message translates to:
@@ -1051,12 +1045,6 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'إعادة المحاولة'**
   String get hijri_retry;
-
-  /// No description provided for @hijri_no_events.
-  ///
-  /// In ar, this message translates to:
-  /// **'لا مناسبات قادمة'**
-  String get hijri_no_events;
 
   /// No description provided for @hijri_adjustment_title.
   ///
@@ -1081,60 +1069,6 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'زائد يوم'**
   String get hijri_adjustment_plus_one;
-
-  /// No description provided for @hijri_upcoming_events.
-  ///
-  /// In ar, this message translates to:
-  /// **'المناسبات القادمة'**
-  String get hijri_upcoming_events;
-
-  /// No description provided for @event_ramadan_start.
-  ///
-  /// In ar, this message translates to:
-  /// **'بداية رمضان'**
-  String get event_ramadan_start;
-
-  /// No description provided for @event_eid_fitr.
-  ///
-  /// In ar, this message translates to:
-  /// **'عيد الفطر'**
-  String get event_eid_fitr;
-
-  /// No description provided for @event_arafah.
-  ///
-  /// In ar, this message translates to:
-  /// **'يوم عرفة'**
-  String get event_arafah;
-
-  /// No description provided for @event_eid_adha.
-  ///
-  /// In ar, this message translates to:
-  /// **'عيد الأضحى'**
-  String get event_eid_adha;
-
-  /// No description provided for @event_hijri_new_year.
-  ///
-  /// In ar, this message translates to:
-  /// **'رأس السنة الهجرية'**
-  String get event_hijri_new_year;
-
-  /// No description provided for @event_mawlid.
-  ///
-  /// In ar, this message translates to:
-  /// **'المولد النبوي'**
-  String get event_mawlid;
-
-  /// No description provided for @event_isra_miraj.
-  ///
-  /// In ar, this message translates to:
-  /// **'الإسراء والمعراج'**
-  String get event_isra_miraj;
-
-  /// No description provided for @event_mid_shaban.
-  ///
-  /// In ar, this message translates to:
-  /// **'ليلة النصف من شعبان'**
-  String get event_mid_shaban;
 
   /// No description provided for @hijri_month_1.
   ///

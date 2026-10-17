@@ -369,4 +369,33 @@ high latitudes.
 
 **Decision:** D — مؤجل لـv1.5 (CR-0017، 2026-10-17).
 
+## OD-0031 — Islamic calendar events
+
+**Status:** OPEN
+**Blocking Phase:** v1.5
+**Date:** 2026-10-17
+
+**Question:** هل نعرض مناسبات إسلامية في التقويم الهجري؟
+
+**Context:**
+- 8 مناسبات سابقة (رمضان، عيد، مولد، إسراء، نصف شعبان).
+- لا توثيق شرعي.
+- لا مراجع في `reviewers.yaml`.
+- لا DEC/CR.
+
+**Options:**
+- A: لا مناسبات في v1.0 (الحالي).
+- B: مناسبات أساسية فقط (رمضان، عيد فطر، عيد أضحى، حج) بعد مراجعة.
+- C: كل المناسبات بعد مراجعة كاملة.
+- D: لا مناسبات أبداً.
+
+**Decision:** A — مؤجل لـv1.5.
+
+**Action:**
+- مراجعة شرعية (shaykh-N).
+- توثيق في `legal/assets.yaml`.
+- DEC/CR.
+
+**Required By:** Abdo
+
 high latitudes.

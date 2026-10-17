@@ -496,19 +496,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get hijri_today => 'اليوم';
 
   @override
-  String hijri_event_days_remaining(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'بعد $count يوم',
-      few: 'بعد $count أيام',
-      two: 'بعد يومين',
-      one: 'غداً',
-    );
-    return '$_temp0';
-  }
-
-  @override
   String get hijri_loading => 'جاري التحميل';
 
   @override
@@ -516,9 +503,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get hijri_retry => 'إعادة المحاولة';
-
-  @override
-  String get hijri_no_events => 'لا مناسبات قادمة';
 
   @override
   String get hijri_adjustment_title => 'تعديل التاريخ';
@@ -531,33 +515,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get hijri_adjustment_plus_one => 'زائد يوم';
-
-  @override
-  String get hijri_upcoming_events => 'المناسبات القادمة';
-
-  @override
-  String get event_ramadan_start => 'بداية رمضان';
-
-  @override
-  String get event_eid_fitr => 'عيد الفطر';
-
-  @override
-  String get event_arafah => 'يوم عرفة';
-
-  @override
-  String get event_eid_adha => 'عيد الأضحى';
-
-  @override
-  String get event_hijri_new_year => 'رأس السنة الهجرية';
-
-  @override
-  String get event_mawlid => 'المولد النبوي';
-
-  @override
-  String get event_isra_miraj => 'الإسراء والمعراج';
-
-  @override
-  String get event_mid_shaban => 'ليلة النصف من شعبان';
 
   @override
   String get hijri_month_1 => 'محرم';

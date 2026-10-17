@@ -14,7 +14,6 @@ class CalendarGrid extends StatelessWidget {
     required this.firstWeekdayOffset,
     required this.weekdayLabels,
     this.todayDay,
-    this.eventDays = const <int>{},
     this.onDayTap,
     super.key,
   }) : assert(
@@ -43,9 +42,6 @@ class CalendarGrid extends StatelessWidget {
   /// Day number of today when the displayed month is current, else null.
   final int? todayDay;
 
-  /// Day numbers that carry at least one event.
-  final Set<int> eventDays;
-
   /// Called when a day cell is tapped.
   final ValueChanged<HijriDate?>? onDayTap;
 
@@ -57,10 +53,7 @@ class CalendarGrid extends StatelessWidget {
         Center(
           child: Padding(
             padding: const EdgeInsets.all(AppSpacing.s),
-            child: Text(
-              label,
-              style: Theme.of(context).textTheme.labelLarge,
-            ),
+            child: Text(label, style: Theme.of(context).textTheme.labelLarge),
           ),
         ),
       );
@@ -69,12 +62,13 @@ class CalendarGrid extends StatelessWidget {
       cells.add(const SizedBox.shrink());
     }
     for (var day = 1; day <= daysInMonth; day++) {
-      cells.add(_DayCell(
-        day: day,
-        isToday: day == todayDay,
-        hasEvent: eventDays.contains(day),
-        onTap: onDayTap == null ? null : () => onDayTap!(null),
-      ));
+      cells.add(
+        _DayCell(
+          day: day,
+          isToday: day == todayDay,
+          onTap: onDayTap == null ? null : () => onDayTap!(null),
+        ),
+      );
     }
     return GridView.count(
       crossAxisCount: 7,
@@ -85,24 +79,16 @@ class CalendarGrid extends StatelessWidget {
   }
 }
 
-/// Single day cell with today highlight and event dot.
+/// Single day cell with today highlight.
 class _DayCell extends StatelessWidget {
   /// Creates a day cell.
-  const new({
-    required this.day,
-    required this.isToday,
-    required this.hasEvent,
-    this.onTap,
-  });
+  const new({required this.day, required this.isToday, this.onTap});
 
   /// Day number.
   final int day;
 
   /// Whether this cell is today.
   final bool isToday;
-
-  /// Whether this day carries an event.
-  final bool hasEvent;
 
   /// Tap callback.
   final VoidCallback? onTap;
@@ -124,26 +110,11 @@ class _DayCell extends StatelessWidget {
                   borderRadius: BorderRadius.circular(AppSpacing.s),
                 )
               : null,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                '$day',
-                style: theme.textTheme.bodyLarge?.copyWith(
-                  fontWeight: isToday ? FontWeight.bold : null,
-                ),
-              ),
-              if (hasEvent)
-                Container(
-                  width: 6,
-                  height: 6,
-                  margin: const EdgeInsets.only(top: 2),
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: theme.colorScheme.primary,
-                  ),
-                ),
-            ],
+          child: Text(
+            '$day',
+            style: theme.textTheme.bodyLarge?.copyWith(
+              fontWeight: isToday ? FontWeight.bold : null,
+            ),
           ),
         ),
       ),

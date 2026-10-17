@@ -214,7 +214,7 @@ Scaffold
 * **Success:** → `goToNext()` (Language Selection أو Home)
 * **Error:** عرض خطأ + زر "إعادة المحاولة"
 
-**الأحداث:**
+**التفاعل:**
 
 * `goToNext()`:
 
@@ -594,7 +594,7 @@ Scaffold
 
 ### 🎴 وصفة 8: HijriCalendarScreen
 
-**الهدف:** تقويم هجري + مناسبات.
+**الهدف:** تقويم هجري.
 
 **الخلفية:** gradient.
 
@@ -602,7 +602,6 @@ Scaffold
 
 * `hijriDateProvider` (Notifier, autoDispose)
 * `hijriMonthProvider` (Notifier, autoDispose)
-* `upcomingEventsProvider` (AsyncNotifier, autoDispose)
 
 **شجرة الويدجتات:**
 
@@ -616,23 +615,19 @@ Scaffold
       IconButton(chevron\_right)
     CalendarGrid (7×6)
       DayCell × 42
-    UpcomingEventsList
-      EventCard × N
 ```
 
-**ARB Keys:** `hijri_calendar_title`, `hijri_month_format`, `hijri_today`, `hijri_event_days_remaining`
+**ARB Keys:** `hijri_calendar_title`, `hijri_month_format`, `hijri_today`
 
 **الحالات:**
 
 * **Loading:** Skeleton grid
-* **Empty:** "لا مناسبات قادمة"
 * **Error:** "فشل الحساب" + إعادة محاولة
 * **Success:** عرض طبيعي
 
 **الأحداث:**
 
 * `onDayTap(day)` → تفاصيل اليوم
-* `onEventTap(event)` → تفاصيل المناسبة
 
 **الوصولية:**
 
@@ -641,6 +636,13 @@ Scaffold
 **Offline:** ✅ (حساب محلي وفق OD-0005)
 
 **مرجع:** REQ-HIJRI-001
+
+---
+
+### Islamic Events (deferred to v1.5)
+
+- OD-0031
+- لا مناسبات في v1.0
 
 ---
 

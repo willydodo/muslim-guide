@@ -6,7 +6,6 @@ import 'package:muslim_guide/app/providers/bootstrap_provider.dart';
 import 'package:muslim_guide/features/hijri/data/hijri_calculator_impl.dart';
 import 'package:muslim_guide/features/hijri/data/repositories/hijri_repository_impl.dart';
 import 'package:muslim_guide/features/hijri/domain/models/hijri_date.dart';
-import 'package:muslim_guide/features/hijri/domain/models/hijri_event.dart';
 import 'package:muslim_guide/features/hijri/domain/repositories/hijri_repository.dart';
 
 /// Holds the Hijri date adjustment in days (-1, 0, +1); defaults to 0
@@ -85,11 +84,3 @@ final AutoDisposeFutureProvider<HijriDate> hijriTodayProvider =
 /// autoDispose: released when the calendar screen is popped.
 final AutoDisposeStateProvider<DateTime> hijriMonthProvider =
     StateProvider.autoDispose<DateTime>((ref) => DateTime.now());
-
-/// Next upcoming Hijri events (default limit 3).
-///
-/// autoDispose: recomputed when the calendar screen is opened.
-final AutoDisposeFutureProvider<List<HijriEvent>> upcomingEventsProvider =
-    FutureProvider.autoDispose<List<HijriEvent>>(
-  (ref) => ref.watch(hijriRepositoryProvider).getUpcomingEvents(),
-);

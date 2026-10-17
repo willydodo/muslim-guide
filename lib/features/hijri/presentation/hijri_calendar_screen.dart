@@ -4,10 +4,9 @@ import 'package:muslim_guide/app/theme/app_spacing.dart';
 import 'package:muslim_guide/features/hijri/application/hijri_providers.dart';
 import 'package:muslim_guide/features/hijri/presentation/widgets/calendar_grid.dart';
 import 'package:muslim_guide/features/hijri/presentation/widgets/calendar_parts.dart';
-import 'package:muslim_guide/features/hijri/presentation/widgets/event_card.dart';
 import 'package:muslim_guide/l10n/app_localizations.dart';
 
-/// Hijri calendar screen: month grid + upcoming events + adjustment.
+/// Hijri calendar screen: month grid + adjustment.
 ///
 /// States: loading / error + retry / success (UI_VISION §8).
 /// Offline-first: all computation is local (DEC-0033).
@@ -19,7 +18,6 @@ class HijriCalendarScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final loc = AppLocalizations.of(context)!;
     final todayAsync = ref.watch(hijriTodayProvider);
-    final eventsAsync = ref.watch(upcomingEventsProvider);
     final anchor = ref.watch(hijriMonthProvider);
     return Scaffold(
       appBar: AppBar(title: Text(loc.hijri_calendar_title)),
@@ -50,30 +48,6 @@ class HijriCalendarScreen extends ConsumerWidget {
                 ),
                 const SizedBox(height: AppSpacing.l),
                 const AdjustmentRow(),
-                const SizedBox(height: AppSpacing.l),
-                Text(
-                  loc.hijri_upcoming_events,
-                  style: Theme.of(context).textTheme.titleMedium,
-                ),
-                const SizedBox(height: AppSpacing.s),
-                eventsAsync.when(
-                  loading: () => Text(loc.hijri_loading),
-                  error: (error, stackTrace) => Text(loc.hijri_error),
-                  data: (events) {
-                    if (events.isEmpty) {
-                      return NoEventsView(label: loc.hijri_no_events);
-                    }
-                    return Column(
-                      children: [
-                        for (final event in events)
-                          EventCard(
-                            name: _eventName(loc, event.nameKey),
-                            daysLabel: '',
-                          ),
-                      ],
-                    );
-                  },
-                ),
               ],
             );
           },
@@ -117,28 +91,6 @@ class HijriCalendarScreen extends ConsumerWidget {
       case 12:
       default:
         return loc.hijri_month_12;
-    }
-  }
-
-  String _eventName(AppLocalizations loc, String key) {
-    switch (key) {
-      case 'event_ramadan_start':
-        return loc.event_ramadan_start;
-      case 'event_eid_fitr':
-        return loc.event_eid_fitr;
-      case 'event_arafah':
-        return loc.event_arafah;
-      case 'event_eid_adha':
-        return loc.event_eid_adha;
-      case 'event_hijri_new_year':
-        return loc.event_hijri_new_year;
-      case 'event_mawlid':
-        return loc.event_mawlid;
-      case 'event_isra_miraj':
-        return loc.event_isra_miraj;
-      case 'event_mid_shaban':
-      default:
-        return loc.event_mid_shaban;
     }
   }
 }

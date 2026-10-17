@@ -502,17 +502,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hijri_today => 'Today';
 
   @override
-  String hijri_event_days_remaining(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'in $count days',
-      one: 'tomorrow',
-    );
-    return '$_temp0';
-  }
-
-  @override
   String get hijri_loading => 'Loading';
 
   @override
@@ -520,9 +509,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get hijri_retry => 'Retry';
-
-  @override
-  String get hijri_no_events => 'No upcoming events';
 
   @override
   String get hijri_adjustment_title => 'Date adjustment';
@@ -535,33 +521,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get hijri_adjustment_plus_one => 'Plus one day';
-
-  @override
-  String get hijri_upcoming_events => 'Upcoming events';
-
-  @override
-  String get event_ramadan_start => 'Start of Ramadan';
-
-  @override
-  String get event_eid_fitr => 'Eid al-Fitr';
-
-  @override
-  String get event_arafah => 'Day of Arafah';
-
-  @override
-  String get event_eid_adha => 'Eid al-Adha';
-
-  @override
-  String get event_hijri_new_year => 'Hijri New Year';
-
-  @override
-  String get event_mawlid => 'Mawlid al-Nabi';
-
-  @override
-  String get event_isra_miraj => 'Isra and Miraj';
-
-  @override
-  String get event_mid_shaban => 'Mid-Shaban Night';
 
   @override
   String get hijri_month_1 => 'Muharram';
