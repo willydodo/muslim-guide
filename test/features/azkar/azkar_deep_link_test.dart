@@ -22,7 +22,7 @@ void main() {
       );
       expect(
         DeepLinkParser.parse(Uri.parse('muslimguide://azkar/tasbih')),
-        '/azkar/tasbih',
+        '/tasbih',
       );
     });
 

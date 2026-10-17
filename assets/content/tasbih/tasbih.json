@@ -6,7 +6,7 @@
     "version_approved": null
   },
   "category": "tasbih",
-  "checksum": "sha256:85904edc8b3973f0375436436391ec63f4868742bdc14c386f036549f924cb6b",
+  "checksum": "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc",
   "checksum_method": "canonical-json-sha256-v1 content-only",
   "items": [
     {
@@ -28,6 +28,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "after_prayer",
       "source": {
         "book": "muslim",
         "number": "596",
@@ -55,6 +56,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "after_prayer",
       "source": {
         "book": "muslim",
         "number": "596",
@@ -82,6 +84,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "after_prayer",
       "source": {
         "book": "muslim",
         "number": "596",
@@ -107,6 +110,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "free",
       "source": {
         "book": "bukhari",
         "number": "6405",
@@ -132,6 +136,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "free",
       "source": {
         "book": "bukhari",
         "number": "3293",
@@ -157,6 +162,7 @@
         "reviewer_id": "shaykh-1",
         "status": "pending"
       },
+      "section": "free",
       "source": {
         "book": "muslim",
         "number": "2702",

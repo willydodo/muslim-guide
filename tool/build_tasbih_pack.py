@@ -49,6 +49,8 @@ def main():
         item = make_item(item_id, d["hadeeth"], ref, d.get("grade", ""),
                          repeat, None)
         item["hadeethenc_id"] = hid
+        item["section"] = ("after_prayer" if repeat in (33, 34)
+                           else "free")
         if ovr:
             item["dhikr"] = ovr
             item["dhikr_source"] = ("HadeethEnc %s explanation (verbatim "

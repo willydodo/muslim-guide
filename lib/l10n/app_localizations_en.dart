@@ -444,6 +444,49 @@ class AppLocalizationsEn extends AppLocalizations {
   String get azkar_empty_pending_pack => 'Azkar library is being prepared';
 
   @override
+  String get tasbih_list_title => 'Tasbih';
+
+  @override
+  String get tasbih_list_loading => 'Loading tasbih';
+
+  @override
+  String get tasbih_list_error => 'Could not load tasbih';
+
+  @override
+  String get tasbih_section_after_prayer => 'After prayer';
+
+  @override
+  String get tasbih_section_free => 'Free tasbih';
+
+  @override
+  String get tasbih_empty_pending_pack => 'Tasbih is being prepared';
+
+  @override
+  String get tasbih_entry_not_found => 'Entry not found';
+
+  @override
+  String get tasbih_complete => 'Completed';
+
+  @override
+  String get tasbih_reset => 'Reset';
+
+  @override
+  String get tasbih_reset_confirm_title => 'Reset counter?';
+
+  @override
+  String get tasbih_reset_confirm_body =>
+      'Saved progress for this dhikr will be cleared.';
+
+  @override
+  String get tasbih_reset_confirm => 'Confirm';
+
+  @override
+  String get tasbih_reset_cancel => 'Cancel';
+
+  @override
+  String get tasbih_reset_done => 'Counter reset';
+
+  @override
   String get quran_title => 'The Quran';
 
   @override

@@ -932,6 +932,90 @@ abstract class AppLocalizations {
   /// **'مكتبة الأذكار قيد الإعداد'**
   String get azkar_empty_pending_pack;
 
+  /// No description provided for @tasbih_list_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'التسبيح'**
+  String get tasbih_list_title;
+
+  /// No description provided for @tasbih_list_loading.
+  ///
+  /// In ar, this message translates to:
+  /// **'جاري تحميل التسبيح'**
+  String get tasbih_list_loading;
+
+  /// No description provided for @tasbih_list_error.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعذر تحميل التسبيح'**
+  String get tasbih_list_error;
+
+  /// No description provided for @tasbih_section_after_prayer.
+  ///
+  /// In ar, this message translates to:
+  /// **'بعد الصلاة'**
+  String get tasbih_section_after_prayer;
+
+  /// No description provided for @tasbih_section_free.
+  ///
+  /// In ar, this message translates to:
+  /// **'تسبيح حر'**
+  String get tasbih_section_free;
+
+  /// No description provided for @tasbih_empty_pending_pack.
+  ///
+  /// In ar, this message translates to:
+  /// **'التسبيح قيد الإعداد'**
+  String get tasbih_empty_pending_pack;
+
+  /// No description provided for @tasbih_entry_not_found.
+  ///
+  /// In ar, this message translates to:
+  /// **'الذكر غير موجود'**
+  String get tasbih_entry_not_found;
+
+  /// No description provided for @tasbih_complete.
+  ///
+  /// In ar, this message translates to:
+  /// **'تقبل الله'**
+  String get tasbih_complete;
+
+  /// No description provided for @tasbih_reset.
+  ///
+  /// In ar, this message translates to:
+  /// **'إعادة'**
+  String get tasbih_reset;
+
+  /// No description provided for @tasbih_reset_confirm_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'إعادة العداد؟'**
+  String get tasbih_reset_confirm_title;
+
+  /// No description provided for @tasbih_reset_confirm_body.
+  ///
+  /// In ar, this message translates to:
+  /// **'سيتم مسح التقدم المحفوظ لهذا الذكر.'**
+  String get tasbih_reset_confirm_body;
+
+  /// No description provided for @tasbih_reset_confirm.
+  ///
+  /// In ar, this message translates to:
+  /// **'تأكيد'**
+  String get tasbih_reset_confirm;
+
+  /// No description provided for @tasbih_reset_cancel.
+  ///
+  /// In ar, this message translates to:
+  /// **'إلغاء'**
+  String get tasbih_reset_cancel;
+
+  /// No description provided for @tasbih_reset_done.
+  ///
+  /// In ar, this message translates to:
+  /// **'تمت إعادة العداد'**
+  String get tasbih_reset_done;
+
   /// No description provided for @quran_title.
   ///
   /// In ar, this message translates to:

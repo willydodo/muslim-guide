@@ -71,7 +71,7 @@
 - **Resolution**: temporary bridge `lib/features/azkar/data/azkar_pack_loader_v2.dart` (`CoreV2PackConverter`) + unit test `test/features/azkar/core_v2_converter_test.dart`. It maps `virtue` to `—` (no source data) and ignores `repeat_by_prayer`/`repeat_note` (no domain field yet); review gating stays with the caller.
 - **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
 
-### GAP-tasbih-7-entries — Phase 05c Tasbih pack PENDING_REVIEW
+### GAP-tasbih-6-entries — Phase 05c Tasbih pack PENDING_REVIEW
 - **Finding**: 6 entries from HadeethEnc (verbatim, all صحيح): 6259 (33/33/34),
   5516 (100x), 65905 (100x tahlil), 4809 (100x tawba).
 - **E-1 removal (2026-10-18)**: hawqala (Bukhari 6384) not in HadeethEnc;

@@ -92,7 +92,7 @@ assets:
     provider: "HadeethEnc.com"
     source_url: "https://hadeethenc.com"
     path: "assets/content/tasbih/tasbih.json"
-    checksum: "sha256:85904edc8b3973f0375436436391ec63f4868742bdc14c386f036549f924cb6b"
+    checksum: "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc"
     checksum_method: "canonical-json-sha256-v1 content-only"
     license_type: "HadeethEnc (NoDerivs + Attribution)"
     redistribution_allowed: true

@@ -436,6 +436,48 @@ class AppLocalizationsAr extends AppLocalizations {
   String get azkar_empty_pending_pack => 'مكتبة الأذكار قيد الإعداد';
 
   @override
+  String get tasbih_list_title => 'التسبيح';
+
+  @override
+  String get tasbih_list_loading => 'جاري تحميل التسبيح';
+
+  @override
+  String get tasbih_list_error => 'تعذر تحميل التسبيح';
+
+  @override
+  String get tasbih_section_after_prayer => 'بعد الصلاة';
+
+  @override
+  String get tasbih_section_free => 'تسبيح حر';
+
+  @override
+  String get tasbih_empty_pending_pack => 'التسبيح قيد الإعداد';
+
+  @override
+  String get tasbih_entry_not_found => 'الذكر غير موجود';
+
+  @override
+  String get tasbih_complete => 'تقبل الله';
+
+  @override
+  String get tasbih_reset => 'إعادة';
+
+  @override
+  String get tasbih_reset_confirm_title => 'إعادة العداد؟';
+
+  @override
+  String get tasbih_reset_confirm_body => 'سيتم مسح التقدم المحفوظ لهذا الذكر.';
+
+  @override
+  String get tasbih_reset_confirm => 'تأكيد';
+
+  @override
+  String get tasbih_reset_cancel => 'إلغاء';
+
+  @override
+  String get tasbih_reset_done => 'تمت إعادة العداد';
+
+  @override
   String get quran_title => 'القرآن الكريم';
 
   @override

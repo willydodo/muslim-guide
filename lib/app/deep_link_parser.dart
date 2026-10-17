@@ -14,6 +14,14 @@ abstract final class DeepLinkParser {
   }
 
   static String? _resolveHostPath(String host, String path) {
+    // Phase 05c: tasbih entry deep links carry the entry id in the path.
+    // 'list' is the list route itself, not an entry id.
+    if (host == 'tasbih' && path.length > 1 && path != '/list') {
+      final id = path.substring(1);
+      if (RegExp(r'^[a-z_]+$').hasMatch(id)) {
+        return '/tasbih/$id';
+      }
+    }
     return switch ((host, path)) {
       ('prayer', '/now') || ('test', '/prayer') => '/prayer',
       ('qibla', '/show') || ('test', '/qibla') => '/qibla',
@@ -25,8 +33,10 @@ abstract final class DeepLinkParser {
       ('azkar', '/evening') => '/azkar/evening',
       ('azkar', '/sleep') => '/azkar/sleep',
       ('azkar', '/wake_up') => '/azkar/wake_up',
-      ('azkar', '/tasbih') => '/azkar/tasbih',
+      ('azkar', '/tasbih') => '/tasbih',
+      ('tasbih', '/list') => '/tasbih',
       ('test', '/azkar') => '/azkar',
+      ('test', '/tasbih') => '/tasbih',
       ('hijri', '/calendar') || ('test', '/hijri') => '/hijri',
       _ => null,
     };

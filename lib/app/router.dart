@@ -20,6 +20,8 @@ import 'package:muslim_guide/features/quran/presentation/surah_reader_screen.dar
 import 'package:muslim_guide/features/settings/presentation/screens/calculation_settings_screen.dart';
 import 'package:muslim_guide/features/settings/presentation/screens/notifications_settings_screen.dart';
 import 'package:muslim_guide/features/splash/presentation/splash_screen.dart';
+import 'package:muslim_guide/features/tasbih/presentation/screens/tasbih_list_screen.dart';
+import 'package:muslim_guide/features/tasbih/presentation/screens/tasbih_screen.dart';
 
 /// Provides the application router.
 final routerProvider = Provider<GoRouter>((ref) {
@@ -105,6 +107,19 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/settings/calculation',
         builder: (context, state) => const CalculationSettingsScreen(),
+      ),
+      GoRoute(
+        path: '/tasbih',
+        builder: (context, state) => const TasbihListScreen(),
+        routes: [
+          GoRoute(
+            path: ':id',
+            builder: (context, state) {
+              final id = state.pathParameters['id'] ?? '';
+              return TasbihScreen(entryId: id);
+            },
+          ),
+        ],
       ),
       GoRoute(
         path: '/azkar',
