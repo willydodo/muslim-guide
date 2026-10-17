@@ -17,11 +17,12 @@ Widget buildQuranTestApp({
   required Widget child,
   List<Override> overrides = const <Override>[],
   Locale locale = const Locale('ar'),
+  ThemeData? theme,
 }) {
   return ProviderScope(
     overrides: overrides,
     child: MaterialApp(
-      theme: AppTheme.light(),
+      theme: theme ?? AppTheme.light(),
       locale: locale,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,

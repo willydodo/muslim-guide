@@ -96,9 +96,10 @@ void main() {
         repository: realQuranRepository(),
       );
       expect(find.byKey(MushafWithBasmala.basmalaKey), findsOneWidget);
+      expect(find.byType(RichText), findsWidgets);
     });
 
-    testWidgets('Surah 1 does NOT show a separate basmala header', (
+    testWidgets('Surah 1 shows basmala as verse 1 with numbered markers', (
       tester,
     ) async {
       await pumpReader(
@@ -107,6 +108,13 @@ void main() {
         repository: realQuranRepository(),
       );
       expect(find.byKey(MushafWithBasmala.basmalaKey), findsNothing);
+      final paragraph = tester
+          .widget<RichText>(find.byKey(const ValueKey('mushaf-paragraph')))
+          .text
+          .toPlainText();
+      // ۝١ opens the surah and ۝٧ closes Al-Fatiha (7 verses).
+      expect(paragraph.contains('\u06DD١'), isTrue);
+      expect(paragraph.contains('\u06DD٧'), isTrue);
     });
 
     testWidgets('Surah 9 shows no basmala header', (tester) async {
@@ -116,6 +124,58 @@ void main() {
         repository: realQuranRepository(),
       );
       expect(find.byKey(MushafWithBasmala.basmalaKey), findsNothing);
+    });
+
+    testWidgets('verse numbers use Arabic-Indic digits', (tester) async {
+      await pumpReader(
+        tester,
+        surahId: 1,
+        repository: fakeQuranRepository([stubSurah()]),
+      );
+      final paragraph = tester
+          .widget<RichText>(find.byKey(const ValueKey('mushaf-paragraph')))
+          .text
+          .toPlainText();
+      expect(paragraph.contains('\u06DD١'), isTrue);
+      expect(paragraph.contains('\u06DD٢'), isTrue);
+    });
+
+    testWidgets('mushaf text color follows the theme', (tester) async {
+      await tester.pumpWidget(
+        buildQuranTestApp(
+          overrides: [
+            quranRepositoryOverride(fakeQuranRepository([stubSurah()])),
+          ],
+          theme: ThemeData.light(),
+          child: const SurahReaderScreen(surahId: 1),
+        ),
+      );
+      await tester.pumpAndSettle();
+      final lightColor =
+          tester
+              .widget<RichText>(find.byKey(const ValueKey('mushaf-paragraph')))
+              .text
+              .style
+              ?.color;
+      expect(lightColor, ThemeData.light().colorScheme.onSurface);
+
+      await tester.pumpWidget(
+        buildQuranTestApp(
+          overrides: [
+            quranRepositoryOverride(fakeQuranRepository([stubSurah()])),
+          ],
+          theme: ThemeData.dark(),
+          child: const SurahReaderScreen(surahId: 1),
+        ),
+      );
+      await tester.pumpAndSettle();
+      final darkColor =
+          tester
+              .widget<RichText>(find.byKey(const ValueKey('mushaf-paragraph')))
+              .text
+              .style
+              ?.color;
+      expect(darkColor, ThemeData.dark().colorScheme.onSurface);
     });
 
     testWidgets('renders at 200% text scale without overflow', (

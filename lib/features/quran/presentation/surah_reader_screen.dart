@@ -52,10 +52,11 @@ class SurahReaderScreen extends ConsumerWidget {
 
 /// Mushaf paragraph with the display basmala header.
 ///
-/// Surah 1 (basmala is verse 1) and surah 9 (no basmala) render inline;
-/// every other surah shows [Surah.basmala] as a centered header above the
-/// connected verses.
-class MushafWithBasmala extends StatelessWidget {
+/// Surah 1 (basmala is verse 1) and surah 9 (no basmala) render the
+/// connected verses inline; every other surah shows [Surah.basmala] as a
+/// centered header above the verses inside the same scroll view so the
+/// header scrolls away with the text.
+class MushafWithBasmala extends StatefulWidget {
   /// Creates the basmala wrapper.
   const new({required this.surah, super.key});
 
@@ -66,55 +67,16 @@ class MushafWithBasmala extends StatelessWidget {
   static const basmalaKey = ValueKey<String>('basmala-header');
 
   @override
-  Widget build(BuildContext context) {
-    if (surah.id == 1 || surah.id == 9 || surah.basmala == null) {
-      return _MushafPage(surah: surah);
-    }
-    return Column(
-      children: [
-        Padding(
-          key: basmalaKey,
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.l,
-            vertical: AppSpacing.m,
-          ),
-          child: Text(
-            surah.basmala!,
-            style: AppTypography.quran.copyWith(
-              color: Theme.of(context).colorScheme.onSurface,
-            ),
-            textAlign: TextAlign.center,
-            textDirection: TextDirection.rtl,
-          ),
-        ),
-        const Divider(height: 1),
-        Expanded(child: _MushafPage(surah: surah)),
-      ],
-    );
-  }
+  State<MushafWithBasmala> createState() => _MushafWithBasmalaState();
 }
 
-/// Connected Mushaf paragraph (option A: recognizers + dispose).
-class _MushafPage extends StatefulWidget {
-  /// Creates the Mushaf page.
-  const new({required this.surah});
-
-  /// Surah rendered as one continuous RTL paragraph.
-  final Surah surah;
-
-  @override
-  State<_MushafPage> createState() => _MushafPageState();
-}
-
-class _MushafPageState extends State<_MushafPage> {
+/// State holding the per-verse tap recognizers (option A + dispose).
+class _MushafWithBasmalaState extends State<MushafWithBasmala> {
   final List<TapGestureRecognizer> _recognizers = [];
 
   @override
   void dispose() {
-    for (final recognizer in _recognizers) {
-      recognizer.dispose();
-    }
-    _recognizers.clear();
+    _disposeRecognizers();
     super.dispose();
   }
 
@@ -137,36 +99,62 @@ class _MushafPageState extends State<_MushafPage> {
   @override
   Widget build(BuildContext context) {
     _disposeRecognizers();
+    final surah = widget.surah;
+    final textColor = Theme.of(context).colorScheme.onSurface;
+    final showBasmala =
+        surah.id != 1 && surah.id != 9 && surah.basmala != null;
     return SingleChildScrollView(
       padding: const EdgeInsets.all(AppSpacing.l),
-      child: Semantics(
-        label:
-            '${widget.surah.nameAr}, '
-            '${widget.surah.verses.length}',
-        child: RichText(
-          key: const ValueKey('mushaf-paragraph'),
-          textDirection: TextDirection.rtl,
-          textAlign: TextAlign.justify,
-          text: TextSpan(
-            style: AppTypography.quran.copyWith(
-              color: Theme.of(context).colorScheme.onSurface,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          if (showBasmala)
+            Padding(
+              key: MushafWithBasmala.basmalaKey,
+              padding: const EdgeInsets.only(bottom: AppSpacing.l),
+              child: Text(
+                surah.basmala!,
+                style: AppTypography.quran.copyWith(color: textColor),
+                textAlign: TextAlign.center,
+                textDirection: TextDirection.rtl,
+              ),
             ),
-            children:
-                widget.surah.verses.map((verse) {
-                  final recognizer =
-                      TapGestureRecognizer()..onTap = () => _onVerseTap(verse);
-                  _recognizers.add(recognizer);
-                  // Verse-end marker only (U+06DD); verbatim text untouched.
-                  return TextSpan(
-                    text: '${verse.text} \u06DD ',
-                    recognizer: recognizer,
-                  );
-                }).toList(),
+          Semantics(
+            label: '${surah.nameAr}, ${surah.verses.length}',
+            child: RichText(
+              key: const ValueKey('mushaf-paragraph'),
+              textDirection: TextDirection.rtl,
+              textAlign: TextAlign.justify,
+              text: TextSpan(
+                style: AppTypography.quran.copyWith(color: textColor),
+                children:
+                    surah.verses.map((verse) {
+                      final recognizer =
+                          TapGestureRecognizer()
+                            ..onTap = () => _onVerseTap(verse);
+                      _recognizers.add(recognizer);
+                      // Mushaf end marker (U+06DD) + Arabic-Indic verse
+                      // number, e.g. "۝١". Verbatim verse text untouched.
+                      return TextSpan(
+                        text:
+                            '${verse.text} '
+                            '\u06DD${_toArabicIndic(verse.number)} ',
+                        recognizer: recognizer,
+                      );
+                    }).toList(),
+              ),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
+}
+
+/// Converts [n] to Arabic-Indic digits (٠١٢٣٤٥٦٧٨٩), as printed in Mushafs.
+String _toArabicIndic(int n) {
+  const digits = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+  return n.toString().split('').map((d) => digits[int.parse(d)]).join();
 }
 
 /// Error state with retry.
