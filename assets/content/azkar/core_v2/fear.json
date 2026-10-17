@@ -1,0 +1,216 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:5b159cceec1be72809c41405dc21affb25321a8ab5a7cbb6068195d0a2b610cb",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُورِهِم، وَنَعُوذُ بِكَ مِنْ شُرُورِهِمْ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "fear_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/89، برقم 1537، وصححه الحاكم ووافقه الذهبي، 2/142.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَنْتَ عَضُدِي، وَأَنْتَ نَصِيرِي، بِكَ أَحُولُ وَبِكَ أَصُولُ، وَبِكَ أُقاتِلُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/183.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/183.",
+      "grade_simple": "صحيح",
+      "id": "fear_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 3/42، برقم 2632، والترمذي، 5/572، برقم 3584، وانظر: صحيح الترمذي، 3/183.",
+      "translation_en": null
+    },
+    {
+      "arabic": "حَسْبُنا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "fear_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 5/172، برقم 4563.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ ربَّ السَّمَوَاتِ السَّبْعِ، وَرَبَّ الْعَرْشِ الْعَظِيمِ، كُنْ لِي جَاراً مِنْ فُلاَنِ بْنِ فُلاَنٍ، وَأَحْزَابِهِ مِنْ خَلاَئِقِكَ، أَنْ يَفْرُطَ عَلَيَّ أَحَدٌ مِنْهُمْ أَوْ يَطْغَى، عَزَّ جَارُكَ، وَجَلَّ ثَنَاؤُكَ، وَلاَ إِلَهَ إِلاَّ أَنْتَ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح الأدب المفرد 545.",
+      "grade": "صحيح — صححه الألباني في صحيح الأدب المفرد 545.",
+      "grade_simple": "صحيح",
+      "id": "fear_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري في الأدب المفرد، برقم 707، وصححه الألباني في صحيح الأدب المفرد، برقم 545.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ أَكْبَرُ، اللَّهُ أَعَزُّ مِنْ خَلْقِهِ جَمِيعاً، اللَّهُ أَعَزُّ مِمَّا أَخَافُ وَأَحْذَرُ، أَعُوذُ بِاللَّهِ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ، الْمُمْسِكِ السَّمَوَاتِ السَّبْعِ أَنْ يَقَعْنَ عَلَى الْأَرْضِ إِلاَّ بِإِذْنِهِ، مِنْ شَرِّ عَبْدِكَ فُلاَنٍ، وَجُنُودِهِ وَأَتْبَاعِهِ وَأَشْيَاعِهِ، مِنْ الْجِنِّ وَالإِنْسِ، اللَّهُمَّ كُنْ لِي جَاراً مِنْ شَرِّهِمْ، جَلَّ ثَنَاؤُكَ وَعَزَّ جَارُكَ، وَتَبَارَكَ اسْمُكَ، وَلاَ إِلَهَ غَيْرُكَ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح الأدب المفرد 546.",
+      "grade": "صحيح — صححه الألباني في صحيح الأدب المفرد 546.",
+      "grade_simple": "صحيح",
+      "id": "fear_05",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري في الأدب المفرد برقم 708، وصححه الألباني في صحيح الأدب المفرد، برقم 546.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ مُنْزِلَ الْكِتَابِ، سَرِيعَ الْحِسَابِ، اهْزِمِ الأَحْزَابَ، اللَّهُمَّ اهزِمْهُمْ وَزَلْزِلْهُمْ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "fear_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 3/1362، برقم 1742.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اكْفِنِيهِمْ بِمَا شِئْتَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "fear_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2300، برقم 3005.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ!",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "fear_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/381، برقم 3346، ومسلم، 4/2208، برقم 2880.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "fear-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 8,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

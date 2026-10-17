@@ -1,0 +1,240 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:2d4a6ecb75836fb8fc98c29c1d1218d7be3d505202510e885ecdfde2825c940c",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "لاَ بأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "illness_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 10/118، برقم 3616.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَسْأَلُ اللَّهَ الْعَظيمَ رَبِّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفيَكَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح الجامع.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح الجامع.",
+      "grade_simple": "صحيح",
+      "id": "illness_02",
+      "quran_ref": null,
+      "repeat": 7,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "من قاله سبع مرات عوفي بإذن الله: أخرجه الترمذي، برقم 2083، وأبو داود، برقم 3106، وانظر: صحيح الترمذي، 2/210، وصحيح الجامع، 5/180.",
+      "translation_en": null
+    },
+    {
+      "arabic": "قَالَ النَّبِيُّ ﷺ: إِذَا عَادَ الرَّجُلُ أَخَاهُ الْمُسْلِمَ مَشَى فِي خِرَافَةِ الْجَنَّةِ حَتَّى يَجْلِسَ، فَإِذَا جَلَسَ غَمَرَتْهُ الرَّحْمَةُ، فَإِنْ كَانَ غُدْوَةً صَلَّى عَلَيْهِ سَبْعُونَ أَلْفَ مَلَكٍ حَتَّى يُمْسِيَ، وَإِنْ كَانَ مَسَاءً صَلَّى عَلَيْهِ سَبْعُونَ أَلْفَ مَلَكٍ حَتَّى يُصْبِحَ",
+      "degree_raw": "صحيح — بحسب إحالة الهامش وتصحيح أحمد شاكر.",
+      "grade": "صحيح — بحسب إحالة الهامش وتصحيح أحمد شاكر.",
+      "grade_simple": "صحيح",
+      "id": "illness_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه الترمذي، برقم 969، وابن ماجه، برقم 1442، وأحمد، برقم 975، وانظر: صحيح ابن ماجه، 1/244، وصحيح الترمذي، 1/286، وصححه أيضاً أحمد شاكر.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَأَلْحِقْنِي بِالرَّفِيقِ الْأَعْلَى",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "illness_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/10، برقم 4435، ومسلم، 4/1893، برقم 2444.",
+      "translation_en": null
+    },
+    {
+      "arabic": "جَعَلَ النَّبِيُّ ﷺ عِنْدَ مَوْتِهِ يُدْخِلُ يَدَيْهِ فِي الْمَاءِ فَيَمْسَحُ بِهِمَا وَجْهَهُ، وَيَقُولُ: لاَ إِلَهَ إِلاَّ اللَّهُ إِنَّ لِلْمَوْتِ سَكَرَاتٍ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "illness_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 8/144، برقم 4449، وفي الحديث ذكر السواك.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ، لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ، لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لاَ إِلَهَ إِلاَّ اللَّهُ لَهُ المُلْكُ وَلَهُ الْحَمْدُ، لاَ إِلَهَ إِلاَّ اللَّهُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "degree_raw": "صحيح — صححه الألباني (صحيح الترمذي، صحيح ابن ماجه).",
+      "grade": "صحيح — صححه الألباني (صحيح الترمذي، صحيح ابن ماجه).",
+      "grade_simple": "صحيح",
+      "id": "illness_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه الترمذي، برقم 3430، وابن ماجه، برقم 3794، وصححه الألباني، انظر: صحيح الترمذي، 3/152، وصحيح ابن ماجه، 2/317.",
+      "translation_en": null
+    },
+    {
+      "arabic": "ضَعْ يَدَكَ عَلَى الَّذِي تَألَّمَ مِنْ جَسَدِكَ وَقُلْ: بِسْمِ اللَّهِ، ثَلاَثاً، وَقُلْ سَبْعَ مَرَّاتٍ: أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "illness_07",
+      "quran_ref": null,
+      "repeat": 7,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/1728، برقم 2202.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا رَأَى أَحَدُكُم مِنْ أَخِيهِ، أَوْ مِنْ نَفْسِهِ، أَوْ مِنْ مَالِهِ مَا يُعْجِبُهُ [فَلْيَدْعُ لَهُ بِالْبَرَكَةِ] فَإِنَّ الْعَيْنَ حَقٌّ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "illness_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnmajah",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسند أحمد، 4/447، برقم 15700، وابن ماجه، برقم 3508، ومالك، 3/118-119، وصححه الألباني في صحيح الجامع، 1/212، وانظر تحقيق زاد المعاد للأرناؤوط، 4/170.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي مِمَّا ابْتَلاَكَ بِهِ، وَفَضَّلَنِي عَلَى كَثِيرٍ مِمَّنْ خَلَقَ تَفْضِيلاً",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/153.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/153.",
+      "grade_simple": "صحيح",
+      "id": "illness_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/494، و5/493، برقم 3432، وانظر: صحيح الترمذي، 3/153.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "illness-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 9,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

@@ -1,0 +1,336 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:07f99fca09bd10c18f3f55c68da44ace7af612195ac3e8dc3038aa314b409413",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُوراً، وَفِي لِسَانِي نُوراً، وَفِي سَمْعِي نُوراً، وَفِي بَصَرِي نُوراً، وَمِنْ فَوْقِي نُوراً، وَمِنْ تَحْتِي نُوراً، وَعَنْ يَمِينِي نُوراً، وَعَنْ شِمَالِي نُوراً، وَمِنْ أَمَامِي نُوراً، وَمِنْ خَلْفِي نُوراً، وَاجْعَلْ فِي نَفْسِي نُوراً، وَأَعْظِمْ لِي نُوراً، وَعَظِّم لِي نُوراً، وَاجْعَلْ لِي نُوراً، وَاجْعَلْنِي نُوراً، اللَّهُمَّ أَعْطِنِي نُوراً، وَاجْعَلْ فِي عَصَبِي نُوراً، وَفِي لَحْمِي نُوراً، وَفِي دَمِي نُوراً، وَفِي شَعْرِي نُوراً، وَفِي بَشَرِي نُوراً",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "mosque_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "انظر جميع هذه الألفاظ في البخاري، 11/116، برقم 6316، ومسلم، 1/526، 529، 530، برقم 763.",
+      "translation_en": null
+    },
+    {
+      "arabic": "[اللَّهُمَّ اجْعَلْ لِي نُوراً فِي قَبْرِي... وَنُوراً فِي عِظَامِي]",
+      "degree_raw": "صحح إسناده الألباني في صحيح الأدب المفرد، برقم 536",
+      "grade": "صحح إسناده الألباني في صحيح الأدب المفرد، برقم 536",
+      "grade_simple": "صحيح",
+      "id": "mosque_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/483، برقم 3419.",
+      "translation_en": null
+    },
+    {
+      "arabic": "[وَزِدْنِي نُوراً، وَزِدْنِي نُوراً، وَزِدْنِي نُوراً]",
+      "degree_raw": "صحيح إسناده — كما صححه الألباني.",
+      "grade": "صحيح إسناده — كما صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "mosque_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه البخاري في الأدب المفرد، برقم 695، وصحح إسناده الألباني في صحيح الأدب المفرد، برقم 536.",
+      "translation_en": null
+    },
+    {
+      "arabic": "[وَهَبْ لِي نُوراً عَلَى نُورٍ]",
+      "degree_raw": "صحح إسناده الألباني في صحيح الأدب المفرد، برقم 536",
+      "grade": "صحح إسناده الألباني في صحيح الأدب المفرد، برقم 536",
+      "grade_simple": "صحيح",
+      "id": "mosque_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "other",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "ذكره ابن حجر في فتح الباري وعزاه إلى ابن أبي عاصم في كتاب الدعاء، انظر: الفتح 11/118 — فاجتمع من اختلاف الروايات خمس وعشرون خصلة.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "mosque_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/494، برقم 713، وفي سنن ابن ماجه من حديث فاطمة: «اللهم اغفر لي ذنوبي، وافتح لي أبواب رحمتك» وصححه الألباني لشواهده، انظر: صحيح ابن ماجه، 1/128-129.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَعُوذُ بِاللَّهِ العَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "degree_raw": "حسنه الألباني في سلسلة الأحاديث الصحيحة، 5/ 624",
+      "grade": "حسنه الألباني في سلسلة الأحاديث الصحيحة، 5/ 624",
+      "grade_simple": "حسن",
+      "id": "mosque_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، برقم 466، وانظر: صحيح الجامع، برقم 4591.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ",
+      "degree_raw": "حسن — كما حسّنه الألباني لرواية ابن السني.",
+      "grade": "حسن — كما حسّنه الألباني لرواية ابن السني.",
+      "grade_simple": "حسن",
+      "id": "mosque_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "ابن السني، برقم 88، وحسنه الألباني في الثمر المستطاب، ص607؛ وأبو داود، 1/126، برقم 465، وانظر: صحيح الجامع، 1/528.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ وَالصّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِك، اللَّهُمَّ اعْصِمْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/129.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/129.",
+      "grade_simple": "صحيح",
+      "id": "mosque_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnmajah",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "انظر تخريج روايات حديث دخول المسجد، رقم (20)، وزيادة «اللهم اعصمني من الشيطان الرجيم» لابن ماجه، انظر: صحيح ابن ماجه، 1/129.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَقُولُ مِثْلَ مَا يَقُولُ المُؤَذِّنُ إِلاَّ فِي: حَيَّ عَلَى الصَّلَاةِ وَحَيَّ عَلَى الْفَلَاحِ، فَيَقُولُ: لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "mosque_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/152، برقم 611، ورقم 613، ومسلم، 1/288، برقم 383.",
+      "translation_en": null
+    },
+    {
+      "arabic": "وَأَنَا أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللَّهِ رَبَّاً، وَبِمُحَمَّدٍ رَسُولاً، وَبِالْإِسْلاَمِ دِينَاً",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "mosque_10",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/290، برقم 386.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يُصَلِّي عَلَى النَّبِيِّ - صلى الله عليه وسلم - بَعْدَ فَرَاغِهِ مِنْ إِجَابَةِ الْمُؤَذِّنِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "mosque_11",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/288، برقم 384.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ الْقَائِمَةِ، آتِ مُحَمَّداً الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامَاً مَحمُوداً الَّذِي وَعَدْتَهُ، [إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ]",
+      "degree_raw": "صحيح — أخرجه البخاري، وحسّن إسناده الزيادة ابن باز.",
+      "grade": "صحيح — أخرجه البخاري، وحسّن إسناده الزيادة ابن باز.",
+      "grade_simple": "صحيح",
+      "id": "mosque_12",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/152، برقم 614، وما بين المعقوفين للبيهقي، 1/410، وحسّن إسناده العلامة عبد العزيز بن باز في تحفة الأخيار، ص38.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَدْعُو لِنَفسِهِ بَيْنَ الْأَذَانِ وَالْإِقَامَةِ فَإِنَّ الدُّعَاءَ حِينَئِذٍ لاَ يُرَدُّ\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "degree_raw": "حسن - البخاري، 1/ 152،  برقم 614، وما بين المعقوفين للبيهقي، 1/410، وحسَّن إسناده العلامة عبد العزيز بن باز ‘ في تحفة الأخيار، ص38.",
+      "grade": "حسن - البخاري، 1/ 152،  برقم 614، وما بين المعقوفين للبيهقي، 1/410، وحسَّن إسناده العلامة عبد العزيز بن باز ‘ في تحفة الأخيار، ص38.",
+      "grade_simple": "حسن",
+      "id": "mosque_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، برقم 3594، ورقم 3595، وأبو داود، برقم 525، وأحمد، برقم 12200، وانظر: إرواء الغليل، 1/262.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "mosque-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 13,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

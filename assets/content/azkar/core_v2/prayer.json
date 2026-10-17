@@ -1,0 +1,1320 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:8775f47c31de3ccfcd1932fd2b73b5872889cd0f7efddc781ac5a5bbbc5dca57",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْني مِنْ خَطَايَايَ، بِالثَّلْجِ وَالْماءِ وَالْبَرَدِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/181، برقم 744، ومسلم، 1/419، برقم 598.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلاَ إِلَهَ غَيْرُكَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade_simple": "صحيح",
+      "id": "prayer_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، برقم 399، وأصحاب السنن الأربعة: أبو داود، برقم 775، والترمذي، برقم 243، وابن ماجه، برقم 806، والنسائي، برقم 899، وانظر: صحيح الترمذي، 1/77، وصحيح ابن ماجه، 1/135.",
+      "translation_en": null
+    },
+    {
+      "arabic": "وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَوَاتِ وَالأَرْضَ حَنِيفَاً وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلاَتِي، وَنُسُكِي، وَمَحْيَايَ، وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ، لاَ شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ. اللَّهُمَّ أَنْتَ المَلِكُ لاَ إِلَهَ إِلاَّ أَنْتَ، أَنْتَ رَبِّي وَأَنَا عَبْدُكَ، ظَلَمْتُ نَفْسِي وَاعْتَرَفْتُ بِذَنْبِي فَاغْفِرْ لِي ذُنُوبي جَمِيعَاً إِنَّهُ لاَ يَغْفِرُ الذُّنوبَ إِلاَّ أَنْتَ. وَاهْدِنِي لِأَحْسَنِ الأَخْلاقِ لاَ يَهْدِي لِأَحْسَنِها إِلاَّ أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا، لاَ يَصْرِفُ عَنِّي سَيِّئَهَا إِلاَّ أَنْتَ، لَبَّيْكَ وَسَعْدَيْكَ، وَالخَيْرُ كُلُّهُ بِيَدَيْكَ، وَالشَّرُّ لَيْسَ إِلَيْكَ، أَنَا بِكَ وَإِلَيْكَ، تَبارَكْتَ وَتَعَالَيْتَ، أَسْتَغْفِرُكَ وَأَتوبُ إِلَيْكَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه مسلم، 1/534، برقم 771.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ رَبَّ جِبْرَائِيلَ، وَمِيْكَائِيلَ، وَإِسْرَافِيلَ، فَاطِرَ السَّمَوَاتِ وَالأَرْضِ، عَالِمَ الغَيْبِ وَالشَّهَادَةِ أَنْتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ. اهْدِنِي لِمَا اخْتُلِفَ فِيهِ مِنَ الْحَقِّ بِإِذْنِكَ إِنَّكَ تَهْدِي مَنْ تَشَاءُ إِلَى صِرَاطٍ مُسْتَقيمٍ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه مسلم، 1/534، برقم 770.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ أَكْبَرُ كَبِيرَاً، اللَّهُ أَكْبَرُ كَبِيراً، اللَّهُ أَكْبَرُ كَبِيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً (ثَلاثَ مَرَّاتٍ) أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ: مِنْ نَفْخِهِ، وَنَفْثِهِ، وَهَمْزِهِ",
+      "degree_raw": "حسن لغيره — صحيح بشواهده بحسب تخريج المحققين.",
+      "grade": "حسن لغيره — صحيح بشواهده بحسب تخريج المحققين.",
+      "grade_simple": "حسن",
+      "id": "prayer_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 1/203، برقم 764، وابن ماجه، 1/265، برقم 807، وأحمد، 4/85، برقم 16739؛ وقال شعيب الأرناؤوط في تحقيقه لمسند: «حسن لغيره»، وقال عبد القادر الأرناؤوط في تخريجه للكلم الطيب، برقم 78: «وهو حديث صحيح بشواهده».",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، وَلَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، [وَلَكَ الْحَمْدُ أَنْتَ رَبُّ السَّمَواتِ وَالأَرْضِ وَمَنْ فِيهِنَّ] [وَلَكَ الْحَمْدُ لَكَ مُلْكُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ] [وَلَكَ الْحَمْدُ أَنْتَ مَلِكُ السَّمَوَاتِ وَالأَرْضِ] [وَلَكَ الْحَمْدُ] [أَنْتَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ، وَقَوْلُكَ الْحَقُّ، وَلِقاؤُكَ الْحَقُّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالنَّبِيُّونَ حَقٌّ، وَمحَمَّدٌ - صلى الله عليه وسلم - حَقٌّ، وَالسّاعَةُ حَقٌّ] [اللَّهُمَّ لَكَ أَسْلَمتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَبِكَ آمَنْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خاصَمْتُ، وَإِلَيْكَ حاكَمْتُ. فَاغْفِرْ لِي مَا قَدَّمْتُ، وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ، وَمَا أَعْلَنْتُ] [وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي] [أَنْتَ المُقَدِّمُ، وَأَنْتَ المُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ] [أَنْتَ إِلَهِي لاَ إِلَهَ إِلاَّ أَنْتَ] [وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ]",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 3/3، و11/116، و13/371، 423، 465: برقم 1120، ورقم 6317، ورقم 7385، ورقم 7442، ورقم 7499، ومسلم مختصراً بنحوه، 1/532، برقم 769.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحانَ رَبِّيَ الْعَظِيمِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/83.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/83.",
+      "grade_simple": "صحيح",
+      "id": "prayer_07",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أهل السنن، وأحمد: أبو داود، برقم 870، والترمذي، برقم 262، والنسائي، برقم 1007، وابن ماجه، برقم 897، وأحمد، برقم 3514، وانظر: صحيح الترمذي، 1/83.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/99، برقم 794، ومسلم، 1/350، برقم 484.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبُّوُحٌ، قُدُّوسٌ، رَبُّ المَلاَئِكَةِ وَالرُّوحِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/353، برقم 487، وأبو داود، 1/230، برقم 872.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لَكَ رَكَعْتُ، وَبِكَ آمَنْتُ، وَلَكَ أَسْلَمْتُ، خَشَعَ لَكَ سَمْعِي، وَبَصَرِي، وَمُخِّي، وَعَظْمِي، وَعَصَبِي، [وَمَا استَقَلَّتْ بِهِ قَدَمِي]",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_10",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/534، برقم 771، والأربعة إلا ابن ماجه: أبو داود، برقم 760، ورقم 761، والترمذي، برقم 3421، والنسائي، برقم 1049؛ وما بين المعقوفين لفظ ابن خزيمة، برقم 607، وابن حبان، برقم 1901.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ ذِي الْجَبَرُوتِ، وَالْمَلَكُوتِ، وَالْكِبْرِيَاءِ، وَالْعَظَمَةِ",
+      "degree_raw": "حسن إسناده — بحسب الهامش.",
+      "grade": "حسن إسناده — بحسب الهامش.",
+      "grade_simple": "حسن",
+      "id": "prayer_11",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/230، برقم 873، والنسائي، برقم 1131، وأحمد، برقم 23980، وإسناده حسن.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "prayer_12",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 2/282، برقم 796.",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ، حَمْداً كَثيراً طَيِّباً مُبارَكاً فِيهِ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "prayer_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 2/284، برقم 796.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مِلْءَ السَّمَوَاتِ وَمِلْءَ الأَرْضِ، وَمَا بَيْنَهُمَا، وَمِلْءَ مَا شِئْتَ مِنْ شَيءٍ بَعْدُ. أَهلَ الثَّناءِ وَالْمَجْدِ، أَحَقُّ مَا قَالَ الْعَبْدُ، وَكُلُّنَا لَكَ عَبْدٌ. اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الجَدِّ مِنْكَ الجَدُّ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_14",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/346، برقم 477.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/83.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/83.",
+      "grade_simple": "صحيح",
+      "id": "prayer_15",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أهل السنن، وأحمد: أبو داود، برقم 870، والترمذي، برقم 262، والنسائي، برقم 1007، وابن ماجه، برقم 897، وأحمد، برقم 3514، وانظر: صحيح الترمذي، 1/83.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_16",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، برقم 794، ومسلم، برقم 484.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبوحٌ، قُدُّوسٌ، رَبُّ الْمَلَائِكَةِ وَالرُّوحِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_17",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/533، برقم 487، وأبو داود، برقم 872.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ، وَلَكَ أَسْلَمْتُ، سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ، وَصَوَّرَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ، تَبَارَكَ اللَّهُ أَحْسنُ الْخَالِقينَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_18",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/534، برقم 771، وغيره.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ ذِي الْجَبَرُوتِ، وَالْمَلَكُوتِ، وَالْكِبْرِيَاءِ، وَالْعَظَمَةِ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح أبي داود 1/166.",
+      "grade": "صحيح — صححه الألباني في صحيح أبي داود 1/166.",
+      "grade_simple": "صحيح",
+      "id": "prayer_19",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/230، برقم 873، والنسائي، برقم 1131، وأحمد، برقم 23980، وصححه الألباني في صحيح أبي داود، 1/166.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ: دِقَّهُ وَجِلَّهُ، وَأَوَّلَهُ وَآخِرَهُ، وَعَلاَنِيَّتَهُ وَسِرَّهُ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_20",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/230، برقم 483.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقوبَتِكَ، وَأَعُوذُ بِكَ مِنْكَ، لاَ أُحْصِي ثَنَاءً عَلَيْكَ، أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_21",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/352، برقم 486.",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/148.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/148.",
+      "grade_simple": "صحيح",
+      "id": "prayer_22",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/231، برقم 874، وابن ماجه، برقم 897، وانظر: صحيح ابن ماجه، 1/148.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَاجْبُرْنِي، وَعَافِنِي، وَارْزُقْنِي، وَارْفَعْنِي",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade_simple": "صحيح",
+      "id": "prayer_23",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أصحاب السنن إلا النسائي: أبو داود، 1/231، برقم 850، والترمذي، برقم 284، و285، وابن ماجه، برقم 898، وانظر: صحيح الترمذي، 1/90، وصحيح ابن ماجه، 1/148.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ، فَتَبارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "prayer_24",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 2/474، برقم 3425، وأحمد، 6/30، برقم 24022، والحاكم، وصححه، ووافقه الذهبي، 1/220 والزيادة له، والآية رقم 14 من سورة المؤمنون.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اكْتُبْ لِي بِهَا عِنْدَكَ أَجْراً، وَضَعْ عَنِّي بِهَا وِزْراً، وَاجْعَلْهَا لِي عِنْدَكَ ذُخْراً، وَتَقَبَّلْهَا مِنِّي كَمَا تَقَبَّلْتَهَا مِنْ عَبْدِكَ دَاوُدَ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "prayer_25",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 2/473، برقم 579، والحاكم وصححه ووافقه الذهبي، 1/219.",
+      "translation_en": null
+    },
+    {
+      "arabic": "التَّحِيَّاتُ لِلَّهِ، وَالصَّلَواتُ، وَالطَّيِّباتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ. أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسولُهُ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_26",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 2/311، برقم 831، ومسلم، 1/301، برقم 402.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيتَ عَلَى إِبْرَاهِيمَ، وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_27",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/408، برقم 3370، ومسلم، برقم 406.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى أَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى آلِ إِبْرَاهِيمَ. وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى أَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا بَارَكْتَ عَلَى آلِ إِبْرَاهِيمَ. إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم، واللفظ لمسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم، واللفظ لمسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_28",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/407، برقم 3369، ومسلم، 1/306، برقم 407، واللفظ له.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَمِنْ عَذَابِ جَهَنَّمَ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_29",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 2/102، برقم 1377، ومسلم، 1/412، برقم 588، واللفظ لمسلم.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَأَعوذُ بِكَ مِنْ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ، وَأَعوذُ بِكَ مِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ. اللَّهُمَّ إِنِّي أَعوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_30",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/202، برقم 832، ومسلم، 1/412، برقم 587.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْماً كَثِيراً، وَلاَ يَغْفِرُ الذُّنوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ وَارْحَمْنِي، إِنَّكَ أَنْتَ الغَفورُ الرَّحيمُ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_31",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 8/168، برقم 834، ومسلم، 4/2078، برقم 2705.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ، وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ، وَمَا أَعْلَنْتُ، وَمَا أَسْرَفْتُ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي. أَنْتَ الْمُقَدِّمُ، وَأَنْتَ الْمُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_32",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/534، برقم 771.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبادَتِكَ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح أبي داود 1/284.",
+      "grade": "صحيح — صححه الألباني في صحيح أبي داود 1/284.",
+      "grade_simple": "صحيح",
+      "id": "prayer_33",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/86، برقم 1522، والنسائي، 3/53، برقم 2302، وصححه الألباني في صحيح أبي داود، 1/284.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ، وَأَعوذُ بِكَ مِنَ الْجُبْنِ، وَأَعُوذُ بِكَ مِنْ أَنْ أُرَدَّ إِلَى أَرْذَلِ الْعُمُرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا وَعَذَابِ الْقَبْرِ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "prayer_34",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/35، برقم 2822، ورقم 6390.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/328.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/328.",
+      "grade_simple": "صحيح",
+      "id": "prayer_35",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، برقم 792، وابن ماجه، برقم 910، وانظر: صحيح ابن ماجه، 2/328.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ بِعِلْمِكَ الغَيْبَ وَقُدْرَتِكَ عَلَى الْخَلقِ أَحْيِنِي مَا عَلِمْتَ الْحَيَاةَ خَيْراً لِي، وَتَوَفَّنِي إِذَا عَلِمْتَ الْوَفَاةَ خَيْراً لِي، اللَّهُمَّ إِنِّي أَسْأَلُكَ خَشْيَتَكَ فِي الْغَيْبِ وَالشَّهَادَةِ، وَأَسْأَلُكَ كَلِمَةَ الْحَقِّ فِي الرِّضَا وَالْغَضَبِ، وَأَسْأَلُكَ الْقَصْدَ فِي الْغِنَى وَالْفَقْرِ، وَأَسْأَلُكَ نَعِيماً لاَ يَنْفَدُ، وَأَسْأَلُكَ قُرَّةَ عَيْنٍ لاَ تَنْقَطِعُ، وَأَسْأَلُكَ الرِّضَا بَعْدَ الْقَضَاءِ، وَأَسْأَلُكَ بَرْدَ الْعَيْشِ بَعْدَ الْمَوْتِ، وَأَسْأَلُكَ لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ، وَالشَّوْقَ إِلَى لِقائِكَ فِي غَيرِ ضَرَّاءَ مُضِرَّةٍ، وَلاَ فِتْنَةٍ مُضِلَّةٍ، اللَّهُمَّ زَيِّنَا بِزِينَةِ الإِيمَانِ، وَاجْعَلْنَا هُدَاةً مُهْتَدِينَ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح النسائي 1/281.",
+      "grade": "صحيح — صححه الألباني في صحيح النسائي 1/281.",
+      "grade_simple": "صحيح",
+      "id": "prayer_36",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "النسائي، 3/54، 55، برقم 1304، وأحمد، 4/364، برقم 21666، وصححه الألباني في صحيح النسائي، 1/281.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ يَا أَللَّهُ بِأَنَّكَ الْوَاحِدُ الْأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يولَدْ، وَلَمْ يَكنْ لَهُ كُفُواً أَحَدٌ، أَنْ تَغْفِرَ لِي ذُنُوبِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِّيمُ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح النسائي 1/280.",
+      "grade": "صحيح — صححه الألباني في صحيح النسائي 1/280.",
+      "grade_simple": "صحيح",
+      "id": "prayer_37",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه النسائي، 3/52، برقم 1300 بلفظه، وأحمد، 4/338، برقم 18974، وصححه الألباني في صحيح النسائي، 1/280.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، الْمَنَّانُ، يَا بَدِيعَ السَّمَوَاتِ وَالْأَرْضِ يَا ذَا الْجَلاَلِ وَالْإِكْرَامِ، يَا حَيُّ يَا قَيُّومُ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/329.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/329.",
+      "grade_simple": "صحيح",
+      "id": "prayer_38",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه أهل السنن: أبو داود، برقم 1495، والترمذي، برقم 3544، وابن ماجه، برقم 3858، والنسائي، برقم 1299، وانظر: صحيح ابن ماجه، 2/329.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّي أَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ الْأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُواً أَحَدٌ",
+      "degree_raw": "صحيح — صححه الألباني في صحيح النسائي 1/280.",
+      "grade": "صحيح — صححه الألباني في صحيح النسائي 1/280.",
+      "grade_simple": "صحيح",
+      "id": "prayer_39",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/62، برقم 1493، والترمذي، 5/515، برقم 3475، وابن ماجه، 2/1267، برقم 3857، والنسائي، برقم 1300 بلفظه، وأحمد، برقم 18974، وصححه الألباني في صحيح النسائي، 1/280، وانظر: صحيح ابن ماجه، 2/329، وصحيح الترمذي، 3/163.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَسْتَغْفِرُ اللَّهَ، أَسْتَغْفِرُ اللَّهَ، أَسْتَغْفِرُ اللَّهَ، اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_40",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": "591",
+        "sunnah_url": "https://sunnah.com/muslim:591"
+      },
+      "source_ref": "رواه مسلم (591)",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ، وَلَا مُعْطِيَ لِمَا مَنَعْتَ، وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_41",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": "844",
+        "sunnah_url": "https://sunnah.com/bukhari:844"
+      },
+      "source_ref": "رواه البخاري (844) ومسلم (593)",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبَادَتِكَ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_42",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "1522",
+        "sunnah_url": "https://sunnah.com/abudawud:1522"
+      },
+      "source_ref": "رواه أبو داود (1522)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ اللَّهِ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_43",
+      "quran_ref": null,
+      "repeat": 33,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/418، برقم 597، وفيه: «من قال ذلك دبر كل صلاة غفرت خطاياه وإن كانت مثل زبد البحر».",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْحَمْدُ لِلَّهِ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_44",
+      "quran_ref": null,
+      "repeat": 33,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/418، برقم 597.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_45",
+      "quran_ref": null,
+      "repeat": 33,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/418، برقم 597.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_46",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/418، برقم 597.",
+      "translation_en": null
+    },
+    {
+      "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "degree_raw": "صحيح",
+      "grade": "صحيح",
+      "grade_simple": "صحيح",
+      "id": "prayer_47",
+      "quran_ref": "2:255",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "من قرأها دبر كل صلاة لم يمنعه من دخول الجنة إلا أن يموت: النسائي في عمل اليوم والليلة، برقم 100، وابن السني، برقم 121، وصححه الألباني في صحيح الجامع، 5/339، وسلسلة الأحاديث الصحيحة، 2/697، برقم 972؛ والآية رقم 255 من سورة البقرة.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ. لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ، لاَ إِلَهَ إِلاَّ اللَّهُ، وَلاَ نَعْبُدُ إِلاَّ إِيَّاهُ, لَهُ النِّعْمَةُ وَلَهُ الْفَضْلُ وَلَهُ الثَّنَاءُ الْحَسَنُ، لَا إِلَهَ إِلاَّ اللَّهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الكَافِرُونَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "prayer_48",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/415 برقم 594.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ ۝",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade_simple": "صحيح",
+      "id": "prayer_49",
+      "quran_ref": "112:1-4",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/86، برقم 1523، والترمذي، برقم 2903، والنسائي، 3/68، برقم 1335، وانظر: صحيح الترمذي، 2/8. والسور الثلاث يقال لها: المعوذات. انظر: فتح الباري، 9/62.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ ۝ مِن شَرِّ مَا خَلَقَ ۝ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ ۝ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade_simple": "صحيح",
+      "id": "prayer_50",
+      "quran_ref": "113:1-5",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/86، برقم 1523، والترمذي، برقم 2903، والنسائي، 3/68، برقم 1335، وانظر: صحيح الترمذي، 2/8. والسور الثلاث يقال لها: المعوذات. انظر: فتح الباري، 9/62.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ۝ مَلِكِ ٱلنَّاسِ ۝ إِلَٰهِ ٱلنَّاسِ ۝ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ۝ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ۝ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/8.",
+      "grade_simple": "صحيح",
+      "id": "prayer_51",
+      "quran_ref": "114:1-6",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/86، برقم 1523، والترمذي، برقم 2903، والنسائي، 3/68، برقم 1335، وانظر: صحيح الترمذي، 2/8. والسور الثلاث يقال لها: المعوذات. انظر: فتح الباري، 9/62.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "degree_raw": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade_simple": "review_required",
+      "id": "prayer_52",
+      "quran_ref": null,
+      "repeat": 10,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه الترمذي، 5/515، برقم 3474، وأحمد، 4/227، برقم 17990، وانظر تخريجه في: زاد المعاد 1/300.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً",
+      "degree_raw": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade_simple": "review_required",
+      "id": "prayer_53",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "ابن ماجه، برقم 925، والنسائي في عمل اليوم والليلة، برقم 102، وانظر: صحيح ابن ماجه، 1/152، ومجمع الزوائد 10/111.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ العَظِيمِ؛ فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي – أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ - فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي – أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ – فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "prayer_54",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/162، برقم 1162.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "prayer-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 54,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

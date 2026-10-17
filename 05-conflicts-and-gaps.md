@@ -71,6 +71,15 @@
 - **Resolution**: temporary bridge `lib/features/azkar/data/azkar_pack_loader_v2.dart` (`CoreV2PackConverter`) + unit test `test/features/azkar/core_v2_converter_test.dart`. It maps `virtue` to `—` (no source data) and ignores `repeat_by_prayer`/`repeat_note` (no domain field yet); review gating stays with the caller.
 - **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
 
+### GAP-azkar-core-v2-part2 — Phase 07 part 2 (237 entries) PENDING_REVIEW
+- **Finding**: 13 packs built from Abdo's verified part-2 file (237 blocks):
+  wake_sleep 25, home 3, mosque 13, prayer 54, distress 11, fear 8,
+  satan 14, repentance 7, illness 9, funeral 15, newborn 6, food 13,
+  misc 59. Grades: 213 صحيح + 19 حسن + 5 review_required (kept in JSON,
+  filtered in UI per Q2). degree_raw held literally + grade_simple derived.
+- **Needs**: shaykh-1 review (scope expanded 2026-10-18).
+- **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
+
 ### GAP-azkar-expansion-deferred — Full Azkar/Adiya expansion deferred
 - **Finding**: `الأذكار.docx` contains 304 entries (not 382 — Director estimate corrected, no second file).
 - **Reasons**: (1) dorar.net/sunnah.com blocked (HTTP 403 — no automated verification possible);

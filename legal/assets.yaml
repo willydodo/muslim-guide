@@ -253,6 +253,227 @@ assets:
     phase: 18
 
   # ===== بيانات مساعدة =====
+  - asset_id: azkar-core-v2-wake-sleep
+    asset_type: text
+    name: "أذكار النوم والاستيقاظ (25)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/wake_sleep.json"
+    checksum: "sha256:1b138518f6264db6f01ab1a3e17b9b67fa74084233729a08cfe675ba0c0ce308"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-home
+    asset_type: text
+    name: "أذكار المنزل (3)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/home.json"
+    checksum: "sha256:34439f0f713e49dd461990325cb1de6ad1d57c9b6f6fa083a2e0e7ebb1b5e4f1"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-mosque
+    asset_type: text
+    name: "أذكار المسجد (13)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/mosque.json"
+    checksum: "sha256:07f99fca09bd10c18f3f55c68da44ace7af612195ac3e8dc3038aa314b409413"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-prayer
+    asset_type: text
+    name: "أذكار الصلاة (54)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/prayer.json"
+    checksum: "sha256:8775f47c31de3ccfcd1932fd2b73b5872889cd0f7efddc781ac5a5bbbc5dca57"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-distress
+    asset_type: text
+    name: "أذكار الهم والكرب (11)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/distress.json"
+    checksum: "sha256:86902a37832cca05b07f2a4fbee7868df92b7381d71d967fd729c54001f78822"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-fear
+    asset_type: text
+    name: "أذكار الخوف (8)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/fear.json"
+    checksum: "sha256:5b159cceec1be72809c41405dc21affb25321a8ab5a7cbb6068195d0a2b610cb"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-satan
+    asset_type: text
+    name: "أذكار الشيطان (14)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/satan.json"
+    checksum: "sha256:9056c82eceac49ac703b1a188b4cc73848eb066272affa318c4c60b79e41d7b2"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-repentance
+    asset_type: text
+    name: "أذكار التوبة (7)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/repentance.json"
+    checksum: "sha256:a5587d5a2cc5d54312c3bb167bd8fe108b1fa6acb9d36c1b44048ac6bd07652d"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-illness
+    asset_type: text
+    name: "أذكار المرض (9)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/illness.json"
+    checksum: "sha256:2d4a6ecb75836fb8fc98c29c1d1218d7be3d505202510e885ecdfde2825c940c"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-funeral
+    asset_type: text
+    name: "أذكار الموت والجنائز (15)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/funeral.json"
+    checksum: "sha256:85c6fea817520ad85fc5cd916fb0653e381ca6708d5d09a0628bc88bb76b62a5"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-newborn
+    asset_type: text
+    name: "أذكار المولود (6)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/newborn.json"
+    checksum: "sha256:82713ea53fb920a4b2df8411d73863c391a54185d23f3ba206e208046aad2bd4"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-food
+    asset_type: text
+    name: "أذكار الطعام (13)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/food.json"
+    checksum: "sha256:843bd3e922f903d53db05812b4d4a151410ac9f503015c934594eeadca3ff467"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
+  - asset_id: azkar-core-v2-misc
+    asset_type: text
+    name: "أذكار متنوعة (59)"
+    provider: "البخاري+مسلم+الألباني"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/misc.json"
+    checksum: "sha256:4d8efc97d4bc55546e9efe8490e115ce0e7e6cd5f6de6e95e24f3c3e35688cc8"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
   - asset_id: cities-major
     asset_type: data
     name: "بيانات المدن الكبرى"

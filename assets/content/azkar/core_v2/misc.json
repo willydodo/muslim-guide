@@ -1,0 +1,1440 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:4d8efc97d4bc55546e9efe8490e115ce0e7e6cd5f6de6e95e24f3c3e35688cc8",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّهَا",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/305.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/305.",
+      "grade_simple": "صحيح",
+      "id": "misc_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 4/326، برقم 5099، وابن ماجه، 2/1228، برقم 3727، وانظر: صحيح ابن ماجه، 2/305.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَخَيْرَ مَا فِيهَا، وَخَيْرَ مَا أُرْسِلَتْ بِهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ مَا فِيهَا، وَشَرِّ مَا أُرْسِلَتْ بِهِ",
+      "degree_raw": "صحيح — أخرجه مسلم والبخاري.",
+      "grade": "صحيح — أخرجه مسلم والبخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، واللفظ له، 2/666، برقم 899، والبخاري، 4/76، برقم 3206، ورقم 4829.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلاَئِكةُ مِنْ خِيفَتِهِ",
+      "degree_raw": "صحيح الإسناد موقوفاً — كما قرره الألباني.",
+      "grade": "صحيح الإسناد موقوفاً — كما قرره الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "other",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "كان عبد الله بن الزبير إذا سمع الرعد ترك الحديث وقال... — الموطأ، 2/992، وقال الألباني في صحيح الكلم الطيب، 157: «صحيح الإسناد موقوفاً».",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اسْقِنَا غَيْثاً مُغِيثاً مَرِيئاً مَرِيعاً، نَافِعاً غَيْرَ ضَارٍّ، عَاجِلاً غَيْرَ آجِلٍ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/303، برقم 1171، وصححه الألباني في صحيح أبي داود، 1/216.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَغِثْنَا، اللَّهُمَّ أَغِثْنَا، اللَّهُمَّ أَغِثْنَا",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/224، برقم 1014، ومسلم، 2/613، برقم 897.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اسْقِ عِبَادَكَ، وَبَهَائِمَكَ، وَانْشُرْ رَحْمَتَكَ، وَأَحْيِي بَلَدَكَ الْمَيِّتَ",
+      "degree_raw": "حسن — حسّنه الألباني.",
+      "grade": "حسن — حسّنه الألباني.",
+      "grade_simple": "حسن",
+      "id": "misc_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/305، برقم 1178، وحسنه الألباني في صحيح أبي داود، 1/218.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ صَيِّباً نَافِعاً",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 2/518، برقم 1032.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/205، برقم 846، ومسلم، 1/83، برقم 71.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ حَوَالَيْنَا وَلاَ عَلَيْنَا، اللَّهُمَّ عَلَى الآكَامِ وَالظِّرَابِ، وَبُطُونِ الْأَوْدِيَةِ، وَمَنَابِتِ الشَّجَرِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 1/224، برقم 933، ومسلم، 2/614، برقم 897.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ، وَالْحَمْدُ لِلَّهِ ﴿سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ ۝ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ﴾، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَكَ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي؛ فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/156.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/156.",
+      "grade_simple": "صحيح",
+      "id": "misc_10",
+      "quran_ref": "43:13 · 43:14",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 3/34، برقم 2602، والترمذي، 5/501، برقم 3446، وانظر: صحيح الترمذي، 3/156؛ والآيتان من سورة الزخرف: 13-14.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، ﴿سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ ۝ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ﴾ اللَّهُمَّ إِنّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا البِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى، اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَليفَةُ فِي الْأَهْلِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_11",
+      "quran_ref": "43:13 · 43:14",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 2/978، برقم 1342؛ وإذا رجع قالهن وزاد فيهن: «آيِبُونَ، تائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ».",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَمَا أَظْلَلْنَ، وَرَبَّ الأَرَضِينَ السَّبْعِ وَمَا أَقْلَلْنَ، وَرَبَّ الشَّياطِينِ وَمَا أَضْلَلْنَ، وَرَبَّ الرِّيَاحِ وَمَا ذَرَيْنَ، أَسْأَلُكَ خَيْرَ هَذِهِ الْقَرْيَةِ، وَخَيْرَ أَهْلِهَا، وَخَيْرَ مَا فِيهَا، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ أَهْلِهَا، وَشَرِّ مَا فِيهَا",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي، وحسّنه ابن حجر.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي، وحسّنه ابن حجر.",
+      "grade_simple": "صحيح",
+      "id": "misc_12",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الحاكم وصححه ووافقه الذهبي، 2/100، وابن السني، برقم 524، وحسّنه الحافظ في تخريج الأذكار، 5/154، وقال ابن باز: ورواه النسائي بإسناد حسن، انظر: تحفة الأخيار، ص37.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 4/296، برقم 4982، وصححه الألباني في صحيح أبي داود، 3/941.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَسْتَوْدِعُكُمُ اللَّهَ الَّذِي لاَ تَضِيعُ وَدَائِعُهُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/133.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/133.",
+      "grade_simple": "صحيح",
+      "id": "misc_14",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnmajah",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 2/403، برقم 9230، وابن ماجه، 2/943، برقم 2825، وانظر: صحيح ابن ماجه، 2/133.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ، وَأَمَانَتَكَ، وَخَوَاتِيمَ عَمَلِكَ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_15",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 2/7، برقم 4524، والترمذي، 5/499، برقم 3443، وصححه الألباني في صحيح سنن الترمذي، 3/419.",
+      "translation_en": null
+    },
+    {
+      "arabic": "زَوَّدَكَ اللَّهُ التَّقْوَى، وَغَفَرَ ذَنْبَكَ، وَيَسَّرَ لَكَ الخَيْرَ حَيْثُ ما كُنْتَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/155.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/155.",
+      "grade_simple": "صحيح",
+      "id": "misc_16",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، برقم 3444، وانظر: صحيح الترمذي، 3/155.",
+      "translation_en": null
+    },
+    {
+      "arabic": "كُنَّا إِذَا صَعَدْنَا كَبَّرْنَا، وَإِذَا نَزَلْنَا سَبَّحْنَا",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_17",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/135، برقم 2993.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سَمَّعَ سَامِعٌ بِحَمْدِ اللَّهِ، وَحُسْنِ بَلَائِهِ عَلَيْنَا، رَبَّنَا صاحِبْنَا، وَأَفْضِلْ عَلَيْنَا، عَائِذاً بِاللَّهِ مِنَ النَّارِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_18",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2086، برقم 2718.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_19",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2080، برقم 2709.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يُكَبِّرُ عَلَى كُلِّ شَرَفٍ ثَلاَثَ تَكْبِيرَاتٍ ثُمَّ يَقُولُ: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، آيِبُونَ، تَائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ، صَدَقَ اللَّهُ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ\n-----------------------------------------------------------------------------------------------------------------------------------",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_20",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "كان النبي ﷺ يقوله إذا قفل من غزو أو حج: البخاري، 7/163، برقم 1797، ومسلم، 2/980، برقم 1344.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ، وَالنِّعْمَةَ، لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_21",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 3/408، برقم 1549، ومسلم، 2/841، برقم 1184.",
+      "translation_en": null
+    },
+    {
+      "arabic": "طَافَ النَّبيُّ ﷺ بِالْبَيْتِ عَلَى بَعِيرٍ كُلَّمَا أَتَى الرُّكْنَ أَشَارَ إِلَيْهِ بِشَيْءٍ عِنْدَهُ وَكَبَّرَ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_22",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 3/476، برقم 1613، والمراد بالشيء المحجن.",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ",
+      "degree_raw": "حسن — حسّنه الألباني.",
+      "grade": "حسن — حسّنه الألباني.",
+      "grade_simple": "حسن",
+      "id": "misc_23",
+      "quran_ref": "2:201",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/179، برقم 1894، وأحمد، 3/411، برقم 15398، والبغوي في شرح السنة، 7/128، وحسنه الألباني في صحيح أبي داود، 1/354؛ والآية من سورة البقرة: 201.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَمَّا دَنَا النَّبِيُّ ﷺ مِنَ الصَّفَا قَرَأَ: ﴿إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ ٱللَّهِ﴾ أَبْدَأُ بِمَا بَدَأَ اللَّهُ بِهِ، فَبَدَأَ بِالصَّفَا فَرَقِيَ عَلَيْهِ حَتَّى رَأَى الْبَيْتَ، فَاسْتَقْبَلَ الْقِبْلَةَ، فَوَحَّدَ اللَّهَ وَكبَّرَهُ وَقَالَ: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ، ثُمَّ دَعَا بَيْنَ ذَلِكَ — ويقول مثل هذا ثلاث مرات — وفعل على المروة كما فعل على الصفا",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_24",
+      "quran_ref": "2:158",
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 2/888، برقم 1218؛ والآية من سورة البقرة، رقم 158.",
+      "translation_en": null
+    },
+    {
+      "arabic": "خَيْرُ الدُّعَاءِ دُعَاءُ يَوْمِ عَرَفَةَ، وَخَيْرُ مَا قُلْتُ أَنَا وَالنَّبيُّونَ مِنْ قَبْلِي: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "degree_raw": "حسن — حسّنه الألباني.",
+      "grade": "حسن — حسّنه الألباني.",
+      "grade_simple": "حسن",
+      "id": "misc_25",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، برقم 3585، وحسنه الألباني في صحيح الترمذي، 3/184، وفي سلسلة الأحاديث الصحيحة، 4/6.",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَكِبَ النَّبِيُّ ﷺ الْقَصْوَاءَ حَتَّى أَتَى الْمَشْعَرَ الْحَرَامَ فَاسْتَقْبَلَ الْقِبْلَةَ فَدَعَاهُ، وَكَبَّرَهُ، وَهَللَّهُ، وَوَحَّدَهُ، فَلَمْ يَزَلْ وَاقِفاً حَتَّى أَسْفَرَ جِدّاً فَدَفَعَ قَبْلَ أَنْ تَطْلُعَ الشَّمسُ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_26",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 2/891، برقم 1218.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يُكَبِّرُ كُلَّمَا رَمَى بِحَصَاةٍ عِنْدَ الْجِمَارِ الثَّلاَثِ، ثُمَّ يَتَقَدَّمُ، ويَقِفُ يَدْعُو مُسْتَقْبِلَ الْقِبْلَةِ، رَافِعاً يَدَيْهِ بَعْدَ الْجَمْرَةِ الْأُولَى وَالثَّانِيَةِ. أَمَّا جَمْرَةُ الْعَقَبَةِ فَيَرْمِيهَا وَيُكَبِّرُ عِنْدَ كُلِّ حَصَاةٍ وَيَنْصَرِفُ وَلاَ يَقِفُ عِنْدَهَا",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_27",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 3/583، برقم 1751، و3/583-584 و3/581، برقم 1753؛ ورواه مسلم أيضاً، برقم 1218.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ [اللَّهُمَّ مِنْكَ وَلَكَ] اللَّهُمَّ تَقَبَّلْ مِنِّي",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_28",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 3/1557، برقم 1967، والبيهقي، 9/287؛ وما بين المعقوفين للبيهقي وغيره، والجملة الأخيرة ساقها المصنف بالمعنى من رواية مسلم.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لاَ يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "degree_raw": "حسن — حسّنه الألباني.",
+      "grade": "حسن — حسّنه الألباني.",
+      "grade_simple": "حسن",
+      "id": "misc_29",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، برقم 3428، وابن ماجه، 5/291، برقم 3860، والحاكم، 1/538، وحسنه الألباني في صحيح ابن ماجه، 2/21، وفي صحيح الترمذي، 3/152.",
+      "translation_en": null
+    },
+    {
+      "arabic": "عَنِ ابْنِ عُمَرَ رضي الله عنهما قَالَ: كَانَ يُعَدُّ لِرَسُولِ اللَّهِ ﷺ فِي الْمَجْلِسِ الوَاحِدِ مِائَةُ مَرَّةٍ مِنْ قَبْلِ أَنْ يَقُومَ: رَبِّ اغْفِرْ لِي، وَتُبْ عَلَيَّ، إِنَّكَ أَنْتَ التَّوَّابُ الغَفُورُ",
+      "degree_raw": "صحيح — بإحالة الهامش.",
+      "grade": "صحيح — بإحالة الهامش.",
+      "grade_simple": "صحيح",
+      "id": "misc_30",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، برقم 3434، وابن ماجه، برقم 3814، وانظر: صحيح الترمذي، 3/153، وصحيح ابن ماجه، 2/321، ولفظه للترمذي.",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/153.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/153.",
+      "grade_simple": "صحيح",
+      "id": "misc_31",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أصحاب السنن: أبو داود، برقم 4858، والترمذي، برقم 3433، والنسائي، برقم 1344، وانظر: صحيح الترمذي، 3/153؛ وثبت أن عائشة قالت: ما جلس رسول الله ﷺ مجلساً، ولا تلا قرآناً، ولا صلى صلاة إلا ختم بذلك.",
+      "translation_en": null
+    },
+    {
+      "arabic": "وَلَكَ",
+      "degree_raw": "حسن — الهامش يورده مسنداً بلا نص صريح على الدرجة؛ يتطلب مراجعة.",
+      "grade": "حسن — الهامش يورده مسنداً بلا نص صريح على الدرجة؛ يتطلب مراجعة.",
+      "grade_simple": "حسن",
+      "id": "misc_32",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 5/82، برقم 20778، والنسائي في عمل اليوم والليلة، ص218، برقم 421.",
+      "translation_en": null
+    },
+    {
+      "arabic": "جَزَاكَ اللَّهُ خَيْراً",
+      "degree_raw": "صحيح — بإحالة الهامش.",
+      "grade": "صحيح — بإحالة الهامش.",
+      "grade_simple": "صحيح",
+      "id": "misc_33",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه الترمذي، برقم 2035، وانظر: صحيح الجامع، 6244، وصحيح الترمذي، 2/200.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَحَبَّكَ الَّذِي أَحْبَبْتَنِي لَهُ",
+      "degree_raw": "حسن — حسّنه الألباني.",
+      "grade": "حسن — حسّنه الألباني.",
+      "grade_simple": "حسن",
+      "id": "misc_34",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 4/333، برقم 5125، وحسّنه الألباني في صحيح سنن أبي داود، 3/965.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بَارَكَ اللَّهُ لَكَ فِي أَهْلِكَ وَمَالِكَ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_35",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 4/288، برقم 2049.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بارَكَ اللَّهُ لَكَ فِي أَهْلِكَ وَمَالِكَ، إِنَّمَا جَزَاءُ السَّلَفِ الْحَمْدُ وَالأَدَاءُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/55.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/55.",
+      "grade_simple": "صحيح",
+      "id": "misc_36",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه النسائي في عمل اليوم والليلة، ص300، وابن ماجه، 2/809، برقم 2424، وانظر: صحيح ابن ماجه، 2/55.",
+      "translation_en": null
+    },
+    {
+      "arabic": "وَفِيكَ بَارَكَ اللَّهُ",
+      "degree_raw": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade": "لم يُنصَّ على الدرجة نصاً في الهامش — يتطلب مراجعة من متخصص شرعي.",
+      "grade_simple": "review_required",
+      "id": "misc_37",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnalsunni",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه ابن السني، ص138، برقم 278، وانظر: الوابل الصيب لابن القيم، ص304.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ تَدْخُلُوا الْجَنَّةَ حَتَّى تُؤْمِنُوا، وَلاَ تُؤْمِنُوا حَتَّى تَحَابُّوا، أَوَلاَ أَدُلُّكُم عَلَى شَيْءٍ إِذَا فَعَلْتُمُوهُ تَحَابَبْتُم، أَفْشُوا السَّلاَمَ بَيْنَكُمْ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_38",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/74، برقم 54، وأحمد، برقم 1430، واللفظ له.",
+      "translation_en": null
+    },
+    {
+      "arabic": "ثَلاَثٌ مَنْ جَمَعَهُنَّ فَقَدْ جَمَعَ الْإِيمَانَ: الْإِنْصَافُ مِنْ نَفْسِكَ، وَبَذْلُ السَّلاَمِ لِلْعَالَمِ، وَالْإِنْفَاقُ مِنَ الإِقْتَارِ",
+      "degree_raw": "يتطلب مراجعة — الهامش مقتطع آلياً.",
+      "grade": "يتطلب مراجعة — الهامش مقتطع آلياً.",
+      "grade_simple": "review_required",
+      "id": "misc_39",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الهامش [272]: البخاري (الاستخراج الآلي اقتطع نهاية الهامش) — يُدقق من الطبعة قبل الاعتماد.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَيُّ الْإِسْلاَمِ خَيْرٌ؟ قَالَ: تُطْعِمُ الطَّعَامَ، وَتَقْرأُ السَّلاَمَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_40",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 1/55، برقم 12، ومسلم، 1/65، برقم 39.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إذَا سَلَّمَ عَلَيْكُمْ أَهْلُ الْكِتَابِ فَقُولُوا: وَعَلَيْكُمْ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_41",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 11/42، برقم 6258، ومسلم، 4/1705، برقم 2163.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ فَأَيُّمَا مُؤْمِنٍ سَبَبْتُهُ فَاجْعَلْ ذَلِكَ لَهُ قُرْبَةً إِلَيْكَ يَوْمَ الْقِيَامَةِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_42",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 11/171، برقم 6361، ومسلم، 4/2007، برقم 396.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا كَانَ أَحَدُكُم مَادِحاً صَاحِبَهُ لاَ مَحَالَةَ فَلْيَقُلْ: أَحْسِبُ فُلاَناً وَاللَّهُ حَسِيبُهُ، وَلاَ أُزَكِّي عَلَى اللَّهِ أَحَداً، أَحْسِبُهُ – إِنْ كَانَ يَعْلَمُ ذَاكَ – كَذَا وَكَذَا",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_43",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه مسلم، 4/2296، برقم 3000.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لاَ تُؤَاخِذْنِي بِمَا يَقُولُونَ، وَاغْفِرْ لِي مَا لاَ يَعْلَمُونَ، [وَاجْعَلْنِي خَيْراً مِمَّا يَظُنُّونَ]",
+      "degree_raw": "صحيح إسناده — صححه الألباني.",
+      "grade": "صحيح إسناده — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_44",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري في الأدب المفرد، برقم 761، وصحح إسناده الألباني في صحيح الأدب المفرد، برقم 585؛ وما بين المعقوفين زيادة للبيهقي في شعب الإيمان، 4/228.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا عَطَسَ أَحَدُكُم فَلْيَقُلِ الْحَمْدُ لِلَّهِ، وَلْيَقُلْ لَهُ أَخُوهُ أَوْ صَاحِبُهُ: يَرْحَمُكَ اللَّهُ، فَإِذَا قَالَ لَهُ: يَرحَمُكَ اللَّهُ، فَلْيَقُلْ: يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "misc_45",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/125، برقم 5870.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ\n--------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/354.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/354.",
+      "grade_simple": "صحيح",
+      "id": "misc_46",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/82، برقم 2741، وأحمد، 4/400، برقم 19586، وأبو داود، 4/308، برقم 5040، وانظر: صحيح الترمذي، 2/354.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مَنْ قَالَ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ فِي يَوْمٍ مِائَةَ مَرَّةٍ حُطَّتْ خَطَايَاهُ وَلَوْ كَانَتْ مِثْلَ زَبَدِ الْبَحْر",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_47",
+      "quran_ref": null,
+      "repeat": 100,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/168، برقم 6405، ومسلم، 4/2071، برقم 2691.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ عَشْرَ مِرَارٍ، كَانَ كَمَنْ أَعْتَقَ أَرْبَعَةَ أَنْفُسٍ مِنْ وَلَدِ إِسْمَاعِيلَ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_48",
+      "quran_ref": null,
+      "repeat": 10,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/67، برقم 6404، ومسلم بلفظه، 4/2071، برقم 2693.",
+      "translation_en": null
+    },
+    {
+      "arabic": "كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ: سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحانَ اللَّهِ الْعَظِيمِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_49",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/168، برقم 6404، ومسلم، 4/2072، برقم 2694.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَأَنْ أَقُولَ سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَهَ إِلاَّ اللَّهُ، وَاللَّهُ أَكْبَرُ، أَحَبُّ إِلَيَّ مِمَّا طَلَعَتْ عَلَيْهِ الشَّمسُ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_50",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2072، برقم 2695.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَيَعْجِزُ أَحَدُكُم أَنْ يَكْسِبَ كُلَّ يَوْمٍ أَلْفَ حَسَنَةٍ؟ قَالُوا: كَيْفَ يَكْسِبُ أَحَدُنَا أَلْفَ حَسَنَةٍ؟ قَالَ: يُسَبِّحُ مِائَةَ تَسْبِيحَةٍ، فَيُكتَبُ لَهُ أَلْفُ حَسَنَةٍ أَوْ يُحَطُّ عَنْهُ أَلْفُ خَطِيئَةٍ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_51",
+      "quran_ref": null,
+      "repeat": 100,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2073، برقم 2698.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مَنْ قَالَ: سُبْحَانَ اللَّهِ الْعَظِيمِ وَبِحَمْدِهِ غُرِسَتْ لَهُ نَخْلَةٌ فِي الْجَنَّةِ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "misc_52",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/511، برقم 3464، والحاكم، 1/501، وصححه ووافقه الذهبي، وانظر: صحيح الجامع، 5/531، وصحيح الترمذي، 3/160.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَا عَبْدَ اللَّهِ بْنَ قَيْسٍ أَلاَ أَدُلُّكَ عَلَى كَنْزٍ مِنْ كُنُوزِ الْجَنَّةِ؟ قُلْ: لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_53",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 11/213، برقم 4206، ومسلم، 4/2076، برقم 2704.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَحَبُّ الْكَلاَمِ إِلَى اللَّهِ أَرْبَعٌ: سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَهَ إِلاَّ اللَّهُ، وَاللَّهُ أَكْبَرُ، لاَ يَضُرُّكَ بِأَيِّهِنَّ بَدَأتَ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_54",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 3/1685، برقم 2137.",
+      "translation_en": null
+    },
+    {
+      "arabic": "قُلْ: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، اللَّهُ أَكْبَرُ كَبِيراً، وَالْحَمْدُ لِلَّهِ كَثِيراً، سُبْحَانَ اللَّهِ رَبِّ العَالَمِينَ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ الْعَزِيزِ الْحَكِيمِ — قَالَ الأَعْرَابِيُّ: فَهَؤُلاَءِ لِرَبِّي، فَمَا لِي؟ قَالَ: قُلْ: اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَارْزُقْنِي",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_55",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2072، برقم 2696، وزاد أبو داود، 1/220، برقم 832: «لقد ملأ يده من الخير».",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اغْفِرِ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَعَافِنِي وَارْزُقْنِي",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "misc_56",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/2073، برقم 3697؛ وفي رواية له: «فإن هؤلاء تجمع لك دنياك وآخرتك».",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِنَّ أَفْضَلَ الدُّعَاءِ الْحَمْدُ لِلَّهِ، وَأَفْضَلَ الذِّكْرِ لاَ إِلَهَ إِلاَّ اللَّهُ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "misc_57",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/462، برقم 3383، وابن ماجه، 2/1249، برقم 3800، والحاكم، 1/503، وصححه ووافقه الذهبي، وانظر: صحيح الجامع، 1/362.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْبَاقِيَاتُ الصَّالِحَاتُ: سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَهَ إِلاَّ اللَّهُ، وَاللَّهُ أَكْبَرُ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "degree_raw": "صحيح — بحسب إحالة الهامش (ابن حجر).",
+      "grade": "صحيح — بحسب إحالة الهامش (ابن حجر).",
+      "grade_simple": "صحيح",
+      "id": "misc_58",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، برقم 513 بترتيب أحمد شاكر، وانظر: مجمع الزوائد، 1/297، وعزاه ابن حجر في بلوغ المرام من رواية أبي سعيد إلى النسائي في الكبرى، برقم 10617، وقال: صححه.",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَأَيْتُ النَّبيَّ ﷺ يَعْقِدُ التَّسْبِيحَ — وفي زيادة: بِيَمِينِهِ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "misc_59",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود بلفظه، 2/81، برقم 1502، والترمذي، 5/521، برقم 3486، وانظر: صحيح الجامع، 4/271، برقم 4865، وصححه الألباني في صحيح سنن أبي داود، 1/411.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "misc-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 59,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

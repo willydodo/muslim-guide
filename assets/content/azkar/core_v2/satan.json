@@ -1,0 +1,360 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:9056c82eceac49ac703b1a188b4cc73848eb066272affa318c4c60b79e41d7b2",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "يَسْتَعِيذُ بِاللَّهِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/336، برقم 3276، ومسلم، 1/120، برقم 134.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَنْتَهِي عَمَّا وَسْوَسَ فِيهِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/336، برقم 3276، ومسلم، 1/120، برقم 134.",
+      "translation_en": null
+    },
+    {
+      "arabic": "آمَنْتُ بِاللَّهِ وَرُسُلِهِ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/119-120، برقم 134.",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَقْرَأُ قَوْلَهُ تَعَالَى: ﴿هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّٰهِرُ وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ﴾",
+      "degree_raw": "حسن — حسّنه الألباني في صحيح أبي داود 3/962.",
+      "grade": "حسن — حسّنه الألباني في صحيح أبي داود 3/962.",
+      "grade_simple": "حسن",
+      "id": "satan_04",
+      "quran_ref": "57:3",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "سورة الحديد، الآية 3؛ أبو داود، 4/329، برقم 5110، وحسنه الألباني في صحيح أبي داود، 3/962.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ، وَاتْفُلْ عَلَى يَسَارِكَ (ثلاثاً)",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_05",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 4/1729، برقم 2203، من حديث عثمان بن أبي العاص؛ وفيه: ففعلت ذلك، فأذهبه الله عني.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْاسْتِعَاذَةُ بِاللَّهِ مِنْهُ",
+      "degree_raw": "صحيح — بحسب تخريج الهامش السابق (حديث 31).",
+      "grade": "صحيح — بحسب تخريج الهامش السابق (حديث 31).",
+      "grade_simple": "صحيح",
+      "id": "satan_06",
+      "quran_ref": "23:97 · 23:98",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 1/203، وابن ماجه، 1/265، برقم 807، وتقدم تخريجه برقم 31؛ انظر: سورة المؤمنون، الآيتان 97-98.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْأَذَانُ",
+      "degree_raw": "صحيح — أخرجه مسلم والبخاري.",
+      "grade": "صحيح — أخرجه مسلم والبخاري.",
+      "grade_simple": "صحيح",
+      "id": "satan_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/291، برقم 389، والبخاري، 1/151، برقم 608.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْأَذْكَارُ وَقِرَاءَةُ الْقُرْآنِ — ولا سيما سورة البقرة؛ قال ﷺ: «لا تجعلوا بيوتكم مقابر، إن الشيطان ينفر من البيت الذي تُقرأ فيه سورة البقرة»",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه مسلم، 1/539، برقم 780؛ ومما يطرد الشيطان: أذكار الصباح والمساء والنوم والاستيقاظ ودخول المنزل والخروج منه، ودخول المسجد والخروج منه، وسائر الأذكار المذكورة في هذا الكتاب.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَعُوذُ بكَلِمَاتِ اللَّهِ التَّامَّاتِ الَّتِي لاَ يُجَاوِزُهُنَّ بَرٌّ وَلاَ فَاجِرٌ: مِنْ شَرِّ مَا خَلَقَ، وَبَرَأَ وَذَرَأَ، وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ، وَمِنْ شَرِّ مَا يَعْرُجُ فيهَا، وَمِنْ شَرِّ مَا ذَرَأَ فِي الْأَرْضِ، وَمِنْ شَرِّ مَا يَخْرُجُ مِنْهَا، وَمِنْ شَرِّ فِتَنِ اللَّيْلِ وَالنَّهَارِ، وَمِنْ شَرِّ كُلِّ طَارِقٍ إِلاَّ طَارِقاً يَطْرُقُ بِخَيْرٍ يَا رَحْمَنُ",
+      "degree_raw": "صحيح إسناده — صححه الأرناؤوط.",
+      "grade": "صحيح إسناده — صححه الأرناؤوط.",
+      "grade_simple": "صحيح",
+      "id": "satan_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ahmad",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 3/419، برقم 15461، بإسناد صحيح، وابن السني، برقم 637، وصحح إسناده الأرناؤوط في تخريجه للطحاوية، ص133، وانظر: مجمع الزوائد، 10/127.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ أَنْ أُشْرِكَ بِكَ وَأَنَا أَعْلَمُ، وَأَسْتَغْفِرُكَ لِمَا لاَ أَعْلَمُ",
+      "degree_raw": "صحيح — بإحالة الهامش.",
+      "grade": "صحيح — بإحالة الهامش.",
+      "grade_simple": "صحيح",
+      "id": "satan_10",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ahmad",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 4/403، برقم 19606، والأدب المفرد للبخاري، برقم 716، وانظر: صحيح الجامع، 3/233، وصحيح الترغيب والترهيب للألباني، 1/19.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لاَ طَيْرَ إِلاَّ طَيْرُكَ، وَلاَ خَيْرَ إِلاَّ خَيْرُكَ، وَلاَ إِلَهَ غَيْرُكَ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "satan_11",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ahmad",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 2/220، برقم 7045، وابن السني، برقم 292، وصححه الألباني في سلسلة الأحاديث الصحيحة، 3/54، برقم 1065.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا سَمِعْتُمْ صِيَاحَ الدِّيَكَةِ فَاسْأَلُوا اللَّهَ مِنْ فَضْلِهِ؛ فَإِنَّهَا رَأَتْ مَلَكاً، وَإِذَا سَمِعْتُمْ نَهِيقَ الْحِمَارِ فَتَعَوَّذُوا بِاللَّهِ مِنَ الشَّيطَانِ؛ فَإِنَّهُ رَأَى شَيْطَاناً",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_12",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 6/350، برقم 3303، ومسلم، 4/2092، برقم 2729.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا سَمِعْتُمْ نُبَاحَ الْكِلاَبِ وَنَهِيقَ الْحَمِيرِ بِاللَّيْلِ فَتَعَوَّذُوا بِاللَّهِ مِنْهُنَّ؛ فَإِنَّهُنَّ يَرَيْنَ مَا لاَ تَرَوْنَ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "satan_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 4/327، برقم 5105، وأحمد، 3/306، برقم 14283، وصححه الألباني في صحيح أبي داود، 3/961.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مَنْ حَفِظَ عَشْرَ آيَاتٍ مِنْ أَوَّلِ سُورَةِ الْكَهْفِ عُصِمَ مِنَ الدَّجَّالِ، والاستعاذة بالله من فتنته عقب التشهد الأخير من كل صلاة",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "satan_14",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 1/555، برقم 809، وفي رواية: من آخر الكهف، 1/556، برقم 809؛ والاستعاذة: انظر حديث رقم 55 و56 (من هذا الكتاب).",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "satan-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 14,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

@@ -1,0 +1,96 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:34439f0f713e49dd461990325cb1de6ad1d57c9b6f6fa083a2e0e7ebb1b5e4f1",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَاَ حَوْلَ وَلَا قُوَّةَ إِلاَّ بِاللَّهِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/151.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/151.",
+      "grade_simple": "صحيح",
+      "id": "home_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 4/325، برقم 5095، والترمذي، 5/490، برقم 3426، وانظر: صحيح الترمذي 3/151.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ أَنْ أَضِلَّ، أَوْ أُضَلَّ، أَوْ أَزِلَّ، أَوْ أُزَلَّ، أَوْ أَظْلِمَ، أَوْ أُظْلَمَ، أَوْ أَجْهَلَ، أَوْ يُجْهَلَ عَلَيَّ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي وصحيح ابن ماجه.",
+      "grade_simple": "صحيح",
+      "id": "home_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أهل السنن: أبو داود، برقم 5094، والترمذي، برقم 3427، والنسائي، برقم 5501، وابن ماجه، برقم 3884، وانظر: صحيح الترمذي، 3/152، وصحيح ابن ماجه، 2/336.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا، ثُمَّ لِيُسَلِّمْ عَلَى أَهْلِهِ",
+      "degree_raw": "حسن إسناده — كما قوّاه ابن باز، والشاهد: مسلم (2018).",
+      "grade": "حسن إسناده — كما قوّاه ابن باز، والشاهد: مسلم (2018).",
+      "grade_simple": "حسن",
+      "id": "home_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 4/325، برقم 5096، وحسّن إسناده العلامة ابن باز في تحفة الأخيار، ص28؛ والشاهد في الصحيح: مسلم، برقم 2018.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "home-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 3,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

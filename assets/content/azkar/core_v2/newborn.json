@@ -1,0 +1,168 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:82713ea53fb920a4b2df8411d73863c391a54185d23f3ba206e208046aad2bd4",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "بَارَكَ اللَّهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ",
+      "degree_raw": "لم يُنصَّ على درجة الحديث — أثر من كلام الحسن البصري؛ يتطلب مراجعة.",
+      "grade": "لم يُنصَّ على درجة الحديث — أثر من كلام الحسن البصري؛ يتطلب مراجعة.",
+      "grade_simple": "review_required",
+      "id": "newborn_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "other",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "ذُكِرَ من كلام الحسن البصري؛ انظر: تحفة المودود لابن القيم، ص20، وعزاه لابن المنذر في الأوسط.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ، وَجَزَاكَ اللَّهُ خَيْراً، وَرَزَقَكَ اللَّهُ مِثْلَهُ، وَأَجْزَلَ ثَوَابَكَ",
+      "degree_raw": "إسناده صحيح .",
+      "grade": "إسناده صحيح .",
+      "grade_simple": "صحيح",
+      "id": "newborn_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "other",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "قاله النووي في الأذكار، ص349، وانظر: صحيح الأذكار للنووي، لسليم الهلالي، 2/713، وتمام التخريج في: الذكر والدعاء والعلاج بالرقى للمؤلف، 1/416.",
+      "translation_en": null
+    },
+    {
+      "arabic": "كَانَ رَسُولُ اللَّهِ ﷺ يُعَوِّذُ الحَسَنَ وَالحُسَينَ رضي الله عنهما: أُعِيذُكُمَا بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "newborn_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 4/119، برقم 3371، من حديث ابن عباس رضي الله عنهما.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بَارَكَ اللَّهُ لَكَ، وَبَارَكَ عَلَيْكَ، وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/316.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 1/316.",
+      "grade_simple": "صحيح",
+      "id": "newborn_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أصحاب السنن إلا النسائي: أبو داود، برقم 2130، والترمذي، برقم 1091، وابن ماجه، برقم 1905، والنسائي في عمل اليوم والليلة، برقم 259، وانظر: صحيح الترمذي، 1/316.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا تَزَوَّجَ أَحَدُكُمُ امْرَأَةً، أَوْ إِذَا اشْتَرَى خَادِماً فَلْيَقُلْ: اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَخَيْرَ مَا جَبَلْتَهَا عَلَيْهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ مَا جَبَلْتَهَا عَلَيْهِ، وَإِذَا اشْتَرَى بَعِيراً فَلْيَأْخُذْ بِذِرْوَةِ سَنَامِهِ وَلْيَقُلْ مِثْلَ ذَلِكَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/324.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 1/324.",
+      "grade_simple": "صحيح",
+      "id": "newborn_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 2/248، برقم 2160، وابن ماجه، 1/617، برقم 1918، وانظر: صحيح ابن ماجه، 1/324.",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ، اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ، وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "newborn_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 6/141، برقم 141، ومسلم، 2/1028، برقم 1434.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "newborn-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 6,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

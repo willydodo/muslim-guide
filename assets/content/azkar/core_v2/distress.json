@@ -1,0 +1,288 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:86902a37832cca05b07f2a4fbee7868df92b7381d71d967fd729c54001f78822",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَداً مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ القُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلاَءَ حُزْنِي، وَذَهَابَ هَمِّي",
+      "degree_raw": "صحيح — صححه الألباني في السلسلة الصحيحة 1/337.",
+      "grade": "صحيح — صححه الألباني في السلسلة الصحيحة 1/337.",
+      "grade_simple": "صحيح",
+      "id": "distress_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ahmad",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أحمد، 1/391، برقم 3712، وصححه الألباني في سلسلة الأحاديث الصحيحة، 1/337.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "distress_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/158، برقم 2893؛ وكان الرسول ﷺ يكثر من هذا الدعاء. انظر: البخاري مع الفتح، 11/173.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "distress_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/154، برقم 6345، ومسلم، 4/2092، برقم 2730.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لاَ إِلَهَ إِلاَّ أَنْتَ",
+      "degree_raw": "حسن — حسّنه الألباني في صحيح أبي داود 3/959.",
+      "grade": "حسن — حسّنه الألباني في صحيح أبي داود 3/959.",
+      "grade_simple": "حسن",
+      "id": "distress_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أبو داود، 4/324، برقم 5090، وأحمد، 5/42، برقم 20430، وحسّنه الألباني في صحيح أبي داود، 3/959.",
+      "translation_en": null
+    },
+    {
+      "arabic": "لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "degree_raw": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade": "صحيح — صححه الحاكم ووافقه الذهبي.",
+      "grade_simple": "صحيح",
+      "id": "distress_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/529، برقم 3505، والحاكم وصححه ووافقه الذهبي، 1/505، وانظر: صحيح الترمذي، 3/168.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ اللَّهُ رَبِّي لاَ أُشْرِكُ بِهِ شَيْئاً",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/335.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح ابن ماجه 2/335.",
+      "grade_simple": "صحيح",
+      "id": "distress_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 2/87، برقم 1525، وابن ماجه، برقم 3882، وانظر: صحيح ابن ماجه، 2/335.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلاً",
+      "degree_raw": "صحيح — بحسب إحالة الهامش: ابن حجر والأرناؤوط.",
+      "grade": "صحيح — بحسب إحالة الهامش: ابن حجر والأرناؤوط.",
+      "grade_simple": "صحيح",
+      "id": "distress_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnalsunni",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه ابن حبان في صحيحه، برقم 2427 (موارد)، وابن السني، برقم 351؛ وقال الحافظ ابن حجر: «هذا حديث صحيح»، وصححه عبد القادر الأرناؤوط في تخريج الأذكار للنووي، ص106.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكِ عَمَّنْ سِوَاكَ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/180.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/180.",
+      "grade_simple": "صحيح",
+      "id": "distress_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/560، برقم 3563، وانظر: صحيح الترمذي، 3/180.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+      "degree_raw": "صحيح — أخرجه البخاري.",
+      "grade": "صحيح — أخرجه البخاري.",
+      "grade_simple": "صحيح",
+      "id": "distress_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/158، برقم 2893.",
+      "translation_en": null
+    },
+    {
+      "arabic": "قَدَرُ اللَّهُ وَمَا شَاءَ فَعَلَ",
+      "degree_raw": "صحيح — بحسب الهامش؛ يُدقَّق نصه الكامل من الطبعة.",
+      "grade": "صحيح — بحسب الهامش؛ يُدقَّق نصه الكامل من الطبعة.",
+      "grade_simple": "صحيح",
+      "id": "distress_10",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "other",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "حديث أبي ذر: «المؤمن القوي خير وأحب إلى الله من المؤمن الضعيف، وفي كل خير... فلا تقل: لو أني فعلت كان كذا، ولكن قل: قدر الله وما شاء فعل» — بأخراج هامش [187] (الاستخراج الآلي اقتطع نهاية الهامش؛ يُدقق من الطبعة قبل الاعتماد).",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "distress_11",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 7/99، برقم 3282، ومسلم، 4/2015، برقم 2610.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "distress-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 11,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}

@@ -1,0 +1,336 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:843bd3e922f903d53db05812b4d4a151410ac9f503015c934594eeadca3ff467",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "إِذَا أَكَلَ أَحَدُكُمْ طَعَاماً فَلْيَقُلْ بِسْمِ اللَّهِ، فَإِنْ نَسِيَ فِي أَوَّلِهِ فَلْيَقُلْ: بِسْمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/167.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 2/167.",
+      "grade_simple": "صحيح",
+      "id": "food_01",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 3/347، برقم 3767، والترمذي، 4/288، برقم 1858، وانظر: صحيح الترمذي، 2/167.",
+      "translation_en": null
+    },
+    {
+      "arabic": "مَنْ أَطْعَمَهُ اللَّهُ الطَّعَامَ فَلْيَقُلْ: اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَأَطْعِمْنَا خَيْراً مِنْهُ، وَمَنْ سَقَاهُ اللَّهُ لَبَناً فَلْيَقُلْ: اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَزِدْنَا مِنْهُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/158.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/158.",
+      "grade_simple": "صحيح",
+      "id": "food_02",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/506، برقم 3455، وانظر: صحيح الترمذي، 3/158.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ، مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/159.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/159.",
+      "grade_simple": "صحيح",
+      "id": "food_03",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أصحاب السنن إلا النسائي: أبو داود، برقم 4025، والترمذي، برقم 3458، وابن ماجه، برقم 3285، وانظر: صحيح الترمذي، 3/159.",
+      "translation_en": null
+    },
+    {
+      "arabic": "الْحَمْدُ لِلَّهِ حَمْداً كَثِيراً طَيِّباً مُبَارَكاً فِيهِ، غَيْرَ [مَكْفِيٍّ وَلاَ] مُوَدَّعٍ، وَلاَ مُسْتَغْنًى عَنْهُ رَبَّنَا",
+      "degree_raw": "صحيح — أخرجه البخاري، ولفظ الترمذي.",
+      "grade": "صحيح — أخرجه البخاري، ولفظ الترمذي.",
+      "grade_simple": "صحيح",
+      "id": "food_04",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري، 6/214، برقم 5458، والترمذي بلفظه، 5/507، برقم 3456.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ بَارِكْ لَهُمْ فِيمَا رَزَقْتَهُم، وَاغْفِرْ لَهُمْ وَارْحَمْهُمْ",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "food_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 3/1615، برقم 2042.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَطْعِمْ مَنْ أَطْعَمَنِي، وَاسْقِ مَنْ سَقَانِي",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "food_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 3/1626، برقم 2055.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ بَارِكْ لَنَا فِي ثَمَرِنَا، وَبَارِكْ لَنَا فِي مَدِينَتِنَا، وَبَارِكْ لَنَا فِي صَاعِنَا، وَبَارِكْ لَنَا فِي مُدِّنَا",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "food_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 2/1000، برقم 1373.",
+      "translation_en": null
+    },
+    {
+      "arabic": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ العُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الجامع 4/209.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الجامع 4/209.",
+      "grade_simple": "صحيح",
+      "id": "food_08",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه أبو داود، 2/306، برقم 2359، وغيره، وانظر: صحيح الجامع، 4/209.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ أَنْ تَغْفِرَ لِي",
+      "degree_raw": "حسن — حسّنه الحافظ ابن حجر.",
+      "grade": "حسن — حسّنه الحافظ ابن حجر.",
+      "grade_simple": "حسن",
+      "id": "food_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnmajah",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "أخرجه ابن ماجه، 1/557، برقم 1753، من دعاء عبد الله بن عمرو، وحسنه الحافظ في تخريج الأذكار، انظر: شرح الأذكار، 4/342.",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَفْطَرَ عِنْدَكُمُ الصَّائِمُونَ، وَأَكَلَ طَعَامَكُمُ الْأَبْرَارُ، وَصَلَّتْ عَلَيْكُمُ الْمَلاَئِكَةُ",
+      "degree_raw": "صحيح — صححه الألباني.",
+      "grade": "صحيح — صححه الألباني.",
+      "grade_simple": "صحيح",
+      "id": "food_10",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "سنن أبي داود، 3/367، برقم 3856، وابن ماجه، 1/556، برقم 1747، والنسائي في عمل اليوم والليلة، برقم 296-298؛ وصححه الألباني في صحيح أبي داود، 2/730.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِذَا دُعِيَ أَحَدُكُمْ فَلْيُجِبْ، فَإِنْ كَانَ صَائِماً فَلْيُصَلِّ، وَإِنْ كَانَ مُفْطِراً فَلْيَطْعَمْ — ومعنى فليصل: فليدع",
+      "degree_raw": "صحيح — أخرجه مسلم.",
+      "grade": "صحيح — أخرجه مسلم.",
+      "grade_simple": "صحيح",
+      "id": "food_11",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "مسلم، 2/1054، برقم 1150.",
+      "translation_en": null
+    },
+    {
+      "arabic": "إِنِّي صَائِمٌ، إِنِّي صَائِمٌ",
+      "degree_raw": "صحيح — أخرجه البخاري ومسلم.",
+      "grade": "صحيح — أخرجه البخاري ومسلم.",
+      "grade_simple": "صحيح",
+      "id": "food_12",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "البخاري مع الفتح، 4/103، برقم 1894، ومسلم، 2/806، برقم 1151.",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُ أَكْبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ، وَالسَّلاَمَةِ وَالْإِسْلاَمِ، وَالتَّوْفِيقِ لِمَا تُحِبُّ رَبَّنَا وَتَرْضَى، رَبُّنَا وَرَبُّكَ اللَّهُ",
+      "degree_raw": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/157.",
+      "grade": "صحيح — بإحالة الهامش إلى: صحيح الترمذي 3/157.",
+      "grade_simple": "صحيح",
+      "id": "food_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "الترمذي، 5/504، برقم 3451، والدارمي بلفظه، 1/336، وانظر: صحيح الترمذي، 3/157.",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "food-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 13,
+    "file": "الأذكار الجزء الثانى.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}
