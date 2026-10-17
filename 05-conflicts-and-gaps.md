@@ -66,6 +66,11 @@
 - **Resolution**: حُسم بـ DEC-0017 (Pixel 6a أساسي، Redmi Note 12 ثانوي)
 - **Status**: RESOLVED
 
+### GAP-azkar-core-v2-converter — core_v2 schema needs converter to AzkarPack
+- **Finding**: review-schema packs (`pack_id`/`version`/`checksum`/`approval` + per-item `review`) do not match the domain model (`categories`/`items` with `text`/`virtue`/`repeat`/`source`).
+- **Resolution**: temporary bridge `lib/features/azkar/data/azkar_pack_loader_v2.dart` (`CoreV2PackConverter`) + unit test `test/features/azkar/core_v2_converter_test.dart`. It maps `virtue` to `—` (no source data) and ignores `repeat_by_prayer`/`repeat_note` (no domain field yet); review gating stays with the caller.
+- **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
+
 ### GAP-azkar-expansion-deferred — Full Azkar/Adiya expansion deferred
 - **Finding**: `الأذكار.docx` contains 304 entries (not 382 — Director estimate corrected, no second file).
 - **Reasons**: (1) dorar.net/sunnah.com blocked (HTTP 403 — no automated verification possible);

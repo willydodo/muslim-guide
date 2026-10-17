@@ -176,6 +176,34 @@ assets:
       - See docs/azkar-gaps.md. No full APPROVED.
 
   # ===== الحديث =====
+  - asset_id: azkar-core-v2-six-books
+    asset_type: text
+    name: "أذكار الصباح/المساء core_v2 — الكتب الستة + توثيق الألباني"
+    provider: "البخاري، مسلم، أبو داود، الترمذي، النسائي، ابن ماجه + الألباني"
+    source_url: "https://sunnah.com"
+    sources:
+      - "صحيح البخاري"
+      - "صحيح مسلم"
+      - "سنن أبي داود"
+      - "سنن الترمذي"
+      - "سنن النسائي"
+      - "سنن ابن ماجه"
+    license_type: "UNKNOWN (reference only — texts from Abdo verified file, no copy from sunnah.com/dorar.net)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    verification:
+      - "توثيق الألباني (صحيح الترغيب، صحيح الجامع)"
+      - "مرجع قرآني للآيات (quran-uthmani)"
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+    notes: |
+      - مصدر نصوص core_v2 (morning 21 + evening 21) من ملف Abdo الموثق.
+      - sunnah.com للمرجع فقط (HTTP 403 آليا) — لا نسخ.
+      - بانتظار مراجعة shaykh-1 عبر HTML+JSON.
+
   - asset_id: hadith-dorar
     asset_type: data
     name: "Dorar.net Hadith Dataset"

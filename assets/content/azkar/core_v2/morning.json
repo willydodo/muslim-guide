@@ -1,0 +1,506 @@
+{
+  "approval": {
+    "approved_at": null,
+    "checksum_approved": null,
+    "reviewer_id": "shaykh-1",
+    "version_approved": null
+  },
+  "category": "core",
+  "checksum": "sha256:49b3e2a2a9e905ec51c74063fe70fcad244e1451dafb7972e7a4884a3e872097",
+  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "items": [
+    {
+      "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ\nٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "grade": "صحيح",
+      "id": "morning_01",
+      "quran_ref": "2:255",
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "nasai",
+        "number": "665",
+        "sunnah_url": "https://sunnah.com/nasai:665"
+      },
+      "source_ref": "النسائي في الكبرى، وانظر: صحيح الترغيب للألباني (665)",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ ۝",
+      "grade": "صحيح",
+      "id": "morning_02",
+      "quran_ref": "112:1-4",
+      "repeat": 3,
+      "repeat_by_prayer": {
+        "fajr": 3,
+        "maghrib": 3
+      },
+      "repeat_note": "3× بعد الفجر والمغرب",
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5082",
+        "sunnah_url": "https://sunnah.com/abudawud:5082"
+      },
+      "source_ref": "أبو داود (5082)، الترمذي (3575)، والألباني: صحيح (صحيح الترغيب 655)",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ ۝ مِن شَرِّ مَا خَلَقَ ۝ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ ۝ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝",
+      "grade": "صحيح",
+      "id": "morning_03",
+      "quran_ref": "113:1-5",
+      "repeat": 3,
+      "repeat_by_prayer": {
+        "fajr": 3,
+        "maghrib": 3
+      },
+      "repeat_note": "3× بعد الفجر والمغرب",
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5082",
+        "sunnah_url": "https://sunnah.com/abudawud:5082"
+      },
+      "source_ref": "أبو داود (5082)، الترمذي (3575)، والألباني: صحيح (صحيح الترغيب 655)",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ۝ مَلِكِ ٱلنَّاسِ ۝ إِلَٰهِ ٱلنَّاسِ ۝ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ۝ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ۝ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "grade": "صحيح",
+      "id": "morning_04",
+      "quran_ref": "114:1-6",
+      "repeat": 3,
+      "repeat_by_prayer": {
+        "fajr": 3,
+        "maghrib": 3
+      },
+      "repeat_note": "3× بعد الفجر والمغرب",
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5082",
+        "sunnah_url": "https://sunnah.com/abudawud:5082"
+      },
+      "source_ref": "أبو داود (5082)، الترمذي (3575)، والألباني: صحيح (صحيح الترغيب 655)",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَٰذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَٰذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "grade": "صحيح",
+      "id": "morning_05",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": "2723",
+        "sunnah_url": "https://sunnah.com/muslim:2723"
+      },
+      "source_ref": "رواه مسلم (2723)",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ",
+      "grade": "صحيح",
+      "id": "morning_06",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": "3391",
+        "sunnah_url": "https://sunnah.com/tirmidhi:3391"
+      },
+      "source_ref": "رواه الترمذي (3391)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "grade": "صحيح",
+      "id": "morning_07",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "bukhari",
+        "number": "6306",
+        "sunnah_url": "https://sunnah.com/bukhari:6306"
+      },
+      "source_ref": "رواه البخاري (6306)",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ",
+      "grade": "صحيح",
+      "id": "morning_08",
+      "quran_ref": null,
+      "repeat": 4,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5072",
+        "sunnah_url": "https://sunnah.com/abudawud:5072"
+      },
+      "source_ref": "رواه أبو داود (5072)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ مَا أَصْبَحَ بِي مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ",
+      "grade": "صحيح",
+      "id": "morning_09",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ibnalsunni",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه ابن السني، وصححه الألباني (صحيح الترغيب 654)",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لَا إِلَٰهَ إِلَّا أَنْتَ",
+      "grade": "حسن",
+      "id": "morning_10",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5074",
+        "sunnah_url": "https://sunnah.com/abudawud:5074"
+      },
+      "source_ref": "رواه أبو داود (5074)، وقال الألباني: حسن",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَٰهَ إِلَّا أَنْتَ",
+      "grade": "حسن",
+      "id": "morning_11",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5090",
+        "sunnah_url": "https://sunnah.com/abudawud:5090"
+      },
+      "source_ref": "رواه أبو داود (5090)، وقال الألباني: حسن",
+      "translation_en": null
+    },
+    {
+      "arabic": "حَسْبِىَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+      "grade": "صحيح",
+      "id": "morning_12",
+      "quran_ref": "9:129",
+      "repeat": 7,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5081",
+        "sunnah_url": "https://sunnah.com/abudawud:5081"
+      },
+      "source_ref": "رواه أبو داود (5081)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي، اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي، اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي، وَأَعُوذُ بِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
+      "grade": "حسن",
+      "id": "morning_13",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5074",
+        "sunnah_url": "https://sunnah.com/abudawud:5074"
+      },
+      "source_ref": "رواه أبو داود (5074)، وقال الألباني: حسن",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا أَنْتَ، أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
+      "grade": "حسن",
+      "id": "morning_14",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "tirmidhi",
+        "number": "3392",
+        "sunnah_url": "https://sunnah.com/tirmidhi:3392"
+      },
+      "source_ref": "رواه الترمذي (3392)، وقال الألباني: حسن",
+      "translation_en": null
+    },
+    {
+      "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "grade": "صحيح",
+      "id": "morning_15",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5080",
+        "sunnah_url": "https://sunnah.com/abudawud:5080"
+      },
+      "source_ref": "رواه أبو داود (5080)، الترمذي (3388)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+      "grade": "صحيح",
+      "id": "morning_16",
+      "quran_ref": null,
+      "repeat": 3,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "abudaud",
+        "number": "5072",
+        "sunnah_url": "https://sunnah.com/abudawud:5072"
+      },
+      "source_ref": "رواه أبو داود (5072)، وصححه الألباني",
+      "translation_en": null
+    },
+    {
+      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ",
+      "grade": "صحيح",
+      "id": "morning_17",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "hakim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه الحاكم، وصححه الألباني (صحيح الجامع 5820)",
+      "translation_en": null
+    },
+    {
+      "arabic": "أَصْبَحْنَا عَلَى فِطْرَةِ الْإِسْلَامِ، وَكَلِمَةِ الْإِخْلَاصِ، وَدِينِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَمِلَّةِ أَبِينَا إِبْرَاهِيمَ، حَنِيفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
+      "grade": "صحيح",
+      "id": "morning_18",
+      "quran_ref": null,
+      "repeat": 1,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "ahmad",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه أحمد، وصححه الألباني (صحيح الترغيب 660)",
+      "translation_en": null
+    },
+    {
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "grade": "صحيح",
+      "id": "morning_19",
+      "quran_ref": null,
+      "repeat": 100,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": "2692",
+        "sunnah_url": "https://sunnah.com/muslim:2692"
+      },
+      "source_ref": "رواه مسلم (2692)",
+      "translation_en": null
+    },
+    {
+      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "grade": "صحيح",
+      "id": "morning_20",
+      "quran_ref": null,
+      "repeat": 100,
+      "repeat_by_prayer": {
+        "fajr": 10,
+        "maghrib": 10
+      },
+      "repeat_note": "10× بعد الفجر والمغرب",
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "muslim",
+        "number": "2724",
+        "sunnah_url": "https://sunnah.com/muslim:2724"
+      },
+      "source_ref": "رواه مسلم (2724)",
+      "translation_en": null
+    },
+    {
+      "arabic": "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "grade": "صحيح",
+      "id": "morning_21",
+      "quran_ref": null,
+      "repeat": 10,
+      "review": {
+        "decided_at": null,
+        "edit_source": null,
+        "notes": "",
+        "proposed_text": null,
+        "reviewer_id": "shaykh-1",
+        "status": "pending"
+      },
+      "source": {
+        "book": "hakim",
+        "number": null,
+        "sunnah_url": null
+      },
+      "source_ref": "رواه الطبراني، والحاكم؛ وقال الألباني: صحيح (صحيح الترغيب 1664)",
+      "translation_en": null
+    }
+  ],
+  "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
+  "pack_id": "morning-v2",
+  "reviewed_at": null,
+  "reviewer": "shaykh-1",
+  "source": {
+    "entries": 21,
+    "file": "azkar-morning-evening-42.txt",
+    "name": "Abdo verified file"
+  },
+  "status": "PENDING_REVIEW",
+  "version": "0.1.0"
+}
