@@ -22,7 +22,7 @@
 |---|---|---|
 | 01–04 | Foundation, prayer/location, Qibla, Adhan/notifications | Completed |
 | 05 | Azkar skeleton and pending-pack Empty state | Completed; content pack deferred beyond v1.0 |
-| 05b | Azkar Pack (HadeethEnc pilot) | Pilot ✅ 2026-10-17 — morning (cat 301, 9 hadeeths), PENDING_REVIEW (shaykh-1) |
+| 05b | Azkar Pack (HadeethEnc pilot) | Review merged 2026-10-17 — PARTIALLY_APPROVED (7/9), gaps in docs/azkar-gaps.md |
 | 06 | Quran | Completed |
 | 07 | Recitation | Deferred to v1.5 (CR-0018) |
 | 08 | Calendar (Hijri) | Completed 2026-10-17 |
@@ -32,10 +32,8 @@
 
 - Source: HadeethEnc.com (NoDerivs + Attribution) — CR-0020.
 - Pilot: `assets/content/azkar/core/morning.json` — category 301, 9 hadeeths (7 صحيح + 2 حسن).
-- Status: PENDING_REVIEW (reviewer: shaykh-1) — CR-0021.
-- Review HTML: `content/reviews/morning-review-2026-10-17.html` (offline, RTL, approve/edit/reject + JSON export).
-- Gaps: 2 items lack EN translation (65260, 66086 — HTTP 404), `repeat` = null (external layer).
-- Next: Abdo sends HTML to shaykh-1; no expansion, no Flutter code before APPROVED.
+- Review merged (`0b4d790`): PARTIALLY_APPROVED — 7 approved (incl. 2 with rejected edits, dual-saved) + 2 rejected (no reason).
+- Gaps: `docs/azkar-gaps.md`. No full APPROVED. No expansion, no Flutter code before your explicit approval.
 
 ## Phase 08 (Hijri Calendar) — ✅ (2026-10-17)
 

@@ -7,7 +7,7 @@
 
 | البند | القيمة |
 |---|---|
-| HEAD | `2c4ab9d` |
+| HEAD | `0b4d790` |
 | CI | ✅ |
 | Phase 00–04 | ✅ |
 | Phase 05 (skeleton) | 🟡 |
@@ -19,18 +19,15 @@
 
 ## الحالة الراهنة
 
-- `morning.json` = PENDING_REVIEW
-- HTML للمراجعة = جاهز (`content/reviews/morning-review-2026-10-17.html`)
-- shaykh-1 = بانتظار المراجعة
+- `morning.json` = PARTIALLY_APPROVED (7 approved + 2 rejected)
+- المراجعة مدموجة (`0b4d790`) — المرفوضان والمعدّلان موثقان في `docs/azkar-gaps.md`
+- shaykh-1 = بانتظار توضيح سبب الرفض (morning_002 + morning_007)
 
 ## الخطوات التالية
 
-1. **Abdo يرسل HTML** لـ shaykh-1
-2. **بعد المراجعة:**
-   - ✅ = APPROVED → التوسع
-   - ✏️ = تعديل → APPROVED
-   - ❌ = رفض → مراجعة
-3. **التوسع** لـ 20 subcategory
+1. **Abdo يسأل shaykh-1** عن سبب رفض morning_002 وmorning_007
+2. **CR-0022 (البخاري/مسلم)** — فقط إن طُلبت التعديلات لاحقًا
+3. **التوسع** — فقط بعد موافقتك الصريحة (لا توسع تلقائي)
 
 ## Phase 09 (v1.0)
 
