@@ -151,23 +151,29 @@ assets:
     conditions:
       - "No modification, addition, or deletion of the content."
       - "Clearly referring to the publisher and the source (HadeethEnc.com)."
-    status: SOURCE_IDENTIFIED
+    status: PARTIALLY_APPROVED
     path: "assets/content/azkar/core/morning.json"
     captured_at: "2026-10-17"
-    checksum: "sha256:3d3671790088ea0de04b14ce91b203d226a475a22026a5db59591913dc631f8e"
-    checksum_method: "canonical-json-sha256-v1 (UTF-8, sort_keys, indent=2)"
+    checksum: "sha256:3ca8a952eef740006d19d1250ca1b11b3421ebca8a4f418535f552bb97397f77"
+    checksum_method: "canonical-json-sha256-v1 content-only (excl. review/proposal/approval fields; UTF-8, sort_keys, indent=2)"
     evidence:
       - kind: terms_snapshot
         ref: legal/evidence/hadeethenc-terms-2026-10-17.txt
         captured_at: "2026-10-17"
         sha256: "f055630516e4b02a83019d49e3e4a7b6d852ef6df32f07c300e66bd5e6112faa"
-    reviewed_at: null
+      - kind: review_decisions
+        ref: content/reviews/decisions-morning-2026-10-17.json
+        captured_at: "2026-10-17"
+        sha256: "3b41f5ffdd0e6d93b439efb515dadd162c4f435c04859fb369c95220a4d4c3db"
+    reviewed_at: "2026-10-17"
     reviewer: shaykh-1
     phase: 05b
     notes: |
-      - Pilot: morning (HadeethEnc category 301, 9 hadeeths), PENDING_REVIEW.
+      - Pilot: morning (HadeethEnc category 301, 9 hadeeths), PARTIALLY_APPROVED.
+      - 7 approved (incl. 2 with rejected edits, dual-saved) + 2 rejected (no reason).
+      - Rejected items kept in JSON for documentation, excluded from production.
       - 2 items lack EN translation (65260, 66086 — HTTP 404) recorded as gaps.
-      - repeat/virtue kept as external metadata (null until reviewer confirms).
+      - See docs/azkar-gaps.md. No full APPROVED.
 
   # ===== الحديث =====
   - asset_id: hadith-dorar

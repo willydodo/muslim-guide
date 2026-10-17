@@ -5,9 +5,15 @@
     "reviewer_id": "shaykh-1",
     "version_approved": null
   },
+  "approval_summary": {
+    "approved": 7,
+    "edited_rejected": 2,
+    "rejected": 2,
+    "total": 9
+  },
   "category": "core",
-  "checksum": "sha256:3d3671790088ea0de04b14ce91b203d226a475a22026a5db59591913dc631f8e",
-  "checksum_method": "canonical-json-sha256-v1 (UTF-8, sort_keys, indent=2)",
+  "checksum": "sha256:3ca8a952eef740006d19d1250ca1b11b3421ebca8a4f418535f552bb97397f77",
+  "checksum_method": "canonical-json-sha256-v1 content-only (excl. review/proposal/approval fields; UTF-8, sort_keys, indent=2)",
   "items": [
     {
       "arabic": "عن أبي مسعود رضي الله عنه قال: قال النبي صلى الله عليه وسلم: «مَنْ قَرَأَ بِالْآيَتَيْنِ مِنْ آخِرِ سُورَةِ الْبَقَرَةِ فِي لَيْلَةٍ كَفَتَاهُ».",
@@ -24,10 +30,10 @@
       "reference": "صحيح البخاري (6/ 188) (5008-5009).\nصحيح مسلم (1/ 554) (807).\nفتح الباري بشرح صحيح البخاري، لابن حجر (9/ 56).\nبهجة الناظرين شرح رياض الصالحين، لسليم الهلالي (2/ 240).\nتطريز رياض الصالحين، لفيصل آل مبارك (ص593).\nمرقاة المفاتيح شرح مشكاة المصابيح، لملا علي القاري (4/ 1465).\nنزهة المتقين شرح رياض الصالحين، لمصطفى الخِن وغيره (2/ 757).",
       "repeat": null,
       "review": {
-        "decided_at": null,
-        "notes": "",
+        "decided_at": "2026-10-17",
+        "notes": "صحيح",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "من قرأ بالآيتين من آخر سورة البقرة في ليلة كفتاه",
       "title_en": "Whoever recites the last two verses of Sūrat al-Baqarah at a night, they will suffice him",
@@ -47,10 +53,10 @@
       "reference": "سنن أبي داود (7/ 404) (5068).\nسنن الترمذي (5/ 398) (3391).\nالسنن الكبرى للنسائي (9/ 209) (10323).\nسنن ابن ماجه (5/ 35) (3868).\nمسند أحمد (14/ 290) (8649).\nتوضيح الأحكام من بلوغ المرام، لعبد الله البسام (7/ 576).\nمنحة العلام في شرح بلوغ المرام، لعبد الله الفوزان (10/ 458).\nفتح ذي الجلال والإكرام، لابن عثيمين (6/ 503).\nسبل السلام بشرح بلوغ المرام، لمحمد الصنعاني (2/ 714).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "rejected"
       },
       "title_ar": "اللهم بك أصبحنا، وبك أمسينا، وبك نحيا، وبك نموت، وإليك النشور",
       "title_en": "O Allah, by You we have reached the morning, and by You we have reached the evening; by You we live, and by You we die, and to You is the Resurrection",
@@ -63,17 +69,21 @@
       "categories": [
         "301"
       ],
+      "edit_decision": "REJECTED",
+      "edit_reason": "HadeethEnc NoDerivs + البخاري غير مرخص — التعديل مرفوض، نص HadeethEnc باقٍ",
+      "edit_source": "صحيح البخاري",
       "grade": "صحيح",
       "grade_en": "Authentic",
       "hadeethenc_id": "5503",
       "id": "morning_003",
+      "proposed_text": "حَدَّثَنَا أَبُو مَعْمَرٍ ، حَدَّثَنَا عَبْدُ الوَارِثِ ، حَدَّثَنَا الحُسَيْنُ ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بُرَيْدَةَ ، قَالَ : حَدَّثَنِي بُشَيْرُ بْنُ كَعْبٍ العَدَوِيُّ ، قَالَ : حَدَّثَنِي شَدَّادُ بْنُ أَوْسٍ رَضِيَ اللَّهُ عَنْ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «سَيِّدُ الِاسْتِغْفَارِ أَنْ تَقُولَ: اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ» قَالَ: «وَمَنْ قَالَهَا مِنَ النَّهَارِ مُوقِنًا بِهَا، فَمَاتَ مِنْ يَوْمِهِ قَبْلَ أَنْ يُمْسِيَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ، وَمَنْ قَالَهَا مِنَ اللَّيْلِ وَهُوَ مُوقِنٌ بِهَا، فَمَاتَ قَبْلَ أَنْ يُصْبِحَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ».",
       "reference": "صحيح البخاري (8/ 67) (6306).\nتوضيح الأحكام من بلوغ المرام، لعبد الله البسام (7/ 562).\nمنحة العلام في شرح بلوغ المرام، لعبد الله الفوزان (10/ 435).\nفتح ذي الجلال والإكرام، لابن عثيمين (6/ 486).",
       "repeat": null,
       "review": {
-        "decided_at": null,
-        "notes": "",
+        "decided_at": "2026-10-17",
+        "notes": "اقترح تعديل من صحيح البخاري — رُفض (رواه البخاري — صحيح)",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "سيد الاستغفار",
       "title_en": "The best way of seeking Allah's forgiveness",
@@ -93,10 +103,10 @@
       "reference": "سنن أبي داود (7/ 415) (5082).\nسنن الترمذي (5/ 535) (3575).\nسنن النسائي (8/ 250) (5428).\nنزهة المتقين شرح رياض الصالحين، (2/ 996).\nكنوز رياض الصالحين، لمجموعة من الباحثين (17/ 307).\nشرح رياض الصالحين، لابن عثيمين (5/ 543).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "قل هو الله أحد والمعوذتين حين تمسي وتصبح ثلاث مرات، تكفيك من كل شيء",
       "title_en": "{Say: \"He is Allah, the One\"} and Al-Mu'awwidhatān (Surat al-Falaq and Surat an-Nās) thrice in the evening and the morning, they will grant you protection from everything",
@@ -116,10 +126,10 @@
       "reference": "سنن أبي داود (7/ 419) (5088).\nسنن الترمذي (5/ 396) (3388).\nالسنن الكبرى للنسائي (9/ 11) (9759).\nسنن ابن ماجه (5/ 35) (3869).\nمسند أحمد (1/ 498) (446).\nبهجة الناظرين شرح رياض الصالحين، لسليم الهلالي (2/ 528).\nنزهة المتقين شرح رياض الصالحين، لمجموعة من الباحثين (2/ 997).\nكنوز رياض الصالحين، لمجموعة من الباحثين (17/ 314).\nمرعاة المفاتيح شرح مشكاة المصابيح، للمباركفوري (8/ 130).\nمرقاة المفاتيح شرح مشكاة المصابيح، للقاري (4/ 1659).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "من قال بسم الله الذي لا يضر مع اسمه شيء، في الأرض، ولا في السماء، وهو السميع العليم، ثلاث مرات، لم تصبه فجأة بلاء، حتى يصبح",
       "title_en": "Whoever says three times: 'In the name of Allah, with Whose name nothing in the earth or the heaven can cause harm, and He is the All-Hearing, the All-Knowing' will not suffer sudden affliction until the morning",
@@ -132,17 +142,21 @@
       "categories": [
         "301"
       ],
+      "edit_decision": "REJECTED",
+      "edit_reason": "HadeethEnc NoDerivs — التعديل مرفوض، نص HadeethEnc باقٍ",
+      "edit_source": "صحيح مسلم (2723)",
       "grade": "صحيح",
       "grade_en": "Authentic hadith",
       "hadeethenc_id": "3008",
       "id": "morning_006",
+      "proposed_text": "كانَ نَبيُّ اللهِ صلَّى اللهُ عليه وسلَّم إذا أمسى قال: أمسَينا وأمسى المُلكُ للَّهِ، والحَمدُ للَّهِ، لا إلَهَ إلَّا اللهُ وحدَه لا شَريكَ له -قال: أُراه قال فيهنَّ:- له المُلكُ وله الحَمدُ وهو على كُلِّ شيءٍ قديرٌ، رَبِّ أسألُكَ خَيرَ ما في هذه اللَّيلةِ وخَيرَ ما بَعدَها، وأعوذُ بكَ مِن شَرِّ ما في هذه اللَّيلةِ وشَرِّ ما بَعدَها، رَبِّ أعوذُ بكَ مِنَ الكَسَلِ وسوءِ الكِبَرِ، رَبِّ أعوذُ بكَ مِن عَذابٍ في النَّارِ وعَذابٍ في القَبرِ، وإذا أصبَحَ قال ذلك أيضًا: أصبَحنا وأصبَحَ المُلكُ للَّهِ.",
       "reference": "صحيح مسلم، تحقيق: محمد فؤاد عبد الباقي، دار إحياء التراث العربي – بيروت.\nرياض الصالحين للنووي .تحقيق ماهر الفحل .ط الأولى 1428هـ، دار ابن كثير، دمشق - بيروت.\nتطريز رياض الصالحين، لفيصل آل مبارك، تحقيق: عبد اللعزيز آل حمد، دار العاصمة الرياض، ط: الاولى، 1423هـ.\nنزهة المتقين، لمجموعة من المؤلفين، مؤسسة الرسالة، ط: الرابعة عشر، 1407هـ.\nبهجة الناظرين، لسليم الهلالي، دار ابن الجوزي، السعودية، ط: الثالثة، 1418هـ.\nكنوز رياض الصالحين، لحمد ناصر العمار.دار كنوز إشبيليا، الرياض ط: 1430هـ.\nالعلم الهيب في شرح الكلم الطيب، بدر الدين العيني، تحقيق خالد المصري، مكتبة الرشد، الرياض، الطبعة الثانية 1421هـ.",
       "repeat": null,
       "review": {
-        "decided_at": null,
-        "notes": "",
+        "decided_at": "2026-10-17",
+        "notes": "اقترح تعديل من صحيح مسلم (2723) — رُفض (صحيح مسلم | الصفحة أو الرقم : 2723)",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "كان نبي الله صلى الله عليه وسلم إذا أمسى قال: أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له",
       "title_en": "In the evening, the Prophet (may Allah's peace and blessings be upon him) used to say: The evening has reached, and all the dominion belongs to Allah and praise be to Allah. There is no god but Allah, alone with no partner.",
@@ -162,10 +176,10 @@
       "reference": "سنن الترمذي (5/ 15) (2892).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "rejected"
       },
       "title_ar": "كان لا ينام حتى يقرأ الم تنزيل، وتبارك الذي بيده الملك",
       "title_en": null,
@@ -185,10 +199,10 @@
       "reference": "سنن الترمذي (5/ 475) (3604/ 1)، مرشد ذوي الحجا والحاجة إلى سنن ابن ماجه والقول المكتفى على سنن المصطفى (20/ 393)، البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج (42/ 274)، المفهم لما أشكل من تلخيص كتاب مسلم (7/ 36).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "من قال حين يمسي ثلاث مرات: أعوذ بكلمات الله التامات من شر ما خلق، لم يضره حمة تلك الليلة.",
       "title_en": null,
@@ -208,10 +222,10 @@
       "reference": "صحيح مسلم (4/ 2090) (2726).\nتوضيح الأحكام من بلوغ المرام، لعبد الله البسام (7/ 536).\nمنحة العلام في شرح بلوغ المرام، لعبد الله الفوزان (10/ 405).\nفتح ذي الجلال والإكرام، لابن عثيمين (6/ 471).",
       "repeat": null,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-17",
         "notes": "",
         "reviewer": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "title_ar": "لقد قلت بعدك أربع كلمات، ثلاث مرات، لو وزنت بما قلت منذ اليوم لوزنتهن",
       "title_en": "I said four words three times after I had left you; if they were to be weighed against what you have been saying since morning, they would outweigh them",
@@ -220,7 +234,7 @@
   ],
   "license": "HadeethEnc (NoDerivs + Attribution)",
   "pack_id": "morning",
-  "reviewed_at": null,
+  "reviewed_at": "2026-10-17",
   "reviewer": "shaykh-1",
   "source": {
     "api": "https://hadeethenc.com/api/v1/",
@@ -229,6 +243,6 @@
     "provider": "HadeethEnc.com",
     "retrieved_at": "2026-10-17"
   },
-  "status": "PENDING_REVIEW",
+  "status": "PARTIALLY_APPROVED",
   "version": "0.1.0"
 }
