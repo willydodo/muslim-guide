@@ -138,6 +138,37 @@ assets:
     reviewer: shaykh-1
     phase: 05
 
+  - asset_id: hadith-hadeethenc
+    asset_type: data
+    name: "HadeethEnc (Azkar Source)"
+    provider: "HadeethEnc.com"
+    source_url: "https://hadeethenc.com"
+    source_version: "API v1"
+    license_type: "NoDerivs + Attribution"
+    redistribution_allowed: true
+    modification_allowed: false
+    attribution_required: true
+    conditions:
+      - "No modification, addition, or deletion of the content."
+      - "Clearly referring to the publisher and the source (HadeethEnc.com)."
+    status: SOURCE_IDENTIFIED
+    path: "assets/content/azkar/core/morning.json"
+    captured_at: "2026-10-17"
+    checksum: "sha256:3d3671790088ea0de04b14ce91b203d226a475a22026a5db59591913dc631f8e"
+    checksum_method: "canonical-json-sha256-v1 (UTF-8, sort_keys, indent=2)"
+    evidence:
+      - kind: terms_snapshot
+        ref: legal/evidence/hadeethenc-terms-2026-10-17.txt
+        captured_at: "2026-10-17"
+        sha256: "f055630516e4b02a83019d49e3e4a7b6d852ef6df32f07c300e66bd5e6112faa"
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: 05b
+    notes: |
+      - Pilot: morning (HadeethEnc category 301, 9 hadeeths), PENDING_REVIEW.
+      - 2 items lack EN translation (65260, 66086 — HTTP 404) recorded as gaps.
+      - repeat/virtue kept as external metadata (null until reviewer confirms).
+
   # ===== الحديث =====
   - asset_id: hadith-dorar
     asset_type: data

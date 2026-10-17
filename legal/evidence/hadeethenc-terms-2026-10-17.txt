@@ -1,0 +1,978 @@
+{
+  "info": {
+    "_postman_id": "706b0a97-17eb-406e-89d1-5efa0dccc735",
+    "name": "HadeethEnc.com/API/v1",
+    "description": "[HadeethEnc.com](https://hadeethenc.com) API\n\n# Overview\n\nHadeethEnc is a project aims to provide simplified explanations and clear translation of the authentic Prophetic (Prophet Muhammad ﷺ) hadiths.\n\n#### Contents of the project can be used, with the following terms and conditions:\n\n###### 1\\. No modification, addition, or deletion of the content.\n\n###### 2\\. Clearly referring to the publisher and the source (HadeethEnc.com).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "5211979",
+    "_collection_link": "https://go.postman.co/collection/5211979-706b0a97-17eb-406e-89d1-5efa0dccc735?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "languages",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/languages",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "languages"
+          ]
+        },
+        "description": "https://hadeethenc.com/api/v1/languages\n\nList all available languages for HadeethEnc.com\n\nThis endpoint returns json object containing all available languages with their iso codes and native names."
+      },
+      "response": [
+        {
+          "name": "List languages example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/languages",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "languages"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "[\n    {\n        \"code\": \"ar\",\n        \"native\": \"عربي\"\n    },\n    {\n        \"code\": \"en\",\n        \"native\": \"English\"\n    },\n    {\n        \"code\": \"fr\",\n        \"native\": \"Français\"\n    },\n    {\n        \"code\": \"es\",\n        \"native\": \"Español\"\n    },\n    {\n        \"code\": \"tr\",\n        \"native\": \"Türkçe\"\n    },\n    {\n        \"code\": \"ur\",\n        \"native\": \"اردو\"\n    },\n    {\n        \"code\": \"id\",\n        \"native\": \"Indonesia\"\n    },\n    {\n        \"code\": \"bs\",\n        \"native\": \"Bosanski\"\n    },\n    {\n        \"code\": \"ru\",\n        \"native\": \"Русский\"\n    },\n    {\n        \"code\": \"bn\",\n        \"native\": \"বাংলা ভাষা\"\n    },\n    {\n        \"code\": \"zh\",\n        \"native\": \"中文\"\n    },\n    {\n        \"code\": \"fa\",\n        \"native\": \"فارسی\"\n    },\n    {\n        \"code\": \"tl\",\n        \"native\": \"Tagalog\"\n    },\n    {\n        \"code\": \"hi\",\n        \"native\": \"हिन्दी\"\n    },\n    {\n        \"code\": \"vi\",\n        \"native\": \"Tiếng Việt\"\n    },\n    {\n        \"code\": \"si\",\n        \"native\": \"සිංහල\"\n    },\n    {\n        \"code\": \"ug\",\n        \"native\": \"ئۇيغۇرچە\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "/categories/list/?language={language_code}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/categories/list/?language=en",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "categories",
+            "list",
+            ""
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en",
+              "description": "language iso code"
+            }
+          ]
+        },
+        "description": "https://hadeethenc.com/api/v1/categories/list/?language=en\n\nList all categories by language code.\n\nThis endpoint accepts language iso code and returns array of json objects each object represents a category."
+      },
+      "response": [
+        {
+          "name": "List categories example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/categories/list/?language=en",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categories",
+                "list",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "en",
+                  "description": "language iso code"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": \"1\",\n        \"title\": \"The Noble Qur'an and Qur'anic Sciences\",\n        \"hadeeths_count\": \"59\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"2\",\n        \"title\": \"The Hadith and Hadith Sciences\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"3\",\n        \"title\": \"The Creed\",\n        \"hadeeths_count\": \"441\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"4\",\n        \"title\": \"Jurisprudence and Juristic Principles\",\n        \"hadeeths_count\": \"1347\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"5\",\n        \"title\": \"Virtues and Manners\",\n        \"hadeeths_count\": \"822\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"6\",\n        \"title\": \"Da‘wah and Hisbah\",\n        \"hadeeths_count\": \"98\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"7\",\n        \"title\": \"Seerah and History\",\n        \"hadeeths_count\": \"228\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"8\",\n        \"title\": \"Revelation and Collection of the Qur'an\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"1\"\n    },\n    {\n        \"id\": \"9\",\n        \"title\": \"Modes of Qur'anic Recitation and Tajweed\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"1\"\n    },\n    {\n        \"id\": \"10\",\n        \"title\": \"Qur'anic Exegesis\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"1\"\n    },\n    {\n        \"id\": \"11\",\n        \"title\": \"General Qur'anic Topics\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"1\"\n    },\n    {\n        \"id\": \"12\",\n        \"title\": \"Excellence of the Qur'an\",\n        \"hadeeths_count\": \"24\",\n        \"parent_id\": \"1\"\n    },\n    {\n        \"id\": \"14\",\n        \"title\": \"Occasions of Revelation\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"8\"\n    },\n    {\n        \"id\": \"16\",\n        \"title\": \"Abrogating and Abrogated Verses\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"8\"\n    },\n    {\n        \"id\": \"17\",\n        \"title\": \"Collecting the Qur'an\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"8\"\n    },\n    {\n        \"id\": \"18\",\n        \"title\": \"Seven Modes of the Qur'anic Revelation\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"9\"\n    },\n    {\n        \"id\": \"20\",\n        \"title\": \"Science of Tajweed\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"9\"\n    },\n    {\n        \"id\": \"29\",\n        \"title\": \"Rulings of the Qur'an and Codices\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"11\"\n    },\n    {\n        \"id\": \"31\",\n        \"title\": \"Manners of Reading and Memorizing the Qur'an\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"11\"\n    },\n    {\n        \"id\": \"32\",\n        \"title\": \"Refuting Allegations against the Qur'an\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"11\"\n    },\n    {\n        \"id\": \"38\",\n        \"title\": \"Inference from the Qur'an\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"11\"\n    },\n    {\n        \"id\": \"39\",\n        \"title\": \"Merit of Taking Care of the Qur'an\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"12\"\n    },\n    {\n        \"id\": \"40\",\n        \"title\": \"Virtues of Surahs and Verses\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"12\"\n    },\n    {\n        \"id\": \"44\",\n        \"title\": \"General Sunnah Topics\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"2\"\n    },\n    {\n        \"id\": \"56\",\n        \"title\": \"Significance and Status of the Sunnah\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"44\"\n    },\n    {\n        \"id\": \"57\",\n        \"title\": \"Writing the Sunnah\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"44\"\n    },\n    {\n        \"id\": \"59\",\n        \"title\": \"Belief in Allah the Mighty and Majestic\",\n        \"hadeeths_count\": \"127\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"60\",\n        \"title\": \"Belief in the Angels\",\n        \"hadeeths_count\": \"31\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"61\",\n        \"title\": \"Belief in the Revealed Books\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"62\",\n        \"title\": \"Belief in the Messengers\",\n        \"hadeeths_count\": \"41\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"63\",\n        \"title\": \"Belief in the Last Day\",\n        \"hadeeths_count\": \"91\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"64\",\n        \"title\": \"Belief in the Divine Decree and Fate\",\n        \"hadeeths_count\": \"19\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"65\",\n        \"title\": \"Names and Rulings\",\n        \"hadeeths_count\": \"61\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"66\",\n        \"title\": \"The Companions\",\n        \"hadeeths_count\": \"36\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"67\",\n        \"title\": \"The Prophet's Family\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"68\",\n        \"title\": \"Allegiance and Dissociation\",\n        \"hadeeths_count\": \"15\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"71\",\n        \"title\": \"Sects and Schools\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"3\"\n    },\n    {\n        \"id\": \"72\",\n        \"title\": \"Oneness of Allah's Lordship\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"59\"\n    },\n    {\n        \"id\": \"73\",\n        \"title\": \"Oneness of Allah's Worship\",\n        \"hadeeths_count\": \"43\",\n        \"parent_id\": \"59\"\n    },\n    {\n        \"id\": \"74\",\n        \"title\": \"Oneness of Allah's Names and Attributes\",\n        \"hadeeths_count\": \"73\",\n        \"parent_id\": \"59\"\n    },\n    {\n        \"id\": \"75\",\n        \"title\": \"The Angels\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"60\"\n    },\n    {\n        \"id\": \"76\",\n        \"title\": \"The Jinn\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"60\"\n    },\n    {\n        \"id\": \"78\",\n        \"title\": \"The Qur'an\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"61\"\n    },\n    {\n        \"id\": \"79\",\n        \"title\": \"Prophethood\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"62\"\n    },\n    {\n        \"id\": \"80\",\n        \"title\": \"Pre-Islamic Prophets and Messengers, peace be upon them\",\n        \"hadeeths_count\": \"23\",\n        \"parent_id\": \"62\"\n    },\n    {\n        \"id\": \"81\",\n        \"title\": \"Our Prophet Muhammad, may Allah's peace and blessings be upon him\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"62\"\n    },\n    {\n        \"id\": \"82\",\n        \"title\": \"Miracles of the Pious Allies of Allah\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"62\"\n    },\n    {\n        \"id\": \"83\",\n        \"title\": \"The Barzakh Life (After death Period)\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"63\"\n    },\n    {\n        \"id\": \"84\",\n        \"title\": \"Portents of the Hour\",\n        \"hadeeths_count\": \"29\",\n        \"parent_id\": \"63\"\n    },\n    {\n        \"id\": \"85\",\n        \"title\": \"The Hereafter Life\",\n        \"hadeeths_count\": \"39\",\n        \"parent_id\": \"63\"\n    },\n    {\n        \"id\": \"86\",\n        \"title\": \"Levels of Divine Decree and Fate\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"64\"\n    },\n    {\n        \"id\": \"87\",\n        \"title\": \"Issues of Divine Decree and Fate\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"64\"\n    },\n    {\n        \"id\": \"88\",\n        \"title\": \"Islam\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"89\",\n        \"title\": \"Nullifiers of Islam\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"90\",\n        \"title\": \"Issues of Pre-Islamic Era\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"92\",\n        \"title\": \"Increase and Decrease of Faith\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"93\",\n        \"title\": \"Exceptions in Faith\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"94\",\n        \"title\": \"Branches of Faith\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"96\",\n        \"title\": \"Disbelief\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"97\",\n        \"title\": \"Polytheism\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"98\",\n        \"title\": \"Hypocrisy\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"99\",\n        \"title\": \"Immorality\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"100\",\n        \"title\": \"Religious Innovation\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"65\"\n    },\n    {\n        \"id\": \"101\",\n        \"title\": \"Merit of the Companions\",\n        \"hadeeths_count\": \"28\",\n        \"parent_id\": \"66\"\n    },\n    {\n        \"id\": \"102\",\n        \"title\": \"Belief in the the Companions\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"66\"\n    },\n    {\n        \"id\": \"103\",\n        \"title\": \"Degrees of the Companions\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"66\"\n    },\n    {\n        \"id\": \"105\",\n        \"title\": \"Merit of the Prophet's Family\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"67\"\n    },\n    {\n        \"id\": \"106\",\n        \"title\": \"Merit of the Mothers of the Believers\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"67\"\n    },\n    {\n        \"id\": \"107\",\n        \"title\": \"Belief in the Prophet's Family\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"67\"\n    },\n    {\n        \"id\": \"108\",\n        \"title\": \"Rights of the Prophet's Family\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"67\"\n    },\n    {\n        \"id\": \"109\",\n        \"title\": \"Rulings of Allegiance and Dissociation\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"68\"\n    },\n    {\n        \"id\": \"110\",\n        \"title\": \"Forbidden Emulation\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"68\"\n    },\n    {\n        \"id\": \"111\",\n        \"title\": \"Emigration and its Rulings\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"68\"\n    },\n    {\n        \"id\": \"112\",\n        \"title\": \"Desertion and its Conditions\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"68\"\n    },\n    {\n        \"id\": \"119\",\n        \"title\": \"Old Sects and Schools\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"71\"\n    },\n    {\n        \"id\": \"121\",\n        \"title\": \"Jurisprudence of Acts of Worship\",\n        \"hadeeths_count\": \"832\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"122\",\n        \"title\": \"Jurisprudence of Transactions\",\n        \"hadeeths_count\": \"107\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"123\",\n        \"title\": \"Religious Obligations\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"124\",\n        \"title\": \"Family Jurisprudence\",\n        \"hadeeths_count\": \"225\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"125\",\n        \"title\": \"Spiritual and Physical Therapy\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"126\",\n        \"title\": \"Foods and Drinks\",\n        \"hadeeths_count\": \"41\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"127\",\n        \"title\": \"Crimes\",\n        \"hadeeths_count\": \"25\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"128\",\n        \"title\": \"Prescribed Punishments\",\n        \"hadeeths_count\": \"49\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"129\",\n        \"title\": \"Judiciary\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"132\",\n        \"title\": \"Principles of Islamic Jurisprudence\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"4\"\n    },\n    {\n        \"id\": \"133\",\n        \"title\": \"Purification\",\n        \"hadeeths_count\": \"151\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"134\",\n        \"title\": \"Prayer\",\n        \"hadeeths_count\": \"383\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"135\",\n        \"title\": \"Funerals\",\n        \"hadeeths_count\": \"35\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"136\",\n        \"title\": \"Zakah\",\n        \"hadeeths_count\": \"39\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"137\",\n        \"title\": \"Fasting\",\n        \"hadeeths_count\": \"60\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"138\",\n        \"title\": \"Hajj and ‘Umrah\",\n        \"hadeeths_count\": \"66\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"139\",\n        \"title\": \"Jihad\",\n        \"hadeeths_count\": \"98\",\n        \"parent_id\": \"121\"\n    },\n    {\n        \"id\": \"140\",\n        \"title\": \"Sales\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"141\",\n        \"title\": \"Conditions of Sale\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"140\"\n    },\n    {\n        \"id\": \"142\",\n        \"title\": \"Sale-Related Stipulations\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"140\"\n    },\n    {\n        \"id\": \"143\",\n        \"title\": \"Selling Assets and Fruits\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"140\"\n    },\n    {\n        \"id\": \"144\",\n        \"title\": \"Advance Payment\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"145\",\n        \"title\": \"Usury\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"146\",\n        \"title\": \"Loan\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"147\",\n        \"title\": \"Mortgage\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"148\",\n        \"title\": \"Collateral and Surety\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"150\",\n        \"title\": \"Conciliation and Neighborhood Rulings\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"151\",\n        \"title\": \"Interdiction\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"153\",\n        \"title\": \"Partnership\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"154\",\n        \"title\": \"Sharecropping\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"156\",\n        \"title\": \"Racing and Gambling\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"158\",\n        \"title\": \"Usurpation\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"159\",\n        \"title\": \"Preemption\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"163\",\n        \"title\": \"Found Item and Foundling\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"164\",\n        \"title\": \"Endowment\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"165\",\n        \"title\": \"Gift\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"166\",\n        \"title\": \"Bequest\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"167\",\n        \"title\": \"Manumission\",\n        \"hadeeths_count\": \"18\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"169\",\n        \"title\": \"Oaths and Vows\",\n        \"hadeeths_count\": \"23\",\n        \"parent_id\": \"122\"\n    },\n    {\n        \"id\": \"173\",\n        \"title\": \"Conditions of Inheritance\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"174\",\n        \"title\": \"Impediments of Inheritance\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"175\",\n        \"title\": \"Sharers\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"176\",\n        \"title\": \"Agnates\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"182\",\n        \"title\": \"Inheritance Shares of Blood Relatives\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"183\",\n        \"title\": \"Inheritance Shares of Embryos\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"123\"\n    },\n    {\n        \"id\": \"191\",\n        \"title\": \"Marriage\",\n        \"hadeeths_count\": \"81\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"192\",\n        \"title\": \"Divorce\",\n        \"hadeeths_count\": \"19\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"193\",\n        \"title\": \"Remarriage with One's Divorcee\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"194\",\n        \"title\": \"Wife-Initiated Divorce\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"195\",\n        \"title\": \"Oath to Abstain from Intercourse with One's Wife\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"196\",\n        \"title\": \"Zihaar (Likening one's wife to an unmarrriagble woman)\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"197\",\n        \"title\": \"Oath of Condemnation\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"198\",\n        \"title\": \"Waiting Period\",\n        \"hadeeths_count\": \"15\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"199\",\n        \"title\": \"Breastfeeding\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"200\",\n        \"title\": \"Custody\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"201\",\n        \"title\": \"Expenses\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"202\",\n        \"title\": \"Clothing and Adornment\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"204\",\n        \"title\": \"Muslim Society\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"205\",\n        \"title\": \"Rulings of Women\",\n        \"hadeeths_count\": \"32\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"206\",\n        \"title\": \"Rulings of Newborns\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"124\"\n    },\n    {\n        \"id\": \"207\",\n        \"title\": \"Prophetic Medicine\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"125\"\n    },\n    {\n        \"id\": \"208\",\n        \"title\": \"Rulings of Medication\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"125\"\n    },\n    {\n        \"id\": \"211\",\n        \"title\": \"Ruqyah (Healing and Protective Supplications)\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"125\"\n    },\n    {\n        \"id\": \"212\",\n        \"title\": \"Rulings of Foods and Drinks\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"126\"\n    },\n    {\n        \"id\": \"213\",\n        \"title\": \"Lawful and Unlawful Animals and Birds\",\n        \"hadeeths_count\": \"16\",\n        \"parent_id\": \"126\"\n    },\n    {\n        \"id\": \"215\",\n        \"title\": \"Slaughtering\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"126\"\n    },\n    {\n        \"id\": \"216\",\n        \"title\": \"Hunting\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"126\"\n    },\n    {\n        \"id\": \"218\",\n        \"title\": \"Forbidden Drinks\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"126\"\n    },\n    {\n        \"id\": \"219\",\n        \"title\": \"Retribution\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"127\"\n    },\n    {\n        \"id\": \"220\",\n        \"title\": \"Blood Money\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"127\"\n    },\n    {\n        \"id\": \"221\",\n        \"title\": \"Rulings of Prescribed Punishments\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"223\",\n        \"title\": \"Conditions of implementing Prescribed Punishments\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"224\",\n        \"title\": \"Prescribed Punishment for Adultery\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"225\",\n        \"title\": \"Prescribed Punishment for Calumny\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"226\",\n        \"title\": \"Prescribed Punishment for Drinking Alcohol\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"227\",\n        \"title\": \"Prescribed Punishment for Theft\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"228\",\n        \"title\": \"Prescribed Punishment for Highway Robbery\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"229\",\n        \"title\": \"Prescribed Punishment for Rebles (Transgressors)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"230\",\n        \"title\": \"Prescribed Punishment for Apostasy\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"231\",\n        \"title\": \"Rulings of Discretionary Punishments\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"128\"\n    },\n    {\n        \"id\": \"232\",\n        \"title\": \"Judiciary: Its Ruling, Merit, and Significance\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"129\"\n    },\n    {\n        \"id\": \"233\",\n        \"title\": \"Manners of Judges\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"129\"\n    },\n    {\n        \"id\": \"234\",\n        \"title\": \"Method of Judgment\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"129\"\n    },\n    {\n        \"id\": \"235\",\n        \"title\": \"Claims and Proofs\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"129\"\n    },\n    {\n        \"id\": \"236\",\n        \"title\": \"Testimonies\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"129\"\n    },\n    {\n        \"id\": \"249\",\n        \"title\": \"Shariah Ruling\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"250\",\n        \"title\": \"Juristic and Usooli (Juristic Priciples) Rules\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"253\",\n        \"title\": \"The Book (the Qur'an)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"258\",\n        \"title\": \"Abrogation\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"259\",\n        \"title\": \"Significations and Inference\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"260\",\n        \"title\": \"Personal Reasoning and Imitation\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"261\",\n        \"title\": \"Divergence and Preponderance\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"262\",\n        \"title\": \"Shariah Objectives\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"132\"\n    },\n    {\n        \"id\": \"265\",\n        \"title\": \"Virtues\",\n        \"hadeeths_count\": \"149\",\n        \"parent_id\": \"5\"\n    },\n    {\n        \"id\": \"266\",\n        \"title\": \"Jurisprudence of Ethics\",\n        \"hadeeths_count\": \"131\",\n        \"parent_id\": \"5\"\n    },\n    {\n        \"id\": \"267\",\n        \"title\": \"Shariah-approved Manners\",\n        \"hadeeths_count\": \"201\",\n        \"parent_id\": \"5\"\n    },\n    {\n        \"id\": \"268\",\n        \"title\": \"Jurisprudence of Supplications and Remembrance of Allah\",\n        \"hadeeths_count\": \"129\",\n        \"parent_id\": \"5\"\n    },\n    {\n        \"id\": \"269\",\n        \"title\": \"Heart-Softeners and Sermons\",\n        \"hadeeths_count\": \"179\",\n        \"parent_id\": \"5\"\n    },\n    {\n        \"id\": \"270\",\n        \"title\": \"Excellence of Knowledge\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"271\",\n        \"title\": \"Excellence of Monotheism\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"272\",\n        \"title\": \"Merits of the Noble Qur'an\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"273\",\n        \"title\": \"Merits of Being Dutiful to One's Parents\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"274\",\n        \"title\": \"Merits of Maintaining Kinship Ties\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"275\",\n        \"title\": \"Merits of Prophet's Family\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"276\",\n        \"title\": \"Merits of the Companions\",\n        \"hadeeths_count\": \"34\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"277\",\n        \"title\": \"Merits of Good Deeds\",\n        \"hadeeths_count\": \"32\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"278\",\n        \"title\": \"Merits of Remembering Allah\",\n        \"hadeeths_count\": \"22\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"279\",\n        \"title\": \"Merits of Supplication\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"280\",\n        \"title\": \"Merits of Heart Acts\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"281\",\n        \"title\": \"Merits of Organs' Acts\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"265\"\n    },\n    {\n        \"id\": \"282\",\n        \"title\": \"Praiseworthy Morals\",\n        \"hadeeths_count\": \"79\",\n        \"parent_id\": \"266\"\n    },\n    {\n        \"id\": \"283\",\n        \"title\": \"Blameworthy Morals\",\n        \"hadeeths_count\": \"50\",\n        \"parent_id\": \"266\"\n    },\n    {\n        \"id\": \"284\",\n        \"title\": \"Manners of Scholars and Learners\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"285\",\n        \"title\": \"Manners of Reciting the Noble Qur'an\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"286\",\n        \"title\": \"Manners of Greeting and Seeking Permission\",\n        \"hadeeths_count\": \"29\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"287\",\n        \"title\": \"Manners of Speaking and Keeping Silent\",\n        \"hadeeths_count\": \"31\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"288\",\n        \"title\": \"Manners of Divergence\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"289\",\n        \"title\": \"Manners of Debate\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"290\",\n        \"title\": \"Manners of Eating and Drinking\",\n        \"hadeeths_count\": \"39\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"291\",\n        \"title\": \"Manners of the Road and the Market\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"292\",\n        \"title\": \"Manners and Rulings of Travel\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"293\",\n        \"title\": \"Manners of Sleeping and Waking Up\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"294\",\n        \"title\": \"Manners of Visions\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"295\",\n        \"title\": \"Manners of Visiting and Seeking Permission\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"296\",\n        \"title\": \"Manners of Sneezing and Yawning\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"297\",\n        \"title\": \"Manners of Visiting the Sick\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"298\",\n        \"title\": \"Manners of Dressing\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"267\"\n    },\n    {\n        \"id\": \"299\",\n        \"title\": \"Prophetic Guidance on Remembering Allah\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"300\",\n        \"title\": \"Benefits of Remembering Allah\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"301\",\n        \"title\": \"Morning and Evening Dhikr\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"302\",\n        \"title\": \"Timeless Dhikr\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"303\",\n        \"title\": \"Dhikr on Entering and Leaving the House\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"305\",\n        \"title\": \"Dhikr on Entering and Leaving the Bathroom\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"306\",\n        \"title\": \"Dhikr on Entering and Leaving the Mosque\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"307\",\n        \"title\": \"Hard Times Dhikr\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"308\",\n        \"title\": \"Dhikr on Special Occasions\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"309\",\n        \"title\": \"Rulings of Supplication\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"310\",\n        \"title\": \"Types of Supplication\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"311\",\n        \"title\": \"Manners of Supplication\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"312\",\n        \"title\": \"Causes for Answering or not Answering Supplications\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"313\",\n        \"title\": \"Reported Supplications\",\n        \"hadeeths_count\": \"39\",\n        \"parent_id\": \"268\"\n    },\n    {\n        \"id\": \"314\",\n        \"title\": \"Acts of Heart\",\n        \"hadeeths_count\": \"23\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"315\",\n        \"title\": \"Heart Diseases\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"316\",\n        \"title\": \"Asceticism and Piety\",\n        \"hadeeths_count\": \"15\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"317\",\n        \"title\": \"States of the Righteous Believers\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"318\",\n        \"title\": \"Condemning Sins\",\n        \"hadeeths_count\": \"17\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"319\",\n        \"title\": \"Condemning Love of the World\",\n        \"hadeeths_count\": \"22\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"320\",\n        \"title\": \"Condemning Whims and Desires\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"321\",\n        \"title\": \"Repentance\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"322\",\n        \"title\": \"Purification of Souls\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"323\",\n        \"title\": \"Terrors of the Graves\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"324\",\n        \"title\": \"Descriptions of Paradise and Hell\",\n        \"hadeeths_count\": \"52\",\n        \"parent_id\": \"269\"\n    },\n    {\n        \"id\": \"325\",\n        \"title\": \"Calling to Allah (Da‘wah)\",\n        \"hadeeths_count\": \"36\",\n        \"parent_id\": \"6\"\n    },\n    {\n        \"id\": \"326\",\n        \"title\": \"Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"6\"\n    },\n    {\n        \"id\": \"327\",\n        \"title\": \"Shariah-approved Politics\",\n        \"hadeeths_count\": \"50\",\n        \"parent_id\": \"6\"\n    },\n    {\n        \"id\": \"328\",\n        \"title\": \"Islamic Culture\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"6\"\n    },\n    {\n        \"id\": \"329\",\n        \"title\": \"Ruling of Calling to Allah\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"331\",\n        \"title\": \"Manners of Calling to Allah\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"334\",\n        \"title\": \"Backgrounds and Duties of the Callers to Allah\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"338\",\n        \"title\": \"Excellence and Merits of Islam\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"339\",\n        \"title\": \"Universality of Islam\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"340\",\n        \"title\": \"Human Rights in Islam\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"341\",\n        \"title\": \"Animal Rights in Islam\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"325\"\n    },\n    {\n        \"id\": \"344\",\n        \"title\": \"Ruling of Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"326\"\n    },\n    {\n        \"id\": \"345\",\n        \"title\": \"Excellence of Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"326\"\n    },\n    {\n        \"id\": \"346\",\n        \"title\": \"Manners of Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"326\"\n    },\n    {\n        \"id\": \"348\",\n        \"title\": \"Requirements of Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"326\"\n    },\n    {\n        \"id\": \"349\",\n        \"title\": \"Rulings and Issues of Enjoining Good and Forbidding Evil\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"326\"\n    },\n    {\n        \"id\": \"350\",\n        \"title\": \"Ways of Electing the Supreme Muslim Imam (Ruler)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"351\",\n        \"title\": \"Requirements of the Supreme Imamate (Leadership)\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"352\",\n        \"title\": \"Duties of the Imam\",\n        \"hadeeths_count\": \"17\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"353\",\n        \"title\": \"Imam's Rights over the Subjects\",\n        \"hadeeths_count\": \"16\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"354\",\n        \"title\": \"Rebelling against the Muslim Ruler\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"355\",\n        \"title\": \"International Relations in Islam\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"356\",\n        \"title\": \"Consultation System in Islam\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"327\"\n    },\n    {\n        \"id\": \"365\",\n        \"title\": \"Islamic Civilization\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"328\"\n    },\n    {\n        \"id\": \"367\",\n        \"title\": \"Prophet's Biography\",\n        \"hadeeths_count\": \"205\",\n        \"parent_id\": \"7\"\n    },\n    {\n        \"id\": \"368\",\n        \"title\": \"History\",\n        \"hadeeths_count\": \"22\",\n        \"parent_id\": \"7\"\n    },\n    {\n        \"id\": \"392\",\n        \"title\": \"Prophet's Wives and Family Issues\",\n        \"hadeeths_count\": \"15\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"393\",\n        \"title\": \"Prophet's Children\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"397\",\n        \"title\": \"Prophet's Servants\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"398\",\n        \"title\": \"Prophet's Life before Mission\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"399\",\n        \"title\": \"Prophet's Mission\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"400\",\n        \"title\": \"The Makkan Period\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"401\",\n        \"title\": \"The Emigration (Hijrah)\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"402\",\n        \"title\": \"The Madinan Period\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"403\",\n        \"title\": \"Prophet's Battles and Expeditions\",\n        \"hadeeths_count\": \"30\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"404\",\n        \"title\": \"Prophet's Correspondences\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"405\",\n        \"title\": \"Prophet's Death\",\n        \"hadeeths_count\": \"18\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"406\",\n        \"title\": \"Muhammadan Qualities\",\n        \"hadeeths_count\": \"106\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"407\",\n        \"title\": \"Stories and Conditions of Pre-Islamic Nations\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"408\",\n        \"title\": \"History of Makkah, Madinah, and the Aqsa (Jerusalem)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"409\",\n        \"title\": \"Wars and Battles\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"413\",\n        \"title\": \"Biographies (of Famous Figures)\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"414\",\n        \"title\": \"Countries and Figures\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"415\",\n        \"title\": \"Periodical Occasions\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"368\"\n    },\n    {\n        \"id\": \"431\",\n        \"title\": \"Rulings of Water\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"432\",\n        \"title\": \"Removing Impurities\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"434\",\n        \"title\": \"Utensils\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"435\",\n        \"title\": \"Toilet Manners\",\n        \"hadeeths_count\": \"20\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"436\",\n        \"title\": \"Natural Cleanliness Practices\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"437\",\n        \"title\": \"Ablution\",\n        \"hadeeths_count\": \"39\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"438\",\n        \"title\": \"Ritual Bath\",\n        \"hadeeths_count\": \"27\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"439\",\n        \"title\": \"Dry Ablution\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"440\",\n        \"title\": \"Menses, Postpartum Bleeding, Extra-Menses Bleeding\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"441\",\n        \"title\": \"Excellence of Ablution\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"437\"\n    },\n    {\n        \"id\": \"442\",\n        \"title\": \"Pillars of Ablution\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"437\"\n    },\n    {\n        \"id\": \"443\",\n        \"title\": \"Recommended Acts and Manners of Ablution\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"437\"\n    },\n    {\n        \"id\": \"444\",\n        \"title\": \"Method of Ablution\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"437\"\n    },\n    {\n        \"id\": \"445\",\n        \"title\": \"Nullifiers of Ablution\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"437\"\n    },\n    {\n        \"id\": \"448\",\n        \"title\": \"Causes of Obligatory Ritual Bath\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"438\"\n    },\n    {\n        \"id\": \"450\",\n        \"title\": \"Recommended Manners of the Ritual Bath\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"438\"\n    },\n    {\n        \"id\": \"456\",\n        \"title\": \"Obligation of Prayer and Ruling on Its Abandoner\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"457\",\n        \"title\": \"Virtue of Prayer\",\n        \"hadeeths_count\": \"13\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"458\",\n        \"title\": \"The Azan and Iqaamah\",\n        \"hadeeths_count\": \"22\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"459\",\n        \"title\": \"Times Not to Pray\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"460\",\n        \"title\": \"Conditions of Prayer\",\n        \"hadeeths_count\": \"32\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"461\",\n        \"title\": \"Pillars of Prayer\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"463\",\n        \"title\": \"Recommended Acts of Prayer\",\n        \"hadeeths_count\": \"18\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"464\",\n        \"title\": \"Method of Prayer\",\n        \"hadeeths_count\": \"54\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"465\",\n        \"title\": \"Dhikr (Invocation) during Prayer\",\n        \"hadeeths_count\": \"24\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"466\",\n        \"title\": \"Nullifiers of Prayer\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"467\",\n        \"title\": \"Mistakes during Prayer\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"468\",\n        \"title\": \"Prostration of Forgetfulness, Recitation, Gratitude\",\n        \"hadeeths_count\": \"21\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"469\",\n        \"title\": \"Virtue and Rulings of Congregational Prayer\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"470\",\n        \"title\": \"Rulings of the Imam and Followers in Prayer\",\n        \"hadeeths_count\": \"29\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"471\",\n        \"title\": \"Prayer of the People with Excuses\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"472\",\n        \"title\": \"Jumu‘ah (Friday) Prayer\",\n        \"hadeeths_count\": \"14\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"473\",\n        \"title\": \"Voluntary Prayer\",\n        \"hadeeths_count\": \"66\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"476\",\n        \"title\": \"Prayer of Fear\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"478\",\n        \"title\": \"Merit of Jumu‘ah Prayer\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"472\"\n    },\n    {\n        \"id\": \"480\",\n        \"title\": \"Rulings of Jumu‘ah Prayer\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"472\"\n    },\n    {\n        \"id\": \"481\",\n        \"title\": \"Rulings of Jumu‘ah Sermon\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"472\"\n    },\n    {\n        \"id\": \"482\",\n        \"title\": \"Virtue of Voluntary Prayer\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"483\",\n        \"title\": \"Regular Sunnah (Recommended) Prayers\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"484\",\n        \"title\": \"Voluntary Night Prayer (Qiyaam)\",\n        \"hadeeths_count\": \"35\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"486\",\n        \"title\": \"Prayer of the Two Eids\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"487\",\n        \"title\": \"Prayer of the Solar and Lunar Eclipse\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"488\",\n        \"title\": \"Rain-Seeking Prayer\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"489\",\n        \"title\": \"Forenoon Prayer\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"490\",\n        \"title\": \"Guidance-Seeking Prayer\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"473\"\n    },\n    {\n        \"id\": \"492\",\n        \"title\": \"Death and Its Rulings\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"493\",\n        \"title\": \"Washing the Dead\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"495\",\n        \"title\": \"Method of Praying over the Dead\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"496\",\n        \"title\": \"Carrying and Burying the Dead\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"497\",\n        \"title\": \"Consolation\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"498\",\n        \"title\": \"Visiting the Graves\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"135\"\n    },\n    {\n        \"id\": \"500\",\n        \"title\": \"Obligation of Zakah and Ruling of Its Abandoning\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"503\",\n        \"title\": \"Rulings and Issues of Zakah\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"504\",\n        \"title\": \"Zakah of Gold and Silver\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"505\",\n        \"title\": \"Zakah of Livestock\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"506\",\n        \"title\": \"Zakah of Land Produce\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"509\",\n        \"title\": \"Zakat-ul-Fitr (Minor-Eid Charity)\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"510\",\n        \"title\": \"Channels of Zakah (People Who Receive Zakah)\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"511\",\n        \"title\": \"Voluntary Charity\",\n        \"hadeeths_count\": \"26\",\n        \"parent_id\": \"136\"\n    },\n    {\n        \"id\": \"513\",\n        \"title\": \"Virtue of Fasting\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"514\",\n        \"title\": \"Recommended Acts of Fasting\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"515\",\n        \"title\": \"Sighting the Crescent\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"516\",\n        \"title\": \"Fasting on the Day of Doubt\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"517\",\n        \"title\": \"Fasting Missed Days of Ramadaan\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"518\",\n        \"title\": \"Fasting of People with Excuses\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"519\",\n        \"title\": \"Nullifiers of Fasting\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"520\",\n        \"title\": \"Fasting Obligations\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"521\",\n        \"title\": \"What is Permissible for the Fasting Person\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"522\",\n        \"title\": \"Fasting Prohibitions\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"523\",\n        \"title\": \"What is Disliked for the Fasting Person\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"524\",\n        \"title\": \"Voluntary Fasting\",\n        \"hadeeths_count\": \"15\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"525\",\n        \"title\": \"Seclusion for Worship in Ramadaan (I‘tikaaf)\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"526\",\n        \"title\": \"Last Ten Days of Ramadaan\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"532\",\n        \"title\": \"Virtue of Hajj and Umrah\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"533\",\n        \"title\": \"First Ten Days of Dhul Hijjah (Twelfth Lunar Month)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"534\",\n        \"title\": \"Rulings of Al-Masjid Al-Haraam, the Prophet's Mosque, and the Aqsa Mosque\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"536\",\n        \"title\": \"Rulings of Ihraam (the Ritual State of Consecration)\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"537\",\n        \"title\": \"Prohibitions of Ihraam\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"538\",\n        \"title\": \"Ransom and Hunting Expiation\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"539\",\n        \"title\": \"Types of Rituals (Pilgrimage)\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"542\",\n        \"title\": \"Obligations of ‘Umrah\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"544\",\n        \"title\": \"How to Make Hajj (Pilgrimage)\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"545\",\n        \"title\": \"Pillars of Hajj (Pilgrimage)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"546\",\n        \"title\": \"Obligations of Hajj (Pilgrimage)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"550\",\n        \"title\": \"Sacrificial Animals and Expiations\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"551\",\n        \"title\": \"Sacrifice\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"554\",\n        \"title\": \"Rulings and Issues of Hajj and ‘Umrah\",\n        \"hadeeths_count\": \"16\",\n        \"parent_id\": \"138\"\n    },\n    {\n        \"id\": \"555\",\n        \"title\": \"Ruling of Jihad\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"556\",\n        \"title\": \"Excellence of Jihad\",\n        \"hadeeths_count\": \"43\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"557\",\n        \"title\": \"Categories of Jihad\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"558\",\n        \"title\": \"Rulings and Issues of Jihad\",\n        \"hadeeths_count\": \"34\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"559\",\n        \"title\": \"Manners of Jihad\",\n        \"hadeeths_count\": \"10\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"560\",\n        \"title\": \"Rulings of Non-Muslims Living in Muslim Country\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"561\",\n        \"title\": \"Rulings of Truce and Security\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"139\"\n    },\n    {\n        \"id\": \"564\",\n        \"title\": \"Forbidden Sales\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"140\"\n    },\n    {\n        \"id\": \"566\",\n        \"title\": \"Oaths\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"169\"\n    },\n    {\n        \"id\": \"567\",\n        \"title\": \"Vows\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"169\"\n    },\n    {\n        \"id\": \"570\",\n        \"title\": \"Excellence of Marriage\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"571\",\n        \"title\": \"Manners of Marriage\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"572\",\n        \"title\": \"Rulings and Conditions of Marriage\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"573\",\n        \"title\": \"Women Unlawful to Marry\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"574\",\n        \"title\": \"Conditions of Marriage\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"575\",\n        \"title\": \"Marriage-Related Defects\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"576\",\n        \"title\": \"Marrying the Disbelievers\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"577\",\n        \"title\": \"Forbidden Marriages\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"579\",\n        \"title\": \"Dowry\",\n        \"hadeeths_count\": \"11\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"580\",\n        \"title\": \"Wedding Banquet\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"581\",\n        \"title\": \"Marital Relations\",\n        \"hadeeths_count\": \"19\",\n        \"parent_id\": \"191\"\n    },\n    {\n        \"id\": \"583\",\n        \"title\": \"Ruling of Divorce\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"192\"\n    },\n    {\n        \"id\": \"584\",\n        \"title\": \"Words of Divorce\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"192\"\n    },\n    {\n        \"id\": \"585\",\n        \"title\": \"Sunnah Divorce and Innovative Divorce\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": \"192\"\n    },\n    {\n        \"id\": \"586\",\n        \"title\": \"Revocable and Irrevocable Divorce\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"192\"\n    },\n    {\n        \"id\": \"587\",\n        \"title\": \"Rulings and Issues of Divorce\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"192\"\n    },\n    {\n        \"id\": \"588\",\n        \"title\": \"Rulings of the Waiting Period\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"198\"\n    },\n    {\n        \"id\": \"590\",\n        \"title\": \"The Divorced Woman's Waiting Period\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"198\"\n    },\n    {\n        \"id\": \"591\",\n        \"title\": \"Waiting Period of the Lost Husband's Wife\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"198\"\n    },\n    {\n        \"id\": \"593\",\n        \"title\": \"Ascertaining Non-Pregnancy\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"198\"\n    },\n    {\n        \"id\": \"594\",\n        \"title\": \"Ruling of Breastfeeding\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"199\"\n    },\n    {\n        \"id\": \"595\",\n        \"title\": \"Breastfeeding that Forbids Marriage\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"199\"\n    },\n    {\n        \"id\": \"596\",\n        \"title\": \"Conditions of Breastfeeding\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"199\"\n    },\n    {\n        \"id\": \"597\",\n        \"title\": \"Consequences of Breastfeeding\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"199\"\n    },\n    {\n        \"id\": \"603\",\n        \"title\": \"Hijab for Muslim Women\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"205\"\n    },\n    {\n        \"id\": \"604\",\n        \"title\": \"Intermixing\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"205\"\n    },\n    {\n        \"id\": \"605\",\n        \"title\": \"Polygamy\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"205\"\n    },\n    {\n        \"id\": \"607\",\n        \"title\": \"Men-Women Relationships\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"205\"\n    },\n    {\n        \"id\": \"608\",\n        \"title\": \"Naming the Newborn\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"206\"\n    },\n    {\n        \"id\": \"609\",\n        \"title\": \"Sacrificing for the Newborn\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"206\"\n    },\n    {\n        \"id\": \"610\",\n        \"title\": \"Providing for Children\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"206\"\n    },\n    {\n        \"id\": \"611\",\n        \"title\": \"Raising Children\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"206\"\n    },\n    {\n        \"id\": \"612\",\n        \"title\": \"Rulings of Ruqyah (protective and healing supplications)\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"211\"\n    },\n    {\n        \"id\": \"636\",\n        \"title\": \"Forbidden Utterances and Tongue Evils\",\n        \"hadeeths_count\": \"9\",\n        \"parent_id\": \"287\"\n    },\n    {\n        \"id\": \"639\",\n        \"title\": \"Physical Attributes\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"640\",\n        \"title\": \"Prophet's Dress Code\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"641\",\n        \"title\": \"Prophet's Furniture, Stuff, and Arms\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"642\",\n        \"title\": \"Prophet's Food and Drink\",\n        \"hadeeths_count\": \"8\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"645\",\n        \"title\": \"Prophet's Travel\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"646\",\n        \"title\": \"Moral Attributes\",\n        \"hadeeths_count\": \"57\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"647\",\n        \"title\": \"Prophet's Guidance\",\n        \"hadeeths_count\": \"26\",\n        \"parent_id\": \"406\"\n    },\n    {\n        \"id\": \"648\",\n        \"title\": \"Prophet's Generosity\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"649\",\n        \"title\": \"Prophet's Modesty\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"650\",\n        \"title\": \"Prophet's Humility\",\n        \"hadeeths_count\": \"7\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"651\",\n        \"title\": \"Prophet's Courage\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"652\",\n        \"title\": \"Prophet's Gentleness\",\n        \"hadeeths_count\": \"6\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"653\",\n        \"title\": \"Prophet's Forgiveness\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"654\",\n        \"title\": \"Prophet's Mercy\",\n        \"hadeeths_count\": \"17\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"655\",\n        \"title\": \"Prophet's Speech\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"656\",\n        \"title\": \"Prophet's Laughing\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"657\",\n        \"title\": \"Prophet's Crying\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"659\",\n        \"title\": \"Prophet's Compassion\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"660\",\n        \"title\": \"Prophet's Asceticism\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"661\",\n        \"title\": \"Prophet's Justice\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"662\",\n        \"title\": \"Prophet's Forbearance\",\n        \"hadeeths_count\": \"4\",\n        \"parent_id\": \"646\"\n    },\n    {\n        \"id\": \"666\",\n        \"title\": \"Prophet's Guidance on Public Speaking\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"667\",\n        \"title\": \"Prophet's Guidance on Purification\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"668\",\n        \"title\": \"Prophet's Guidance on Prayer\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"669\",\n        \"title\": \"Prophet's Guidance on Fasting\",\n        \"hadeeths_count\": \"2\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"671\",\n        \"title\": \"Prophet's Guidance on Funerals\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"678\",\n        \"title\": \"Prophet's Guidance on Marriage and Treating One's Wife\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"647\"\n    },\n    {\n        \"id\": \"679\",\n        \"title\": \"The Battle of Yamaamah\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"409\"\n    },\n    {\n        \"id\": \"721\",\n        \"title\": \"Rulings and Manners of Eid\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"415\"\n    },\n    {\n        \"id\": \"725\",\n        \"title\": \"The rulings of mosques\",\n        \"hadeeths_count\": \"28\",\n        \"parent_id\": \"134\"\n    },\n    {\n        \"id\": \"726\",\n        \"title\": \"Ramadan\",\n        \"hadeeths_count\": \"1\",\n        \"parent_id\": \"137\"\n    },\n    {\n        \"id\": \"727\",\n        \"title\": \"Wiping over leather socks and the like\",\n        \"hadeeths_count\": \"12\",\n        \"parent_id\": \"133\"\n    },\n    {\n        \"id\": \"735\",\n        \"title\": \"Prophetic characteristics\",\n        \"hadeeths_count\": \"19\",\n        \"parent_id\": \"367\"\n    },\n    {\n        \"id\": \"738\",\n        \"title\": \"Interpretation of verses\",\n        \"hadeeths_count\": \"3\",\n        \"parent_id\": \"10\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "/categories/roots/?language={language_code}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/categories/roots/?language=en",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "categories",
+            "roots",
+            ""
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en",
+              "description": "language iso code"
+            }
+          ]
+        },
+        "description": "https://hadeethenc.com/api/v1/categories/roots/?language=en\n\nList root categories by language code.\n\nThis endpoint returns root categories (main categories) in specific language, it accepts language iso code and returns json array of objects each object represents a root category."
+      },
+      "response": [
+        {
+          "name": "Root categories example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/categories/roots/?language=en",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categories",
+                "roots",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "en",
+                  "description": "language iso code"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": \"1\",\n        \"title\": \"The Noble Qur'an and Qur'anic Sciences\",\n        \"hadeeths_count\": \"59\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"2\",\n        \"title\": \"The Hadith and Hadith Sciences\",\n        \"hadeeths_count\": \"5\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"3\",\n        \"title\": \"The Creed\",\n        \"hadeeths_count\": \"441\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"4\",\n        \"title\": \"Jurisprudence and Juristic Principles\",\n        \"hadeeths_count\": \"1347\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"5\",\n        \"title\": \"Virtues and Manners\",\n        \"hadeeths_count\": \"822\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"6\",\n        \"title\": \"Da‘wah and Hisbah\",\n        \"hadeeths_count\": \"98\",\n        \"parent_id\": null\n    },\n    {\n        \"id\": \"7\",\n        \"title\": \"Seerah and History\",\n        \"hadeeths_count\": \"228\",\n        \"parent_id\": null\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "/hadeeths/list/?language={language_code}&category_id={category_id}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/hadeeths/list/?language=en&category_id=1&page=1&per_page=20",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "hadeeths",
+            "list",
+            ""
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en",
+              "type": "text",
+              "description": "language iso code"
+            },
+            {
+              "key": "category_id",
+              "value": "1",
+              "type": "text",
+              "description": "category id"
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "type": "text",
+              "description": "page number, optional, defaults to 1"
+            },
+            {
+              "key": "per_page",
+              "value": "20",
+              "type": "text",
+              "description": "Hadeeths per page, optional, defaults to 20"
+            }
+          ]
+        },
+        "description": "https://hadeethenc.com/api/v1/hadeeths/list/?language=en&category_id=1&page=1&per_page=20\n\nList Hadeeths by category id and language iso code.\n\nThis endpoint accepts language iso code, category id (both required) and page (represents page number, optional defaults to 1) and per_page (optional defaults to 20) and returns json object containing \"data\" object which contains array of json objects each object represents a Hadeeth basic information (id, title, translations iso codes), the second object is \"meta\" containing meta data required for pagination."
+      },
+      "response": [
+        {
+          "name": "List Hadeeths example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/list/?language=en&category_id=1&page=1&per_page=20",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "list",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "en",
+                  "description": "language iso code"
+                },
+                {
+                  "key": "category_id",
+                  "value": "1",
+                  "description": "category id"
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "page number, optional, defaults to 1"
+                },
+                {
+                  "key": "per_page",
+                  "value": "20",
+                  "description": "Hadeeths per page, optional, defaults to 20"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "{\n    \"data\": [\n        {\n            \"id\": \"1751\",\n            \"title\": \"The Messenger of Allah (may Allah's peace and blessings be upon him) entered upon us after his daughter had died and said: \\\"Wash her three times, or five times or more if you find that necessary. Wash her with water and Sidr (ground lotus leaves), add camphor (or a pinch of camphor) to water in the last time, and let me know when you finish.\\\"\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2750\",\n            \"title\": \"I was taken to perform pilgrimage with the Messenger of Allah (may Allah’s peace and blessings be upon him) in the Farewell Pilgrimage, when I was seven years old.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"si\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2751\",\n            \"title\": \"The Messenger of Allah (may Allah’s peace and blessings be upon him) performed Hajj on the back of a camel, and the same mount was carrying his baggage as well.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"si\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2752\",\n            \"title\": \"Observing Ribāt (guarding the Muslim frontiers in the cause of Allah) for a day and a night is better than fasting and standing for night prayer for a whole month. If a person dies (while performing Ribāt), he will receive the reward for his righteous deeds perpetually, will receive his provision, and will be saved from the trials of the grave\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2753\",\n            \"title\": \"‘Umrah in Ramadan is equivalent to Hajj – or Hajj with me.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2754\",\n            \"title\": \"The Prophet (may Allah's peace and blessings be upon him) used to observe I‘tikāf [spiritual retirement in the mosque] during each Ramadan for ten days. The year in which he died, he observed I‘tikāf for twenty days.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2755\",\n            \"title\": \"‘Ukkāzh, Mijannah, and Dhū al-Majāz were markets in the pre-Islamic period of ignorance. They considered it a sin to trade during the seasons. So it was revealed: {There is no blame upon you for seeking bounty from your Lord.}\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"si\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2756\",\n            \"title\": \"The actions of every dead person come to a halt except the one who is garrisoned on the frontier in the way of Allah. His deeds will keep growing till the Day of Judgment, and he will be secure from the trial in the grave.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2758\",\n            \"title\": \"Whoever performs Hajj and does not commit obscenity or commit any evil therein will go back (free of sin) as on the day his mother gave birth to him.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ku\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2759\",\n            \"title\": \"The best Jihad for you (women) is an accepted Hajj.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2932\",\n            \"title\": \"O ‘Abbās, O uncle of the Messenger of Allah, ask Allah for safety in this life and the Hereafter.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2933\",\n            \"title\": \"A Muslim man went to the Prophet (may Allah's peace and blessings be upon him) while he was in the mosque and called him, saying: \\\"O Messenger of Allah, I have committed adultery.\\\"\",\n            \"translations\": [\n                \"ar\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2934\",\n            \"title\": \"The Prophet (may Allah's peace and blessings be upon him) arranged for a horse race among the horses that had been especially prepared for that purpose to take place between Al-Hafyā' and Thaniyyat al-Wadā‘.\",\n            \"translations\": [\n                \"ar\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2935\",\n            \"title\": \"When anyone of you eats food, let him not wipe his hand until he licks it or has it licked.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2936\",\n            \"title\": \"When Allah, the Almighty, gathers together (on the Day of Judgment) all the earlier and later generations of mankind, a banner will be raised for every betrayer, and it will be said: \\\"This is the betrayal of so-and-so, the son of so-and-so.\\\"\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2937\",\n            \"title\": \"‘Umar ibn al-Khattāb (may Allah be pleased with him) consulted the people about a woman who was caused to miscarry.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2938\",\n            \"title\": \"Sa‘d ibn ‘Ubādah sought a ruling from the Messenger of Allah (may Allah's peace and blessings be upon him) concerning a vow that was due upon his mother, who had died before she fulfilled it. The Messenger of Allah (may Allah's peace and blessings be upon him) said: \\\"Fulfill it on her behalf.\\\"\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"vi\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2939\",\n            \"title\": \"A spy from among the polytheists came to the Prophet (may Allah's peace and blessings be upon him) while he was on a journey.\",\n            \"translations\": [\n                \"ar\",\n                \"bn\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tl\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2940\",\n            \"title\": \"Two women from the Hudhayl tribe fought each other. One of them threw a stone at the other, killing her along with what was in her womb.\",\n            \"translations\": [\n                \"ar\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"tl\",\n                \"ug\",\n                \"ha\"\n            ]\n        },\n        {\n            \"id\": \"2941\",\n            \"title\": \"Shall I inform you of the gravest of the major sins?\",\n            \"translations\": [\n                \"ar\",\n                \"bs\",\n                \"en\",\n                \"es\",\n                \"fa\",\n                \"fr\",\n                \"id\",\n                \"ru\",\n                \"tr\",\n                \"ur\",\n                \"zh\",\n                \"hi\",\n                \"bn\",\n                \"ku\",\n                \"ha\"\n            ]\n        }\n    ],\n    \"meta\": {\n        \"current_page\": \"1\",\n        \"last_page\": 108,\n        \"total_items\": 2152,\n        \"per_page\": \"20\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "/hadeeths/one/?id={hadeeth_id}&language={language_code}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/hadeeths/one/?language=en&id=2962",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "hadeeths",
+            "one",
+            ""
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en",
+              "description": "language iso code"
+            },
+            {
+              "key": "id",
+              "value": "2962",
+              "description": "hadeeth id"
+            }
+          ]
+        },
+        "description": "https://hadeethenc.com/api/v1/hadeeths/one/?language=ar&id=2962\n\nhttps://hadeethenc.com/api/v1/hadeeths/one/?language=en&id=2962\n\nGet single Hadeeth details by Hadeeth id and language iso code.\n\nThe response differs when the language is \"Arabic\" or not, if it's Arabic then it returns all Hadeeth data (id, title, Hadeeth text (matn), explanation, hints (fawaed), word meaning and references), if non Arabic it returns translated parts (id, title, Hadeeth text (matn), explanation and hints (if translated), it doesnt return reference nor word meaning as they are not translated."
+      },
+      "response": [
+        {
+          "name": "Hadeeth Arabic example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/one/?language=ar&id=2962",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "one",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "ar",
+                  "description": "language iso code"
+                },
+                {
+                  "key": "id",
+                  "value": "2962",
+                  "description": "hadeeth id"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Wed, 17 Nov 2021 08:37:38 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "access-control-allow-headers",
+              "value": "*"
+            },
+            {
+              "key": "access-control-allow-methods",
+              "value": "GET, POST, OPTIONS, PUT, DELETE"
+            },
+            {
+              "key": "set-cookie",
+              "value": "ci_session=tsujqqpfnh6l4aqig9cre80o13; expires=Wed, 17-Nov-2021 08:47:38 GMT; Max-Age=600; path=/; HttpOnly"
+            },
+            {
+              "key": "expires",
+              "value": "Thu, 19 Nov 1981 08:52:00 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store, no-cache, must-revalidate"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "CF-Cache-Status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Expect-CT",
+              "value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=W4xtU%2FNCHfqrJnFMYWyIxfsWV9YBKvM8Z4XUeVecyuqjmJFGB%2BauRhBO4K4Jn1NTwd4ht2ewnsAMZwG018N1wUSFQdjmAaZIru9BjTvxg%2F1ly%2BRzpmHvTAZ1AI%2BNJis6ng%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+              "key": "NEL",
+              "value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "6af7a3621ca00678-IAD"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": \"2962\",\n    \"title\": \"أَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ يَوْمَ الْقِيَامَةِ فِي الدِّمَاءِ\",\n    \"hadeeth\": \"عن عبد الله بن مَسعود -رضي الله عنه- قَالَ: قَالَ رَسُولُ اللَّهِ -صلى الله عليه وسلم-: «أَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ يَوْمَ الْقِيَامَةِ فِي الدِّمَاءِ».\",\n    \"attribution\": \"متفق عليه، واللفظ لمسلم.\",\n    \"grade\": \"صحيح.\",\n    \"explanation\": \"يُحَاسِبُ الله -تعالى- الْخَلَائِقَ يوم القيامة، ثُمَّ يَقْضِى بينهم بعدله، ويبدأ من المظالم  بالْأَهم، وبما أَنَّ الدِّمَاء هي أَعْظم وأَهَمُّ ما يكون من المظَالمِ فِإِنَّهَا أَوْلُ مَا يُقْضَى بِهِ منها في ذلك اليومِ العظيمِ، وهذا فيما بين العباد في المظالم، أما أعمال العبد فأول ما ينظر فيه الصلاة.\",\n    \"hints\": [\n        \"عِظَمُ أَمْرِ الدِّمَاءِ فِإِنَّ الْبَدَاءَةَ تكون بالْأَهمِّ.\",\n        \"إِثبات يوم القيامة والقضاء فيه.\",\n        \"هذا الحديث لا يعارض حديث \\\"أَوَّلُ مَا يُحَاسَبُ عَنْهُ الْعَبْدُ صَلَاتُهُ\\\"؛ لَأَنَّ هَذَا بَيْنَ الْعَبْدِ وَرَبِّهِ وَحديث الباب متعلقٌ بما بين الْعبد وبين النَّاسِ، لأن حقوق العباد مبنية على عدم المسامحة.\",\n        \"على المحاكم العناية بأمر الدّماء وأن تجعل له الأولوية.\"\n    ],\n    \"categories\": [\n        \"85\",\n        \"219\"\n    ],\n    \"translations\": [\n        \"ar\",\n        \"bn\",\n        \"bs\",\n        \"en\",\n        \"es\",\n        \"fa\",\n        \"fr\",\n        \"id\",\n        \"ru\",\n        \"tl\",\n        \"tr\",\n        \"ur\",\n        \"zh\",\n        \"hi\",\n        \"ug\",\n        \"ha\",\n        \"pt\",\n        \"ku\",\n        \"ml\",\n        \"sw\"\n    ],\n    \"words_meanings\": [\n        {\n            \"word\": \"يُقْضَى \",\n            \"meaning\": \" يُحْكَمُ.\"\n        },\n        {\n            \"word\": \"في الدِّمَاءِ \",\n            \"meaning\": \" في القتل وَإِزْهَاقُ الْأَرْوَاح والجروح.\"\n        }\n    ],\n    \"reference\": \"خلاصة الكلام شرح عمدة الأحكام، لفيصل آل مبارك، ط2، 1412هـ.\\nعمدة الأحكام من كلام خير الأنام صلى الله عليه وسلم، لعبد الغني المقدسي، دراسة وتحقيق: محمود الأرناؤوط، مراجعة وتقديم: عبد القادر الأرناؤوط، ط2، دار الثقافة العربية، دمشق ، بيروت، مؤسسة قرطبة، 1408 هـ.\\nصحيح البخاري، تحقيق: محمد زهير بن ناصر الناصر، ط1، دار طوق النجاة (مصورة عن السلطانية بإضافة ترقيم: محمد فؤاد عبد الباقي)، 1422هـ.\\nصحيح مسلم، تحقيق: محمد فؤاد عبد الباقي، دار إحياء التراث العربي، بيروت، 1423هـ.\\nتأسيس الأحكام للنجمي، ط2، دار علماء السلف، 1414هـ.\\nتيسير العلام شرح عمدة الأحكام، للبسام، حققه وعلق عليه وخرج أحاديثه وصنع فهارسه: محمد صبحي بن حسن حلاق، ط10، مكتبة الصحابة، الإمارات، مكتبة التابعين، القاهرة، 1426هـ.\"\n}"
+        },
+        {
+          "name": "Hadeeth translation example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/one/?language=en&id=2962",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "one",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "en",
+                  "description": "language iso code"
+                },
+                {
+                  "key": "id",
+                  "value": "2962",
+                  "description": "hadeeth id"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Wed, 17 Nov 2021 08:38:27 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "access-control-allow-headers",
+              "value": "*"
+            },
+            {
+              "key": "access-control-allow-methods",
+              "value": "GET, POST, OPTIONS, PUT, DELETE"
+            },
+            {
+              "key": "set-cookie",
+              "value": "ci_session=6qup624ka088iuu1ns25rvaole; expires=Wed, 17-Nov-2021 08:48:27 GMT; Max-Age=600; path=/; HttpOnly"
+            },
+            {
+              "key": "expires",
+              "value": "Thu, 19 Nov 1981 08:52:00 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store, no-cache, must-revalidate"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "CF-Cache-Status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Expect-CT",
+              "value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=V3RFCMvxXTqzObvGqWUzu9VkZEEG01%2BaWI3BFUOU4iBPf%2FkXac72tpbanY7Rd32NvOzqJ3hKbB9kdkrDMW0NWm1UwNWoPrauayIXjTbZSqYPHrZtuPnIlf9SWhWQ82U4Nw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+              "key": "NEL",
+              "value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "6af7a4977f9e572e-IAD"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": \"2962\",\n    \"title\": \"The first cases to be settled among people on the Day of Judgment will be the cases of blood (homicide).\",\n    \"hadeeth\": \"‘Abdullāh ibn Mas‘ūd (may Allah be pleased with him) reported that the Prophet (may Allah's peace and blessings be upon him) said: \\\"The first cases to be settled among people on the Day of Judgment will be the cases of blood (homicide).\\\"\",\n    \"attribution\": \"[Al-Bukhari and Muslim. This is the wording of Muslim]\",\n    \"grade\": \"[Sahih/Authentic]\",\n    \"explanation\": \"On the Day of Judgment, Allah, the Almighty, shall call His slaves to account. Then, He shall judge between them with His justice, starting with the most important grievances. Homicide is the gravest and most dangerous grievance; therefore, it will be the first case to be settled on that great Day. This is with regard to the injustices committed among people. Regarding the slave's own deeds, however, the first deed to be judged upon will be prayer.\",\n    \"hints\": [],\n    \"categories\": [\n        \"85\",\n        \"219\"\n    ],\n    \"translations\": [\n        \"ar\",\n        \"bn\",\n        \"bs\",\n        \"en\",\n        \"es\",\n        \"fa\",\n        \"fr\",\n        \"id\",\n        \"ru\",\n        \"tl\",\n        \"tr\",\n        \"ur\",\n        \"zh\",\n        \"hi\",\n        \"ug\",\n        \"ha\",\n        \"pt\",\n        \"ku\",\n        \"ml\",\n        \"sw\"\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "/hadeeths/multiple/?ids={hadeeth_id}&language={language_code}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/hadeeths/multiple/?language=en&ids=2962,4560",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "hadeeths",
+            "multiple",
+            ""
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en",
+              "description": "language iso code"
+            },
+            {
+              "key": "ids",
+              "value": "2962,4560"
+            }
+          ]
+        },
+        "description": "[https://hadeethenc.com/api/v1/hadeeths/multiple/?language=ar&amp;ids=2962,4560](https://hadeethenc.com/api/v1/hadeeths/multiple/?language=en&ids=2962,4560)\n\n[https://hadeethenc.com/api/v1/hadeeths/multiple/?language=en&amp;ids=2962,4560](https://hadeethenc.com/api/v1/hadeeths/multiple/?language=en&ids=2962,4560)\n\nGet multiple Hadeeths details by comma separated Hadeeths ids and language iso code.\n\nThe response differs when the language is \"Arabic\" or not, if it's Arabic then it returns all Hadeeth data (id, title, Hadeeth text (matn), explanation, hints (fawaed), word meaning and references), if non Arabic it returns translated parts (id, title, Hadeeth text (matn), explanation and hints (if translated), it doesnt return reference nor word meaning as they are not translated."
+      },
+      "response": [
+        {
+          "name": "Arabic example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/multiple/?language=ar&ids=2962,4560",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "multiple",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "ar",
+                  "description": "language iso code"
+                },
+                {
+                  "key": "ids",
+                  "value": "2962,4560"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 07 Jun 2026 10:16:35 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS, PUT, DELETE"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uHwXEIUxSCPbDFdY7X0DNQ5DnJereOUMuuEe2w7MGTY4y5oi6nTKOTcgwR9S13SSVaUiR0zgOCoJSjQka36bUyaZYM0MBgvQzZjgVRAwUjlFMGW1pK41kgecEj%2BXKOrZLw%3D%3D\"}]}"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a07ee6f6382e5d13-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": \"2962\",\n        \"title\": \"أول ما يقضى بين الناس يوم القيامة في الدماء\",\n        \"hadeeth\": \"عَنْ عَبْدِ اللهِ بنِ مَسْعُودٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «أَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ يَوْمَ الْقِيَامَةِ فِي الدِّمَاءِ».\",\n        \"attribution\": \"متفق عليه\",\n        \"grade\": \"صحيح\",\n        \"explanation\": \"ذَكَرَ النبيُّ صلى الله عليه وسلم أنَّ أوَّلَ ما يُحْكَمُ بين الناس في ظُلمِ بعضِهم بعضًا يومَ القيامة: في الدماء، كالقتل والجروح.\",\n        \"hints\": [\n            \"عِظَمُ أمر الدِّماء، فإنَّ البَدَاءةَ تكونُ بالأهم.\",\n            \"الذنوب تَعْظُمُ بحسب عِظَمِ المَفسدة الواقعة بها، وإزهاق الأنفس البريئة من أعظم المفاسد ولا أعظم منها إلا الكفر والشرك بالله تعالى.\"\n        ],\n        \"categories\": [\n            \"85\",\n            \"219\"\n        ],\n        \"translations\": [\n            \"ar\",\n            \"bn\",\n            \"bs\",\n            \"en\",\n            \"es\",\n            \"fa\",\n            \"id\",\n            \"ru\",\n            \"tl\",\n            \"tr\",\n            \"ur\",\n            \"zh\",\n            \"hi\",\n            \"ug\",\n            \"ha\",\n            \"pt\",\n            \"ku\",\n            \"ml\",\n            \"sw\",\n            \"si\",\n            \"sv\",\n            \"cs\",\n            \"gu\",\n            \"yo\",\n            \"vi\",\n            \"ps\",\n            \"as\",\n            \"prs\",\n            \"ky\",\n            \"or\",\n            \"ne\",\n            \"ro\",\n            \"rw\",\n            \"te\",\n            \"lt\",\n            \"nl\",\n            \"so\",\n            \"sq\",\n            \"sr\",\n            \"de\",\n            \"uk\",\n            \"kn\",\n            \"wo\",\n            \"mos\",\n            \"ka\",\n            \"az\",\n            \"hu\",\n            \"ta\",\n            \"mk\",\n            \"my\",\n            \"am\",\n            \"mg\",\n            \"om\",\n            \"th\",\n            \"mr\",\n            \"pa\",\n            \"uz\",\n            \"km\",\n            \"kmr\"\n        ],\n        \"hadeeth_intro\": \"عَنْ عَبْدِ اللهِ بنِ مَسْعُودٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:\",\n        \"words_meanings\": [],\n        \"reference\": \"صحيح البخاري (9/ 2) (6864).\\nصحيح مسلم (3/ 1304) (1678).\\nخلاصة الكلام شرح عمدة الأحكام، لفيصل آل مبارك (ص319).\\nتيسير العلام شرح عمدة الأحكام، للبسام (ص640).\\nالإلمام بشرح عمدة الأحكام، لإسماعيل الأنصاري (2/ 103).\"\n    },\n    {\n        \"id\": \"4560\",\n        \"title\": \"إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى\",\n        \"hadeeth\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّةِ، وَإِنَّمَا لِامْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».\\nوفي لفظ للبخاري: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى».\",\n        \"attribution\": \"متفق عليه\",\n        \"grade\": \"صحيح\",\n        \"explanation\": \"يُبَيِّنُ النبيُّ صلى الله عليه وسلم أنَّ كل الأعمال معتبرة بالنية، وهذا الحكم عام في جميع الأعمال من العبادات والمعاملات، فمن قصد بعمله منفعةً لم يَنَلْ إلا تلك المنفعة ولا ثواب له، ومن قصد بعمله التقرب إلى الله تعالى نال من عمله المثوبة والأجر ولو كان عملًا عاديًّا، كالأكل والشرب.\\n\\nثم ضرب صلى الله عليه وسلم مثلًا لبيان تأثير النية في الأعمال مع تساويهما في الصورة الظاهرة، فبَيَّن أنَّ من قصد بهجرته وترك وطنه ابتغاء مرضات ربه، فهجرته هجرة شرعية مقبولة يثاب عليها لصدق نيته، ومن قصد بهجرته منفعةً دنيوية، من مال، أو جاه، أو تجارة، أو زوجة، فلا ينال من هجرته إلا تلك المنفعة التي نواها، ولا نصيب له من الأجر والثواب.\",\n        \"hints\": [\n            \"الحث على الإخلاص، فإن الله لا يقبل من العمل إلا ما ابتُغي به وجهه.\",\n            \"الأعمال التي يُتَقَرَّبُ بها إلى الله عز وجل إذا فعلها المكلف على سبيل العادة ليس له ثواب عليها، حتى يقصِدَ بها التقرب إلى الله.\"\n        ],\n        \"categories\": [\n            \"314\"\n        ],\n        \"translations\": [\n            \"ar\",\n            \"bn\",\n            \"bs\",\n            \"en\",\n            \"es\",\n            \"fa\",\n            \"fr\",\n            \"id\",\n            \"ru\",\n            \"tl\",\n            \"tr\",\n            \"ur\",\n            \"zh\",\n            \"hi\",\n            \"ku\",\n            \"ha\",\n            \"pt\",\n            \"ml\",\n            \"te\",\n            \"sw\",\n            \"ta\",\n            \"my\",\n            \"de\",\n            \"ja\",\n            \"ps\",\n            \"vi\",\n            \"as\",\n            \"sq\",\n            \"sv\",\n            \"cs\",\n            \"gu\",\n            \"yo\",\n            \"nl\",\n            \"ug\",\n            \"si\",\n            \"th\",\n            \"prs\",\n            \"ff\",\n            \"hu\",\n            \"kn\",\n            \"ky\",\n            \"lt\",\n            \"or\",\n            \"ro\",\n            \"rw\",\n            \"sr\",\n            \"tg\",\n            \"uz\",\n            \"mos\",\n            \"ne\",\n            \"om\",\n            \"wo\",\n            \"so\",\n            \"bg\",\n            \"uk\",\n            \"az\",\n            \"bm\",\n            \"ka\",\n            \"mk\",\n            \"el\",\n            \"km\",\n            \"am\",\n            \"mg\",\n            \"ak\",\n            \"mr\",\n            \"pa\",\n            \"ln\",\n            \"it\",\n            \"ms\",\n            \"kmr\",\n            \"rn\"\n        ],\n        \"hadeeth_intro\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:\",\n        \"words_meanings\": [],\n        \"reference\": \"صحيح البخاري (9/ 22) (6953)، (1/ 6) (1).\\nصحيح مسلم (3/ 1515) (1907).\\nالتحفة الربانية في شرح الأربعين حديثًا النووية (ص5).\\nشرح الأربعين النووية، لابن عثيمين (ص5).\\nفتح القوي المتين في شرح الأربعين وتتمة الخمسين، للعباد (ص8).\\nشرح النووي على مسلم (13/ 54).\\nتاج العروس من جواهر القاموس، للزبيدي (7/ 196).\"\n    }\n]"
+        },
+        {
+          "name": "Translation example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/multiple/?language=en&ids=2962,4560",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "multiple",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "en",
+                  "description": "language iso code"
+                },
+                {
+                  "key": "ids",
+                  "value": "2962,4560"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 07 Jun 2026 10:17:18 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS, PUT, DELETE"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6JPrE9Wrz9Ivopqqa0tpu6EsEqW%2BIGGFbss6ihtOfi6zkmCgkUNgdCClOZfU2huK2uU1y5MnwKhXz9%2BYXOTFq0ph%2B2rO4sWuRoCjWASDuFf3FmVFtdTJnqvEX67KvG5xpQ%3D%3D\"}]}"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a07ee804cff38a7d-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": \"2962\",\n        \"title\": \"The first cases to be settled among people on the Day of Judgement will be the cases of blood (homicide)\",\n        \"hadeeth\": \"‘Abdullah ibn Mas‘ūd (may Allah be pleased with him) reported that the Messenger of Allah (may Allah's peace and blessings be upon him) said: \\\"The first cases to be settled among people on the Day of Judgement will be the cases of blood (homicide).\\\"\",\n        \"attribution\": \"Agreed upon\",\n        \"grade\": \"Authentic\",\n        \"explanation\": \"The Prophet (may Allah's peace and blessings be upon him) mentioned that the first cases to be settled on the Day of Judgment, regarding the injustices committed among people, would be the cases of blood like homicide and the infliction of wounds.\",\n        \"hints\": [\n            \"The significance of the cases of blood, for what is most important always comes first.\\r\",\n            \"The gravity of sins depends on the amount of harm they cause, and killing an innocent soul is one of the gravest kinds of harm and nothing is graver than this except disbelief in Allah Almighty and associating partners with Him.\"\n        ],\n        \"categories\": [\n            \"85\",\n            \"219\"\n        ],\n        \"translations\": [\n            \"ar\",\n            \"bn\",\n            \"bs\",\n            \"en\",\n            \"es\",\n            \"fa\",\n            \"id\",\n            \"ru\",\n            \"tl\",\n            \"tr\",\n            \"ur\",\n            \"zh\",\n            \"hi\",\n            \"ug\",\n            \"ha\",\n            \"pt\",\n            \"ku\",\n            \"ml\",\n            \"sw\",\n            \"si\",\n            \"sv\",\n            \"cs\",\n            \"gu\",\n            \"yo\",\n            \"vi\",\n            \"ps\",\n            \"as\",\n            \"prs\",\n            \"ky\",\n            \"or\",\n            \"ne\",\n            \"ro\",\n            \"rw\",\n            \"te\",\n            \"lt\",\n            \"nl\",\n            \"so\",\n            \"sq\",\n            \"sr\",\n            \"de\",\n            \"uk\",\n            \"kn\",\n            \"wo\",\n            \"mos\",\n            \"ka\",\n            \"az\",\n            \"hu\",\n            \"ta\",\n            \"mk\",\n            \"my\",\n            \"am\",\n            \"mg\",\n            \"om\",\n            \"th\",\n            \"mr\",\n            \"pa\",\n            \"uz\",\n            \"km\",\n            \"kmr\"\n        ],\n        \"hadeeth_intro\": \"‘Abdullah ibn Mas‘ūd (may Allah be pleased with him) reported that the Messenger of Allah (may Allah's peace and blessings be upon him) said:\",\n        \"hadeeth_ar\": \"عَنْ عَبْدِ اللهِ بنِ مَسْعُودٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «أَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ يَوْمَ الْقِيَامَةِ فِي الدِّمَاءِ».\",\n        \"hadeeth_intro_ar\": \"عَنْ عَبْدِ اللهِ بنِ مَسْعُودٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:\",\n        \"explanation_ar\": \"ذَكَرَ النبيُّ صلى الله عليه وسلم أنَّ أوَّلَ ما يُحْكَمُ بين الناس في ظُلمِ بعضِهم بعضًا يومَ القيامة: في الدماء، كالقتل والجروح.\",\n        \"hints_ar\": [\n            \"عِظَمُ أمر الدِّماء، فإنَّ البَدَاءةَ تكونُ بالأهم.\",\n            \"الذنوب تَعْظُمُ بحسب عِظَمِ المَفسدة الواقعة بها، وإزهاق الأنفس البريئة من أعظم المفاسد ولا أعظم منها إلا الكفر والشرك بالله تعالى.\"\n        ],\n        \"words_meanings_ar\": [],\n        \"attribution_ar\": \"متفق عليه\",\n        \"grade_ar\": \"صحيح\"\n    },\n    {\n        \"id\": \"4560\",\n        \"title\": \"Verily, the reward of deeds depends on the intentions, and each person will be rewarded according to what he intended\",\n        \"hadeeth\": \"‘Umar ibn al-Khattāb (may Allah be pleased with him) reported: The Messenger of Allah (may Allah’s peace and blessings be upon him) said: \\\"Verily, the reward of deeds depends on the intention, and a person will be rewarded according to what he intended. So, he whose migration is for the sake of Allah and His Messenger, then his migration is for the sake of Allah and His Messenger, and he whose migration is to achieve some worldly gain or take some woman in marriage, then his migration is for what he migrated for.\\\" In a version by Al-Bukhāri: \\\"Verily, the reward of deeds depends on the intentions, and each person will be rewarded according to what he intended.\\\"\",\n        \"attribution\": \"Agreed upon\",\n        \"grade\": \"Authentic\",\n        \"explanation\": \"The Prophet (may Allah's peace and blessings be upon him) explains that all deeds are considered according to the intention behind them. This ruling generally applies to all deeds, including acts of worship and dealings. So, he who seeks by his deed some worldly benefit will attain that benefit and will not be rewarded for it. And he who performs a deed with the intention to draw close to Allah Almighty will be rewarded, even if his deed is an ordinary one, like eating and drinking.\\r\\n\\r\\nThen, the Prophet (may Allah's peace and blessings be upon him) provided an example to illustrate the impact of intention while both deeds apparently look equal. He pointed out that if a person migrates and leaves his homeland with the intention to win the pleasure of his Lord, his migration is a Shar‘i and accepted one, for which he will be rewarded, given his sincere intention; and if a person migrates to attain some worldly benefit, like wealth, high standing, business, or a wife, he will not attain anything from his migration except what benefit he intended, and no reward will be given to him.\",\n        \"hints\": [\n            \"The Hadīth urges us to be sincere, for Allah only accepts the deeds that are intended for His sake.\\r\",\n            \"If a legally accountable person performs the deeds that are to be done to gain Allah's pleasure by way of habit, he will only be rewarded for them if he intends to draw close to Allah Almighty by doing them.\"\n        ],\n        \"categories\": [\n            \"314\"\n        ],\n        \"translations\": [\n            \"ar\",\n            \"bn\",\n            \"bs\",\n            \"en\",\n            \"es\",\n            \"fa\",\n            \"fr\",\n            \"id\",\n            \"ru\",\n            \"tl\",\n            \"tr\",\n            \"ur\",\n            \"zh\",\n            \"hi\",\n            \"ku\",\n            \"ha\",\n            \"pt\",\n            \"ml\",\n            \"te\",\n            \"sw\",\n            \"ta\",\n            \"my\",\n            \"de\",\n            \"ja\",\n            \"ps\",\n            \"vi\",\n            \"as\",\n            \"sq\",\n            \"sv\",\n            \"cs\",\n            \"gu\",\n            \"yo\",\n            \"nl\",\n            \"ug\",\n            \"si\",\n            \"th\",\n            \"prs\",\n            \"ff\",\n            \"hu\",\n            \"kn\",\n            \"ky\",\n            \"lt\",\n            \"or\",\n            \"ro\",\n            \"rw\",\n            \"sr\",\n            \"tg\",\n            \"uz\",\n            \"mos\",\n            \"ne\",\n            \"om\",\n            \"wo\",\n            \"so\",\n            \"bg\",\n            \"uk\",\n            \"az\",\n            \"bm\",\n            \"ka\",\n            \"mk\",\n            \"el\",\n            \"km\",\n            \"am\",\n            \"mg\",\n            \"ak\",\n            \"mr\",\n            \"pa\",\n            \"ln\",\n            \"it\",\n            \"ms\",\n            \"kmr\",\n            \"rn\"\n        ],\n        \"hadeeth_intro\": \"‘Umar ibn al-Khattāb (may Allah be pleased with him) reported: The Messenger of Allah (may Allah’s peace and blessings be upon him) said:\",\n        \"hadeeth_ar\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّةِ، وَإِنَّمَا لِامْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».\\nوفي لفظ للبخاري: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى».\",\n        \"hadeeth_intro_ar\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:\",\n        \"explanation_ar\": \"يُبَيِّنُ النبيُّ صلى الله عليه وسلم أنَّ كل الأعمال معتبرة بالنية، وهذا الحكم عام في جميع الأعمال من العبادات والمعاملات، فمن قصد بعمله منفعةً لم يَنَلْ إلا تلك المنفعة ولا ثواب له، ومن قصد بعمله التقرب إلى الله تعالى نال من عمله المثوبة والأجر ولو كان عملًا عاديًّا، كالأكل والشرب.\\n\\nثم ضرب صلى الله عليه وسلم مثلًا لبيان تأثير النية في الأعمال مع تساويهما في الصورة الظاهرة، فبَيَّن أنَّ من قصد بهجرته وترك وطنه ابتغاء مرضات ربه، فهجرته هجرة شرعية مقبولة يثاب عليها لصدق نيته، ومن قصد بهجرته منفعةً دنيوية، من مال، أو جاه، أو تجارة، أو زوجة، فلا ينال من هجرته إلا تلك المنفعة التي نواها، ولا نصيب له من الأجر والثواب.\",\n        \"hints_ar\": [\n            \"الحث على الإخلاص، فإن الله لا يقبل من العمل إلا ما ابتُغي به وجهه.\",\n            \"الأعمال التي يُتَقَرَّبُ بها إلى الله عز وجل إذا فعلها المكلف على سبيل العادة ليس له ثواب عليها، حتى يقصِدَ بها التقرب إلى الله.\"\n        ],\n        \"words_meanings_ar\": [],\n        \"attribution_ar\": \"متفق عليه\",\n        \"grade_ar\": \"صحيح\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "/hadeeths/search/?phrase={search_phrase}&language={language_code}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://hadeethenc.com/api/v1/hadeeths/search/?phrase=النية&language=ar",
+          "protocol": "https",
+          "host": [
+            "hadeethenc",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "hadeeths",
+            "search",
+            ""
+          ],
+          "query": [
+            {
+              "key": "phrase",
+              "value": "النية",
+              "type": "text"
+            },
+            {
+              "key": "language",
+              "value": "ar",
+              "type": "text"
+            }
+          ]
+        },
+        "description": "## Search Hadeeths\n\nThis endpoint searches for hadeeths matching a given keyword or phrase, filtered by language. It queries the HadeethEnc database and returns a list of hadiths that contain the specified search term.\n\n[https://hadeethenc.com/api/v1/hadeeths/search/?phrase=النية&amp;language=ar](https://hadeethenc.com/api/v1/hadeeths/search/?phrase=%D8%A7%D9%84%D9%86%D9%8A%D8%A9&language=ar)"
+      },
+      "response": [
+        {
+          "name": "/hadeeths/search/?phrase={search_phrase}&language={language_code}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://hadeethenc.com/api/v1/hadeeths/search/?phrase=النية&language=ar",
+              "protocol": "https",
+              "host": [
+                "hadeethenc",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "hadeeths",
+                "search",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "phrase",
+                  "value": "النية"
+                },
+                {
+                  "key": "language",
+                  "value": "ar"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 04 Jun 2026 13:57:55 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS, PUT, DELETE"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jRx%2BBSpgYwriQAldzmmYlIYyFIOMqRKIghNa336PlSDWV%2F53uI03ALn1Q4Ifs1IdtnVu2Cj3JENRHm7GIiF9tMoU5xxteKwfwTx9SItA2attmuYnYYWfcUcL%2Fgu60FcDxw%3D%3D\"}]}"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a067730c7c713ae7-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": \"4560\",\n        \"title\": \"إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى\",\n        \"hadith_text\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:«إِنَّمَا الْأَعْمَالُ بِالنِّيَّةِ، وَإِنَّمَا لِامْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».\\nوفي لفظ للبخاري: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى».\",\n        \"hadith_text_highlights\": \"عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:«إِنَّمَا الْأَعْمَالُ <mark>بِالنِّيَّةِ</mark>، وَإِنَّمَا لِامْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».\\nوفي لفظ للبخاري: «إِنَّمَا الْأَعْمَالُ <mark>بِالنِّيَّاتِ</mark>، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى».\"\n    },\n    {\n        \"id\": \"65931\",\n        \"title\": \"اليمين على نية \\u200cالمستحلف\",\n        \"hadith_text\": \"عَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «الْيَمِينُ عَلَى نِيَّةِ الْمُسْتَحْلِفِ»، وَفِي رِوَايَةٍ: «يَمِينُكَ عَلَى مَا يُصَدِّقُكَ عَلَيْهِ صَاحِبُكَ».\",\n        \"hadith_text_highlights\": \"عَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «الْيَمِينُ عَلَى <mark>نِيَّةِ</mark> الْمُسْتَحْلِفِ»، وَفِي رِوَايَةٍ: «يَمِينُكَ عَلَى مَا يُصَدِّقُكَ عَلَيْهِ صَاحِبُكَ».\"\n    },\n    {\n        \"id\": \"66511\",\n        \"title\": \"إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى\",\n        \"hadith_text\": \"عَنْ أَمِيرِ المُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الخَطَّابِ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:«إنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوْ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إلَى مَا هَاجَرَ إلَيْهِ».\",\n        \"hadith_text_highlights\": \"عَنْ أَمِيرِ المُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الخَطَّابِ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:«إنَّمَا الأَعْمَالُ <mark>بِالنِّيَّاتِ</mark>، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوْ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إلَى مَا هَاجَرَ إلَيْهِ».\"\n    },\n    {\n        \"id\": \"4494\",\n        \"title\": \"لا هجرة بعد الفتح، ولكن جهاد ونية، وإذا اسْتُنْفِرْتُم فَانْفِرُوا\",\n        \"hadith_text\": \"عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله صلى الله عليه وسلم يوم فتح مكة: «لا هجرة بعد الفتح، ولكن جهاد ونية. وإذا اسْتُنْفِرْتُم فَانْفِرُوا. وقال يوم فتح مكة: «إن هذا البَلد حَرَّمَهُ الله يوم خلق الله السموات والأرض، فهو حَرَامٌ بحُرْمَةِ الله إلَى يوم القيامة، وإنه لم يحل القتال فيه لِأَحَدٍ قَبْلِي، ولم يَحِلَّ لي إلا ساعة من نهار، حرام بِحرمة الله إلى يوم القيامة، لا يُعْضَدُ شَوْكُهُ، وَلاَ يُنَفَّرُ صَيْدُهُ، وَلاَ يَلْتَقِطُ لُقَطَتَهُ إلا من عَرَّفَهَا، ولاَ يُخْتَلَى خَلاَهُ». فقال العباس: يا رسول الله، إلا الإِذْخِرَ؛ فإنه لِقَيْنِهِمْ وبيوتهم؟ فقال: «إلا الإِذْخِرَ».\",\n        \"hadith_text_highlights\": \"عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله صلى الله عليه وسلم يوم فتح مكة: «لا هجرة بعد الفتح، ولكن جهاد <mark>ونية</mark>. وإذا اسْتُنْفِرْتُم فَانْفِرُوا. وقال يوم فتح مكة: «إن هذا البَلد حَرَّمَهُ الله يوم خلق الله السموات والأرض، فهو حَرَامٌ بحُرْمَةِ الله إلَى يوم القيامة، وإنه لم يحل القتال فيه لِأَحَدٍ قَبْلِي، ولم يَحِلَّ لي إلا ساعة من نهار، حرام بِحرمة الله إلى يوم القيامة، لا يُعْضَدُ شَوْكُهُ، وَلاَ يُنَفَّرُ صَيْدُهُ، وَلاَ يَلْتَقِطُ لُقَطَتَهُ إلا من عَرَّفَهَا، ولاَ يُخْتَلَى خَلاَهُ». فقال العباس: يا رسول الله، إلا الإِذْخِرَ؛ فإنه لِقَيْنِهِمْ وبيوتهم؟ فقال: «إلا الإِذْخِرَ».\"\n    },\n    {\n        \"id\": \"5833\",\n        \"title\": \"ما نقص مال عبد من صدقة، ولا ظلم عبد مظلمة صبر عليها إلا زاده الله عزا، ولا فتح عبد باب مسألة إلا فتح الله عليه باب فقر\",\n        \"hadith_text\": \"عن أبي كبشة عمرو بن سعد الأنماري رضي الله عنه مرفوعاً: «ثلاثة أقسم عليهن، وأحدثكم حديثاً فاحفظوه: ما نقص مال عبد من صدقة، ولا ظلم عبد مظلمة صبر عليها إلا زاده الله عزًا، ولا فتح عبد باب مسألة إلا فتح الله عليه باب فقر -أو كلمة نحوها- وأحدثكم حديثًا فاحفظوه»، قال: «إنما الدنيا لأربعة نفر: عبد رزقه الله مالاً وعلمًا، فهو يتقي فيه ربه، ويَصِلُ فيه رحمه، ويعلم لله فيه حقًا، فهذا بأفضل المنازل. وعبد رزقه الله علما، ولم يرزقه مالاً، فهو صادق النية، يقول: لو أن لي مالا لَعَمِلْتُ بعمل فلان، فهو بنيته، فأجرهما سواء. وعبد رزقه الله مالاً، ولم يرزقه علما، فهو يخبط في ماله بغير علم، لا يتقي فيه ربه، ولا يصل فيه رحمه، ولا يعلم لله فيه حقًا، فهذا بأخبث المنازل. وعبد لم يرزقه الله مالاً ولا علمًا، فهو يقول: لو أن لي مالا لعملت فيه بعمل فلان، فهو بنيته، فوزرهما سواء».\",\n        \"hadith_text_highlights\": \"عن أبي كبشة عمرو بن سعد الأنماري رضي الله عنه مرفوعاً: «ثلاثة أقسم عليهن، وأحدثكم حديثاً فاحفظوه: ما نقص مال عبد من صدقة، ولا ظلم عبد مظلمة صبر عليها إلا زاده الله عزًا، ولا فتح عبد باب مسألة إلا فتح الله عليه باب فقر -أو كلمة نحوها- وأحدثكم حديثًا فاحفظوه»، قال: «إنما الدنيا لأربعة نفر: عبد رزقه الله مالاً وعلمًا، فهو يتقي فيه ربه، ويَصِلُ فيه رحمه، ويعلم لله فيه حقًا، فهذا بأفضل المنازل. وعبد رزقه الله علما، ولم يرزقه مالاً، فهو صادق <mark>النية</mark>، يقول: لو أن لي مالا لَعَمِلْتُ بعمل فلان، فهو بنيته، فأجرهما سواء. وعبد رزقه الله مالاً، ولم يرزقه علما، فهو يخبط في ماله بغير علم، لا يتقي فيه ربه، ولا يصل فيه رحمه، ولا يعلم لله فيه حقًا، فهذا بأخبث المنازل. وعبد لم يرزقه الله مالاً ولا علمًا، فهو يقول: لو أن لي مالا لعملت فيه بعمل فلان، فهو بنيته، فوزرهما سواء».\"\n    }\n]"
+        }
+      ]
+    }
+  ]
+}
