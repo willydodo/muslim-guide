@@ -285,6 +285,28 @@ class SettingsRepository {
     await _box.put('enabled_prayer_notifications', names);
   }
 
+  /// Returns the saved Hijri date adjustment in days (-1, 0, +1),
+  /// or 0 when unset (REQ-HIJRI-001, DEC-0033).
+  Future<int> getHijriAdjustment() async {
+    final value = _boxOrNull?.get('hijri_adjustment', defaultValue: 0) ?? 0;
+    if (value is! int || value < -1 || value > 1) {
+      throw FormatException('Invalid stored hijri_adjustment value: $value');
+    }
+    return value;
+  }
+
+  /// Saves the Hijri date adjustment in days (-1, 0, +1).
+  Future<void> setHijriAdjustment(int adjustment) async {
+    if (adjustment < -1 || adjustment > 1) {
+      throw ArgumentError.value(
+        adjustment,
+        'adjustment',
+        'Expected -1, 0, or +1.',
+      );
+    }
+    await _box.put('hijri_adjustment', adjustment);
+  }
+
   Box<dynamic>? get _boxOrNull =>
       (_settingsBox?.isOpen ?? false) ? _settingsBox : null;
 

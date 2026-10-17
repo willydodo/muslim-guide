@@ -489,4 +489,113 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get verse_actions_copied => 'Copied';
+
+  @override
+  String get hijri_calendar_title => 'Hijri Calendar';
+
+  @override
+  String hijri_month_format(String month, int year) {
+    return '$month $year';
+  }
+
+  @override
+  String get hijri_today => 'Today';
+
+  @override
+  String hijri_event_days_remaining(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'in $count days',
+      one: 'tomorrow',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get hijri_loading => 'Loading';
+
+  @override
+  String get hijri_error => 'Calculation failed';
+
+  @override
+  String get hijri_retry => 'Retry';
+
+  @override
+  String get hijri_no_events => 'No upcoming events';
+
+  @override
+  String get hijri_adjustment_title => 'Date adjustment';
+
+  @override
+  String get hijri_adjustment_minus_one => 'Minus one day';
+
+  @override
+  String get hijri_adjustment_none => 'No adjustment';
+
+  @override
+  String get hijri_adjustment_plus_one => 'Plus one day';
+
+  @override
+  String get hijri_upcoming_events => 'Upcoming events';
+
+  @override
+  String get event_ramadan_start => 'Start of Ramadan';
+
+  @override
+  String get event_eid_fitr => 'Eid al-Fitr';
+
+  @override
+  String get event_arafah => 'Day of Arafah';
+
+  @override
+  String get event_eid_adha => 'Eid al-Adha';
+
+  @override
+  String get event_hijri_new_year => 'Hijri New Year';
+
+  @override
+  String get event_mawlid => 'Mawlid al-Nabi';
+
+  @override
+  String get event_isra_miraj => 'Isra and Miraj';
+
+  @override
+  String get event_mid_shaban => 'Mid-Shaban Night';
+
+  @override
+  String get hijri_month_1 => 'Muharram';
+
+  @override
+  String get hijri_month_2 => 'Safar';
+
+  @override
+  String get hijri_month_3 => 'Rabi al-Awwal';
+
+  @override
+  String get hijri_month_4 => 'Rabi al-Thani';
+
+  @override
+  String get hijri_month_5 => 'Jumada al-Ula';
+
+  @override
+  String get hijri_month_6 => 'Jumada al-Akhirah';
+
+  @override
+  String get hijri_month_7 => 'Rajab';
+
+  @override
+  String get hijri_month_8 => 'Shaban';
+
+  @override
+  String get hijri_month_9 => 'Ramadan';
+
+  @override
+  String get hijri_month_10 => 'Shawwal';
+
+  @override
+  String get hijri_month_11 => 'Dhu al-Qadah';
+
+  @override
+  String get hijri_month_12 => 'Dhu al-Hijjah';
 }

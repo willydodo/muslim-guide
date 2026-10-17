@@ -8,6 +8,7 @@ import 'package:muslim_guide/core/logging/local_error_log.dart';
 import 'package:muslim_guide/features/azkar/domain/azkar_category.dart';
 import 'package:muslim_guide/features/azkar/presentation/azkar_detail_screen.dart';
 import 'package:muslim_guide/features/azkar/presentation/azkar_library_screen.dart';
+import 'package:muslim_guide/features/hijri/presentation/hijri_calendar_screen.dart';
 import 'package:muslim_guide/features/home/presentation/home_placeholder.dart';
 import 'package:muslim_guide/features/notifications/presentation/notification_diagnostics_screen.dart';
 import 'package:muslim_guide/features/onboarding/presentation/language_selection_screen.dart';
@@ -71,6 +72,11 @@ final routerProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => const LocationPickerScreen(),
       ),
       GoRoute(path: '/qibla', builder: (context, state) => const QiblaScreen()),
+      // Phase 08: Hijri calendar (DEC-0033).
+      GoRoute(
+        path: '/hijri',
+        builder: (context, state) => const HijriCalendarScreen(),
+      ),
       // Phase 06 Task 2: Quran index + Mushaf reader (Step 5).
       GoRoute(
         path: '/quran',

@@ -483,4 +483,115 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get verse_actions_copied => 'تم النسخ';
+
+  @override
+  String get hijri_calendar_title => 'التقويم الهجري';
+
+  @override
+  String hijri_month_format(String month, int year) {
+    return '$month $year';
+  }
+
+  @override
+  String get hijri_today => 'اليوم';
+
+  @override
+  String hijri_event_days_remaining(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'بعد $count يوم',
+      few: 'بعد $count أيام',
+      two: 'بعد يومين',
+      one: 'غداً',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get hijri_loading => 'جاري التحميل';
+
+  @override
+  String get hijri_error => 'فشل الحساب';
+
+  @override
+  String get hijri_retry => 'إعادة المحاولة';
+
+  @override
+  String get hijri_no_events => 'لا مناسبات قادمة';
+
+  @override
+  String get hijri_adjustment_title => 'تعديل التاريخ';
+
+  @override
+  String get hijri_adjustment_minus_one => 'ناقص يوم';
+
+  @override
+  String get hijri_adjustment_none => 'بدون تعديل';
+
+  @override
+  String get hijri_adjustment_plus_one => 'زائد يوم';
+
+  @override
+  String get hijri_upcoming_events => 'المناسبات القادمة';
+
+  @override
+  String get event_ramadan_start => 'بداية رمضان';
+
+  @override
+  String get event_eid_fitr => 'عيد الفطر';
+
+  @override
+  String get event_arafah => 'يوم عرفة';
+
+  @override
+  String get event_eid_adha => 'عيد الأضحى';
+
+  @override
+  String get event_hijri_new_year => 'رأس السنة الهجرية';
+
+  @override
+  String get event_mawlid => 'المولد النبوي';
+
+  @override
+  String get event_isra_miraj => 'الإسراء والمعراج';
+
+  @override
+  String get event_mid_shaban => 'ليلة النصف من شعبان';
+
+  @override
+  String get hijri_month_1 => 'محرم';
+
+  @override
+  String get hijri_month_2 => 'صفر';
+
+  @override
+  String get hijri_month_3 => 'ربيع الأول';
+
+  @override
+  String get hijri_month_4 => 'ربيع الآخر';
+
+  @override
+  String get hijri_month_5 => 'جمادى الأولى';
+
+  @override
+  String get hijri_month_6 => 'جمادى الآخرة';
+
+  @override
+  String get hijri_month_7 => 'رجب';
+
+  @override
+  String get hijri_month_8 => 'شعبان';
+
+  @override
+  String get hijri_month_9 => 'رمضان';
+
+  @override
+  String get hijri_month_10 => 'شوال';
+
+  @override
+  String get hijri_month_11 => 'ذو القعدة';
+
+  @override
+  String get hijri_month_12 => 'ذو الحجة';
 }

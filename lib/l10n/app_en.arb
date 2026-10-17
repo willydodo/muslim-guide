@@ -170,5 +170,51 @@
   "verse_actions_copy": "Copy",
   "verse_actions_share": "Share",
   "verse_actions_cancel": "Cancel",
-  "verse_actions_copied": "Copied"
+  "verse_actions_copied": "Copied",
+  "hijri_calendar_title": "Hijri Calendar",
+  "hijri_month_format": "{month} {year}",
+  "@hijri_month_format": {
+    "description": "Hijri month header (Latin digits via interpolation, DEC-0026)",
+    "placeholders": {
+      "month": {"type": "String", "example": "Ramadan"},
+      "year": {"type": "int", "example": "1447"}
+    }
+  },
+  "hijri_today": "Today",
+  "hijri_event_days_remaining": "{count, plural, one{tomorrow} other{in {count} days}}",
+  "@hijri_event_days_remaining": {
+    "description": "Days remaining until a Hijri event",
+    "placeholders": {
+      "count": {"type": "int", "example": "5"}
+    }
+  },
+  "hijri_loading": "Loading",
+  "hijri_error": "Calculation failed",
+  "hijri_retry": "Retry",
+  "hijri_no_events": "No upcoming events",
+  "hijri_adjustment_title": "Date adjustment",
+  "hijri_adjustment_minus_one": "Minus one day",
+  "hijri_adjustment_none": "No adjustment",
+  "hijri_adjustment_plus_one": "Plus one day",
+  "hijri_upcoming_events": "Upcoming events",
+  "event_ramadan_start": "Start of Ramadan",
+  "event_eid_fitr": "Eid al-Fitr",
+  "event_arafah": "Day of Arafah",
+  "event_eid_adha": "Eid al-Adha",
+  "event_hijri_new_year": "Hijri New Year",
+  "event_mawlid": "Mawlid al-Nabi",
+  "event_isra_miraj": "Isra and Miraj",
+  "event_mid_shaban": "Mid-Shaban Night",
+  "hijri_month_1": "Muharram",
+  "hijri_month_2": "Safar",
+  "hijri_month_3": "Rabi al-Awwal",
+  "hijri_month_4": "Rabi al-Thani",
+  "hijri_month_5": "Jumada al-Ula",
+  "hijri_month_6": "Jumada al-Akhirah",
+  "hijri_month_7": "Rajab",
+  "hijri_month_8": "Shaban",
+  "hijri_month_9": "Ramadan",
+  "hijri_month_10": "Shawwal",
+  "hijri_month_11": "Dhu al-Qadah",
+  "hijri_month_12": "Dhu al-Hijjah"
 }

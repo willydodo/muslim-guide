@@ -170,5 +170,51 @@
   "verse_actions_copy": "نسخ",
   "verse_actions_share": "مشاركة",
   "verse_actions_cancel": "إلغاء",
-  "verse_actions_copied": "تم النسخ"
+  "verse_actions_copied": "تم النسخ",
+  "hijri_calendar_title": "التقويم الهجري",
+  "hijri_month_format": "{month} {year}",
+  "@hijri_month_format": {
+    "description": "Hijri month header (Latin digits via interpolation, DEC-0026)",
+    "placeholders": {
+      "month": {"type": "String", "example": "رمضان"},
+      "year": {"type": "int", "example": "1447"}
+    }
+  },
+  "hijri_today": "اليوم",
+  "hijri_event_days_remaining": "{count, plural, one{غداً} two{بعد يومين} few{بعد {count} أيام} other{بعد {count} يوم}}",
+  "@hijri_event_days_remaining": {
+    "description": "Days remaining until a Hijri event",
+    "placeholders": {
+      "count": {"type": "int", "example": "5"}
+    }
+  },
+  "hijri_loading": "جاري التحميل",
+  "hijri_error": "فشل الحساب",
+  "hijri_retry": "إعادة المحاولة",
+  "hijri_no_events": "لا مناسبات قادمة",
+  "hijri_adjustment_title": "تعديل التاريخ",
+  "hijri_adjustment_minus_one": "ناقص يوم",
+  "hijri_adjustment_none": "بدون تعديل",
+  "hijri_adjustment_plus_one": "زائد يوم",
+  "hijri_upcoming_events": "المناسبات القادمة",
+  "event_ramadan_start": "بداية رمضان",
+  "event_eid_fitr": "عيد الفطر",
+  "event_arafah": "يوم عرفة",
+  "event_eid_adha": "عيد الأضحى",
+  "event_hijri_new_year": "رأس السنة الهجرية",
+  "event_mawlid": "المولد النبوي",
+  "event_isra_miraj": "الإسراء والمعراج",
+  "event_mid_shaban": "ليلة النصف من شعبان",
+  "hijri_month_1": "محرم",
+  "hijri_month_2": "صفر",
+  "hijri_month_3": "ربيع الأول",
+  "hijri_month_4": "ربيع الآخر",
+  "hijri_month_5": "جمادى الأولى",
+  "hijri_month_6": "جمادى الآخرة",
+  "hijri_month_7": "رجب",
+  "hijri_month_8": "شعبان",
+  "hijri_month_9": "رمضان",
+  "hijri_month_10": "شوال",
+  "hijri_month_11": "ذو القعدة",
+  "hijri_month_12": "ذو الحجة"
 }

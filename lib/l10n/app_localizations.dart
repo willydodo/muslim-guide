@@ -1009,6 +1009,204 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'تم النسخ'**
   String get verse_actions_copied;
+
+  /// No description provided for @hijri_calendar_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'التقويم الهجري'**
+  String get hijri_calendar_title;
+
+  /// Hijri month header (Latin digits via interpolation, DEC-0026)
+  ///
+  /// In ar, this message translates to:
+  /// **'{month} {year}'**
+  String hijri_month_format(String month, int year);
+
+  /// No description provided for @hijri_today.
+  ///
+  /// In ar, this message translates to:
+  /// **'اليوم'**
+  String get hijri_today;
+
+  /// Days remaining until a Hijri event
+  ///
+  /// In ar, this message translates to:
+  /// **'{count, plural, one{غداً} two{بعد يومين} few{بعد {count} أيام} other{بعد {count} يوم}}'**
+  String hijri_event_days_remaining(int count);
+
+  /// No description provided for @hijri_loading.
+  ///
+  /// In ar, this message translates to:
+  /// **'جاري التحميل'**
+  String get hijri_loading;
+
+  /// No description provided for @hijri_error.
+  ///
+  /// In ar, this message translates to:
+  /// **'فشل الحساب'**
+  String get hijri_error;
+
+  /// No description provided for @hijri_retry.
+  ///
+  /// In ar, this message translates to:
+  /// **'إعادة المحاولة'**
+  String get hijri_retry;
+
+  /// No description provided for @hijri_no_events.
+  ///
+  /// In ar, this message translates to:
+  /// **'لا مناسبات قادمة'**
+  String get hijri_no_events;
+
+  /// No description provided for @hijri_adjustment_title.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعديل التاريخ'**
+  String get hijri_adjustment_title;
+
+  /// No description provided for @hijri_adjustment_minus_one.
+  ///
+  /// In ar, this message translates to:
+  /// **'ناقص يوم'**
+  String get hijri_adjustment_minus_one;
+
+  /// No description provided for @hijri_adjustment_none.
+  ///
+  /// In ar, this message translates to:
+  /// **'بدون تعديل'**
+  String get hijri_adjustment_none;
+
+  /// No description provided for @hijri_adjustment_plus_one.
+  ///
+  /// In ar, this message translates to:
+  /// **'زائد يوم'**
+  String get hijri_adjustment_plus_one;
+
+  /// No description provided for @hijri_upcoming_events.
+  ///
+  /// In ar, this message translates to:
+  /// **'المناسبات القادمة'**
+  String get hijri_upcoming_events;
+
+  /// No description provided for @event_ramadan_start.
+  ///
+  /// In ar, this message translates to:
+  /// **'بداية رمضان'**
+  String get event_ramadan_start;
+
+  /// No description provided for @event_eid_fitr.
+  ///
+  /// In ar, this message translates to:
+  /// **'عيد الفطر'**
+  String get event_eid_fitr;
+
+  /// No description provided for @event_arafah.
+  ///
+  /// In ar, this message translates to:
+  /// **'يوم عرفة'**
+  String get event_arafah;
+
+  /// No description provided for @event_eid_adha.
+  ///
+  /// In ar, this message translates to:
+  /// **'عيد الأضحى'**
+  String get event_eid_adha;
+
+  /// No description provided for @event_hijri_new_year.
+  ///
+  /// In ar, this message translates to:
+  /// **'رأس السنة الهجرية'**
+  String get event_hijri_new_year;
+
+  /// No description provided for @event_mawlid.
+  ///
+  /// In ar, this message translates to:
+  /// **'المولد النبوي'**
+  String get event_mawlid;
+
+  /// No description provided for @event_isra_miraj.
+  ///
+  /// In ar, this message translates to:
+  /// **'الإسراء والمعراج'**
+  String get event_isra_miraj;
+
+  /// No description provided for @event_mid_shaban.
+  ///
+  /// In ar, this message translates to:
+  /// **'ليلة النصف من شعبان'**
+  String get event_mid_shaban;
+
+  /// No description provided for @hijri_month_1.
+  ///
+  /// In ar, this message translates to:
+  /// **'محرم'**
+  String get hijri_month_1;
+
+  /// No description provided for @hijri_month_2.
+  ///
+  /// In ar, this message translates to:
+  /// **'صفر'**
+  String get hijri_month_2;
+
+  /// No description provided for @hijri_month_3.
+  ///
+  /// In ar, this message translates to:
+  /// **'ربيع الأول'**
+  String get hijri_month_3;
+
+  /// No description provided for @hijri_month_4.
+  ///
+  /// In ar, this message translates to:
+  /// **'ربيع الآخر'**
+  String get hijri_month_4;
+
+  /// No description provided for @hijri_month_5.
+  ///
+  /// In ar, this message translates to:
+  /// **'جمادى الأولى'**
+  String get hijri_month_5;
+
+  /// No description provided for @hijri_month_6.
+  ///
+  /// In ar, this message translates to:
+  /// **'جمادى الآخرة'**
+  String get hijri_month_6;
+
+  /// No description provided for @hijri_month_7.
+  ///
+  /// In ar, this message translates to:
+  /// **'رجب'**
+  String get hijri_month_7;
+
+  /// No description provided for @hijri_month_8.
+  ///
+  /// In ar, this message translates to:
+  /// **'شعبان'**
+  String get hijri_month_8;
+
+  /// No description provided for @hijri_month_9.
+  ///
+  /// In ar, this message translates to:
+  /// **'رمضان'**
+  String get hijri_month_9;
+
+  /// No description provided for @hijri_month_10.
+  ///
+  /// In ar, this message translates to:
+  /// **'شوال'**
+  String get hijri_month_10;
+
+  /// No description provided for @hijri_month_11.
+  ///
+  /// In ar, this message translates to:
+  /// **'ذو القعدة'**
+  String get hijri_month_11;
+
+  /// No description provided for @hijri_month_12.
+  ///
+  /// In ar, this message translates to:
+  /// **'ذو الحجة'**
+  String get hijri_month_12;
 }
 
 class _AppLocalizationsDelegate
