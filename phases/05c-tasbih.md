@@ -25,7 +25,8 @@ DRAFT (spec only — no code before Abdo approval)
 
 > النصوص الكاملة تُستخرج من HadeethEnc (نفس مسار 05b: verbatim + grade +
 > attribution) — **لا كتابة من الذاكرة** (Stop 7). التأليف HadeethEnc IDs
-> فقط، والنص يأتي من API.
+> فقط، والنص يأتي من API. **(E-1):** كل نص يُتحقق مقابل sunnah.com بنفس
+> الرقم؛ إن اختلف → `review_required` (لا تخمين).
 
 ### الأقسام
 - **بعد الصلاة:** 33/33/34 (تسلسل: subhanallah ← alhamdulillah ← allahuakbar).
@@ -35,10 +36,11 @@ DRAFT (spec only — no code before Abdo approval)
 - شاشة `TasbihListScreen`: قائمة الأذكار السبعة (قسمان: بعد الصلاة + تسبيح حر).
 - شاشة `TasbihScreen`: Circular Progress (progress ring) + الزر الرئيسي في
   المنتصف (اضغط للعد) + العد الحالي (33/100) + زر "إعادة".
-- Haptic خفيف عند كل عد (عبر `vibration` أو `flutter/services` —
-  يُحسم في التنفيذ، بلا حزمة جديدة إن أمكن).
+- Haptic خفيف عند كل عد (`HapticFeedback.lightImpact` حصرًا — لا heavy)
+  **(E-2)** (عبر `flutter/services` — بلا حزمة جديدة).
 - حفظ تقدّم اليوم فقط في Hive `Box<dynamic>` بمفاتيح `tasbih_<id>_count`
-  (int) و`tasbih_<id>_target` (int) — reset عبر `delete` المفتاح، بلا migration.
+  (int) و`tasbih_<id>_target` (int) — reset عبر `delete` المفتاح **مع حوار
+  تأكيد + SnackBar** **(E-3)**، بلا migration.
 - Deep link لكل ذكر: `muslimguide://tasbih/<id>` → `TasbihScreen`
   (`<id>` من جدول الصيغ أعلاه).
 - AR/EN للواجهة فقط (~10 keys)؛ النص الديني RTL ثابت (DEC-0026).
@@ -152,7 +154,7 @@ DRAFT (spec only — no code before Abdo approval)
 - **معماري:** feature جديد أم توسيع azkar + Hive schema + deep link.
 
 ## Approval
-- Status: DRAFT (spec only — بانتظار Abdo)
-- Approved By: —
-- Approval Date: —
-- Approval Text: —
+- Status: APPROVED (E-1..E-3 مدمجة — 2026-10-18)
+- Approved By: Abdo (Director)
+- Approval Date: 2026-10-18
+- Approval Text: Spec APPROVED مع 3 تعديلات (E-1 تحقق sunnah.com، E-2 lightImpact، E-3 reset بتأكيد+SnackBar)

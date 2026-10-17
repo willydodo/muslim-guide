@@ -71,6 +71,14 @@
 - **Resolution**: temporary bridge `lib/features/azkar/data/azkar_pack_loader_v2.dart` (`CoreV2PackConverter`) + unit test `test/features/azkar/core_v2_converter_test.dart`. It maps `virtue` to `—` (no source data) and ignores `repeat_by_prayer`/`repeat_note` (no domain field yet); review gating stays with the caller.
 - **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
 
+### GAP-tasbih-7-entries — Phase 05c Tasbih pack PENDING_REVIEW
+- **Finding**: 7 entries from HadeethEnc (verbatim): 6259 (33/33/34),
+  5516 (100x), 65905 (100x tahlil), 4809 (100x tawba) — all صحيح —
+  + 5477 (hawqala via baqiyat, review_required per E-1).
+- **Limitation**: E-1 sunnah.com cross-check blocked (HTTP 403) — recorded,
+  manual check by Abdo/shaykh-1 pending.
+- **Priority**: P3 | **Phase**: 05c | **Status**: OPEN
+
 ### GAP-azkar-core-v2-part2 — Phase 07 part 2 (237 entries) PENDING_REVIEW
 - **Finding**: 13 packs built from Abdo's verified part-2 file (237 blocks):
   wake_sleep 25, home 3, mosque 13, prayer 54, distress 11, fear 8,
