@@ -35,6 +35,7 @@
 | timezone | 0.11.1 (exact) | قاعدة المناطق الزمنية لتهيئة Phase 01 والإشعارات — CR-0008، CR-0012 | BSD-2-Clause | pub.dev — https://pub.dev/packages/timezone/versions/0.11.1 (نُشر 2026-06-29؛ تحقق 2026-10-07) |
 | geolocator | 14.1.1 (exact) | خدمة الموقع (GPS + fallback) — CR-0009 | MIT | pub.dev — https://pub.dev/packages/geolocator/versions/14.1.1 |
 | flutter_compass | 0.8.1 (exact) | بوصلة القبلة (Qibla heading) — CR-0011 | MIT | pub.dev — https://pub.dev/packages/flutter_compass/versions/0.8.1 (نُشر 2024-11-17، latest؛ تحقق 2026-10-09) |
+| hijri | 3.0.1 (exact) | التقويم الهجري (Umm al-Qura) — DEC-0033، CR-0019 | BSD-2-Clause | pub.dev — https://pub.dev/packages/hijri/versions/3.0.1 (تحقق 2026-10-17) |
 | geolocator_platform_interface | 4.4.0 (exact, dev) | Fake platform في اختبارات Location Service | BSD-3-Clause | pub.dev — https://pub.dev/packages/geolocator_platform_interface/versions/4.4.0 |
 | very_good_analysis | 11.0.0 (exact, dev) | قواعد التحليل الساكن — DEC-0011 | MIT | pub.dev — https://pub.dev/packages/very_good_analysis |
 

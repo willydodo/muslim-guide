@@ -36,6 +36,7 @@
 | geolocator | GPS and location services for Task 3 (CR-0009) | `14.1.1` (exact) | MIT | 2026-10-08 — https://pub.dev/packages/geolocator/versions/14.1.1 | `pubspec.yaml` dependencies |
 | flutter_compass | Qibla compass heading for Phase 03 (CR-0011) | `0.8.1` (exact) | MIT | 2026-10-09 — https://pub.dev/packages/flutter_compass/versions/0.8.1 (published 2024-11-17, latest) | `pubspec.yaml` dependencies |
 | geolocator_platform_interface | Test-only fake platform contract for geolocator | `4.4.0` (exact, dev) | BSD-3-Clause | 2026-10-08 — https://pub.dev/packages/geolocator_platform_interface/versions/4.4.0 | `pubspec.yaml` dev_dependencies; `test/features/location/fakes/fake_geolocator_platform.dart` |
+| hijri | Umm al-Qura Hijri calendar + user adjustment ±1 (DEC-0033) | `3.0.1` (exact) | BSD-2-Clause | 2026-10-17 — https://pub.dev/packages/hijri/versions/3.0.1 | `pubspec.yaml` dependencies; `lib/features/hijri/` |
 | very_good_analysis | قواعد التحليل الساكن (DEC-0011) | `11.0.0` (exact) | MIT | 2026-10-05 — https://pub.dev/packages/very_good_analysis | `pubspec.yaml` dev_dependencies |
 
 تبعيات غير مباشرة (تُستنتَج فعليًا من `pubspec.lock`):

@@ -244,6 +244,34 @@
 - CR-0007 — compileSdk 36 لدعم share_plus — APPROVED (2026-10-06) — `governance/cr/CR-0007-compilesdk-36-share-plus.md`
 - CR-0008 — timezone package — APPROVED (2026-10-07) — `governance/cr/CR-0008-timezone-package.md`
 - CR-0009 — geolocator package — APPROVED (2026-10-08) — `governance/cr/CR-0009-geolocator.md`
+### DEC-0033 — Hijri calendar calculation
+
+**Status:** APPROVED
+**Date:** 2026-10-17
+
+**Decision:**
+- حساب هجري عبر `hijri 3.0.1` (Umm al-Qura مضمّن).
+- تعديل مستخدم ±1 يوم (يُحفظ في Hive settings).
+- Offline كامل (صفر dependencies، بلا شبكة).
+
+**Reason:**
+- لا جدول أم القرى PD متاح (الموقع الرسمي بلا تحميل؛ البديل 404).
+- `hijri` package = الخيار التقني الأفضل (يدّعي Umm al-Qura + تعديل أصيل).
+- ±1 يطابق REQ-HIJRI-001.
+- Offline-first (حساب محلي).
+
+**Alternatives Considered:**
+- جدول أم القرى PD مستقل: غير متاح.
+- حساب فلكي/جدولي يدوي (~30 سطراً): مرفوض — ليس أم القرى.
+- `flutter_hijri_date_picker`: مرفوض — حزمة UI إضافية غير ضرورية.
+
+**Consequences:**
+- `hijri 3.0.1` مثبتة (BSD-2-Clause) — CR-0019.
+- 5 تواريخ مرجعية تُختبر ضد ummulqura.org.sa (يزوّدها المالك).
+- التوسعة لـ±2 ممكنة لاحقاً (بقرار موثق).
+
+**Closes:** OD-0005
+
 ### DEC-0031 — Phase A definition
 
 **Status:** APPROVED

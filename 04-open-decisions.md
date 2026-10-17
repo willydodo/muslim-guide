@@ -24,10 +24,18 @@
 - **Status**: OPEN
 - **Note (2026-10-16)**: البحث معطّل في Phase 06؛ يُحسم هذا القرار في Phase 12.
 
-## OD-0005 — التقويم الهجري
-- **Question**: أم القرى / فلكي / خيار للمستخدم؟
-- **Blocking Phase**: قبل Phase 08
-- **Status**: OPEN
+## OD-0005 — Hijri calendar calculation
+
+**Status:** CLOSED — DEC-0033 (2026-10-17)
+**Blocking Phase:** قبل Phase 08
+
+**Question:** أم القرى / فلكي / خيار للمستخدم؟
+
+**Decision:** الخيار C (مزيج):
+- `hijri 3.0.1` (Umm al-Qura مضمّن) + تعديل مستخدم ±1 يوم.
+- Offline كامل. CR-0019.
+
+**Verification:** 5 تواريخ مرجعية ضد ummulqura.org.sa (يزوّدها المالك).
 
 ## OD-0006 — المنصات
 - **Question**: Android min SDK؟ iOS ضمن v1؟
