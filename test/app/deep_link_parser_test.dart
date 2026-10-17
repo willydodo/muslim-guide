@@ -49,6 +49,17 @@ void main() {
       );
     });
 
+    test('resolves the hijri calendar deep link', () {
+      expect(
+        DeepLinkParser.parse(Uri.parse('muslimguide://hijri/calendar')),
+        '/hijri',
+      );
+      expect(
+        DeepLinkParser.parse(Uri.parse('muslimguide://test/hijri')),
+        '/hijri',
+      );
+    });
+
     test('returns null for a bare path-only calculation route', () {
       expect(DeepLinkParser.parse(Uri.parse('/calculation')), isNull);
     });

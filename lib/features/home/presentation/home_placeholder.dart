@@ -57,6 +57,14 @@ class HomePlaceholder extends ConsumerWidget {
             onPressed: () => context.go('/azkar'),
           ),
           const SizedBox(height: 12),
+
+          // التقويم الهجري
+          ElevatedButton.icon(
+            icon: const Icon(Icons.calendar_month),
+            label: const Text('التقويم الهجري'),
+            onPressed: () => context.go('/hijri'),
+          ),
+          const SizedBox(height: 12),
           
           // الإعدادات
           ElevatedButton.icon(

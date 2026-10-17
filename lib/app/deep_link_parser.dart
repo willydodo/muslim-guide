@@ -27,6 +27,7 @@ abstract final class DeepLinkParser {
       ('azkar', '/wake_up') => '/azkar/wake_up',
       ('azkar', '/tasbih') => '/azkar/tasbih',
       ('test', '/azkar') => '/azkar',
+      ('hijri', '/calendar') || ('test', '/hijri') => '/hijri',
       _ => null,
     };
   }
