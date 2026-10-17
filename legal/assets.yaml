@@ -176,11 +176,14 @@ assets:
       - See docs/azkar-gaps.md. No full APPROVED.
 
   # ===== الحديث =====
-  - asset_id: azkar-core-v2-six-books
+  - asset_id: azkar-core-v2-morning
     asset_type: text
-    name: "أذكار الصباح/المساء core_v2 — الكتب الستة + توثيق الألباني"
+    name: "أذكار الصباح core_v2 (21) — الكتب الستة + توثيق الألباني"
     provider: "البخاري، مسلم، أبو داود، الترمذي، النسائي، ابن ماجه + الألباني"
     source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/morning.json"
+    checksum: "sha256:49b3e2a2a9e905ec51c74063fe70fcad244e1451dafb7972e7a4884a3e872097"
+    checksum_method: "canonical-json-sha256-v1 content-only"
     sources:
       - "صحيح البخاري"
       - "صحيح مسلم"
@@ -203,6 +206,23 @@ assets:
       - مصدر نصوص core_v2 (morning 21 + evening 21) من ملف Abdo الموثق.
       - sunnah.com للمرجع فقط (HTTP 403 آليا) — لا نسخ.
       - بانتظار مراجعة shaykh-1 عبر HTML+JSON.
+  - asset_id: azkar-core-v2-evening
+    asset_type: text
+    name: "azkar evening core_v2 (21) — six books + Albani verification"
+    provider: "Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasai, Ibn Majah + Albani"
+    source_url: "https://sunnah.com"
+    path: "assets/content/azkar/core_v2/evening.json"
+    checksum: "sha256:a5720b56965975c7b60a5bfb3d4564edd58e5f26b5fa0370408b6632701a4352"
+    checksum_method: "canonical-json-sha256-v1 content-only"
+    license_type: "UNKNOWN (reference only — texts from Abdo verified file, no copy from sunnah.com/dorar.net)"
+    redistribution_allowed: false
+    attribution_required: true
+    status: SOURCE_IDENTIFIED
+    reviewed_at: null
+    reviewer: shaykh-1
+    phase: "07"
+    review_status: PENDING_REVIEW
+
 
   - asset_id: hadith-dorar
     asset_type: data
