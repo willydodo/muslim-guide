@@ -1,7 +1,7 @@
 # NEXT SESSION — Phase 05b (Azkar Pack)
 
 > **آخر تحديث:** 2026-10-17
-> **المرحلة:** Phase 08 ✅ — Phase 05b pilot ✅
+> **المرحلة:** Phase 05b نهائي (v1.0 = Morning فقط) — Phase 09 جاهز
 
 ## حالة المشروع
 
@@ -14,20 +14,19 @@
 | Phase 06 | ✅ |
 | Phase 06b, 07 | → v1.5 |
 | Phase 08 | ✅ |
-| **Phase 05b pilot** | ✅ (9 أحاديث) |
-| Phase 09 (v1.0) | بعد 05b |
+| **Phase 05b** | نهائي (7 approved، v1.0 = Morning) |
+| Phase 09 (v1.0) | ← الآن (بانتظار تعليمات Abdo) |
 
 ## الحالة الراهنة
 
-- `morning.json` = PARTIALLY_APPROVED (7 approved + 2 rejected)
-- المراجعة مدموجة (`0b4d790`) — المرفوضان والمعدّلان موثقان في `docs/azkar-gaps.md`
-- shaykh-1 = بانتظار توضيح سبب الرفض (morning_002 + morning_007)
+- `morning.json` = PARTIALLY_APPROVED (7 approved + 2 rejected + 2 edited_rejected)
+- القرارات النهائية موثقة في `docs/azkar-gaps.md`
+- لا توسع (v1.5) — لا CR-0022 (v1.5) — v1.0 = Morning فقط
 
 ## الخطوات التالية
 
-1. **Abdo يسأل shaykh-1** عن سبب رفض morning_002 وmorning_007
-2. **CR-0022 (البخاري/مسلم)** — فقط إن طُلبت التعديلات لاحقًا
-3. **التوسع** — فقط بعد موافقتك الصريحة (لا توسع تلقائي)
+1. **Phase 09 (v1.0)** — بانتظار تعليمات Abdo (بدء؟ انتظار shaykh-1؟)
+2. **v1.5 (مؤجل):** سبب الرفض + CR-0022 + ترجمة EN + توسع 20 subcategory
 
 ## Phase 09 (v1.0)
 
