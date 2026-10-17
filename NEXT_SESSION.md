@@ -1,38 +1,38 @@
-# NEXT SESSION — Phase 08
+# NEXT SESSION — Phase 05b (Azkar Pack)
 
 > **آخر تحديث:** 2026-10-17
-> **المرحلة:** Phase 06 ✅ — Phase 06b, 07 مؤجلان → Phase 08
+> **المرحلة:** Phase 08 ✅ — Phase 05b pilot ✅
 
 ## حالة المشروع
 
 | البند | القيمة |
 |---|---|
-| Repo | `willydodo/muslim-guide` |
-| HEAD | `5ca7fb9` |
+| HEAD | `2c4ab9d` |
 | CI | ✅ |
-| approvals | APR-0001 + APR-0002 |
-| tags | approval/phase-A-v1, approval/phase-B-v1 |
+| Phase 00–04 | ✅ |
+| Phase 05 (skeleton) | 🟡 |
+| Phase 06 | ✅ |
+| Phase 06b, 07 | → v1.5 |
+| Phase 08 | ✅ |
+| **Phase 05b pilot** | ✅ (9 أحاديث) |
+| Phase 09 (v1.0) | بعد 05b |
 
-## المراحل المكتملة
+## الحالة الراهنة
 
-- Phase 00 → 04 ✅
-- Phase 05 (Azkar skeleton) ✅
-- Phase 06 (القرآن + Mushaf View + Device Test) ✅
+- `morning.json` = PENDING_REVIEW
+- HTML للمراجعة = جاهز (`content/reviews/morning-review-2026-10-17.html`)
+- shaykh-1 = بانتظار المراجعة
 
-## مؤجل (v1.5)
+## الخطوات التالية
 
-### Phase 06b (التفاسير)
-- OD-0030 (مصدر حقوق) — CR-0017
+1. **Abdo يرسل HTML** لـ shaykh-1
+2. **بعد المراجعة:**
+   - ✅ = APPROVED → التوسع
+   - ✏️ = تعديل → APPROVED
+   - ❌ = رفض → مراجعة
+3. **التوسع** لـ 20 subcategory
 
-### Phase 07 (التلاوة)
-- OD-0007 (مصدر الصوت) — CR-0018
+## Phase 09 (v1.0)
 
-## المتبقي
-
-### Phase 08 (التقويم) ← الآن
-- OD-0005
-- **1-2 يوم**
-
-### Phase 09 (v1.0)
-- تثبيت + إطلاق
-- **2-3 أيام**
+- بعد 05b
+- 2–3 أيام
