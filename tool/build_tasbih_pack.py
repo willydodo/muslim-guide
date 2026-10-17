@@ -5,9 +5,8 @@ Mapping (Abdo-approved hadith numbers -> HadeethEnc IDs):
 - 2691 (100x subhanallah wa bihamdihi) -> 5516
 - 2693/2691 (100x tahlil) -> 65905 (muslim 2691 wording, 100x)
 - 2702 (100x tawba) -> 4809
-- 6384 (hawqala) -> 5477 (baqiyat salihat incl. hawqala) BUT grade is
-  "صحيح بشواهده" and wording differs -> item kept as review_required
-  per E-1 (no guessing).
+- 6384 (hawqala) -> REMOVED E-1 (2026-10-18): not in HadeethEnc; 5477
+  (baqiyat) is not a match. 6 entries only (Rule 020).
 """
 import json
 import sys
@@ -35,8 +34,6 @@ SPECS = [
     ("subhanallah_wa_bihamdihi", "5516", 100, None, "100x"),
     ("la_ilaha_illallah", "65905", 100, None, "100x"),
     ("astaghfirullah", "4809", 100, None, "100x tawba wording"),
-    ("la_hawla_wa_la_quwwata", "5477", 100, "لا حول ولا قوة ولا قوة إلا بالله",
-     "review_required: wording differs"),
 ]
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,10 +53,6 @@ def main():
             item["dhikr"] = ovr
             item["dhikr_source"] = ("HadeethEnc %s explanation (verbatim "
                                     "extract)" % hid)
-        if item_id == "la_hawla_wa_la_quwwata":
-            item["grade_simple"] = "review_required"
-            item["review"]["notes"] = ("E-1: wording is baqiyat-salihat, not "
-                                       "the standalone hawqala; needs shaykh-1")
         items.append(item)
     pack = build_pack("tasbih-v1", "tasbih", items,
                       "HadeethEnc API (verbatim)")

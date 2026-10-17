@@ -72,9 +72,10 @@
 - **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
 
 ### GAP-tasbih-7-entries — Phase 05c Tasbih pack PENDING_REVIEW
-- **Finding**: 7 entries from HadeethEnc (verbatim): 6259 (33/33/34),
-  5516 (100x), 65905 (100x tahlil), 4809 (100x tawba) — all صحيح —
-  + 5477 (hawqala via baqiyat, review_required per E-1).
+- **Finding**: 6 entries from HadeethEnc (verbatim, all صحيح): 6259 (33/33/34),
+  5516 (100x), 65905 (100x tahlil), 4809 (100x tawba).
+- **E-1 removal (2026-10-18)**: hawqala (Bukhari 6384) not in HadeethEnc;
+  5477 (baqiyat) is not a match — removed per Rule 020. 6 entries only.
 - **Limitation**: E-1 sunnah.com cross-check blocked (HTTP 403) — recorded,
   manual check by Abdo/shaykh-1 pending.
 - **Priority**: P3 | **Phase**: 05c | **Status**: OPEN

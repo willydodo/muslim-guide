@@ -11,7 +11,7 @@ DRAFT (spec only — no code before Abdo approval)
 
 ## Scope
 
-### الصيغ (7 — بأرقام الحديث)
+### الصيغ (6 — بأرقام الحديث، E-1: الحوقلة محذوفة)
 
 | # | id | النص | العدد | المصدر |
 |---|---|---|---|---|
@@ -21,7 +21,9 @@ DRAFT (spec only — no code before Abdo approval)
 | 4 | subhanallah_wa_bihamdihi | سُبْحَانَ اللَّهِ وَبِحَمْدِهِ | 100 | مسلم 2691 |
 | 5 | la_ilaha_illallah | لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ | 100 | مسلم 2693 |
 | 6 | astaghfirullah | أَسْتَغْفِرُ اللَّهَ | 100 | مسلم 2702 |
-| 7 | la_hawla_wa_la_quwwata | لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ | 100 | البخاري 6384 |
+
+> **E-1 (2026-10-18):** الحوقلة (البخاري 6384) محذوفة — غير موجودة في
+> HadeethEnc، والبديل 5477 (الباقيات) ليس مطابقًا (Rule 020). 6 أذكار كافية.
 
 > النصوص الكاملة تُستخرج من HadeethEnc (نفس مسار 05b: verbatim + grade +
 > attribution) — **لا كتابة من الذاكرة** (Stop 7). التأليف HadeethEnc IDs
@@ -33,7 +35,7 @@ DRAFT (spec only — no code before Abdo approval)
 - **تسبيح حر:** 100× (كل ذكر مستقل: 4-7).
 
 ### داخل النطاق
-- شاشة `TasbihListScreen`: قائمة الأذكار السبعة (قسمان: بعد الصلاة + تسبيح حر).
+- شاشة `TasbihListScreen`: قائمة الأذكار الستة (قسمان: بعد الصلاة + تسبيح حر).
 - شاشة `TasbihScreen`: Circular Progress (progress ring) + الزر الرئيسي في
   المنتصف (اضغط للعد) + العد الحالي (33/100) + زر "إعادة".
 - Haptic خفيف عند كل عد (`HapticFeedback.lightImpact` حصرًا — لا heavy)
@@ -154,7 +156,7 @@ DRAFT (spec only — no code before Abdo approval)
 - **معماري:** feature جديد أم توسيع azkar + Hive schema + deep link.
 
 ## Approval
-- Status: APPROVED (E-1..E-3 مدمجة — 2026-10-18)
+- Status: APPROVED (E-1..E-3 مدمجة + حذف الحوقلة E-1 — 2026-10-18)
 - Approved By: Abdo (Director)
 - Approval Date: 2026-10-18
 - Approval Text: Spec APPROVED مع 3 تعديلات (E-1 تحقق sunnah.com، E-2 lightImpact، E-3 reset بتأكيد+SnackBar)

@@ -88,11 +88,11 @@ assets:
   # ===== الأذكار والأدعية =====
   - asset_id: tasbih-pack
     asset_type: text
-    name: "Tasbih pack (7) — HadeethEnc verbatim"
+    name: "Tasbih pack (6) — HadeethEnc verbatim"
     provider: "HadeethEnc.com"
     source_url: "https://hadeethenc.com"
     path: "assets/content/tasbih/tasbih.json"
-    checksum: "sha256:b328215fc696e557c798d5164cb01210fbaf644012d1ca5a464e9a197f8b3488"
+    checksum: "sha256:85904edc8b3973f0375436436391ec63f4868742bdc14c386f036549f924cb6b"
     checksum_method: "canonical-json-sha256-v1 content-only"
     license_type: "HadeethEnc (NoDerivs + Attribution)"
     redistribution_allowed: true
@@ -104,7 +104,8 @@ assets:
     phase: "05c"
     review_status: PENDING_REVIEW
     notes: |
-      - 6 approved-form (صحيح) + 1 review_required (hawqala wording).
+      - 6 entries (صحيح): 6259 (33/33/34), 5516, 65905, 4809 (100x).
+      - hawqala REMOVED E-1 (2026-10-18): Bukhari 6384 not in HadeethEnc (Rule 020).
       - E-1: sunnah.com cross-check blocked (HTTP 403) — recorded as limitation.
   - asset_id: azkar-hisn
     asset_type: text
