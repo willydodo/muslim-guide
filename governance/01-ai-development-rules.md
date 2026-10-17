@@ -110,6 +110,16 @@ You are an implementation agent working under MASTER_SPEC.
 - Use `tester.scrollUntilVisible(target, 400)` (no `scrollable:` parameter) — never `drag(fixedPixels)`.
 - GAP-widget-test-layout-coupling registered (refactor to section-specific tests in Phase 06).
 
+## Religious content collection — Phase 07 lessons
+
+- **Digital sources are scarce:** no single complete 304-entry source with grades exists.
+- **External verification blocked:** dorar.net and sunnah.com return HTTP 403 to automation.
+- **Complex packages need CR:** `dorar_hadith` pulls drift (blocked by OD-0002 until Phase 12).
+- **v1.0 (7 adhkar) was pragmatic:** verified content, no licensing risk.
+- **Expansion deferred to Phase 09+:** needs a separate source-resolution CR.
+- **382 was an estimation error:** actual file content is 304 entries (verified by parse, then frozen).
+- **Phase numbering is reserved:** Phase 08 = Hijri calendar (completed); new azkar work uses 05b/05c suffixes — never overwrite an existing phase file.
+
 ## Related
 
 - `governance/00-change-control.md`
