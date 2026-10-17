@@ -1,14 +1,14 @@
-# NEXT SESSION — Phase 07
+# NEXT SESSION — Phase 08
 
 > **آخر تحديث:** 2026-10-17
-> **المرحلة:** Phase 06 ✅ مكتمل — Phase 06b مؤجل (CR-0017) → Phase 07
+> **المرحلة:** Phase 06 ✅ — Phase 06b, 07 مؤجلان → Phase 08
 
 ## حالة المشروع
 
 | البند | القيمة |
 |---|---|
 | Repo | `willydodo/muslim-guide` |
-| HEAD | `6899f1e` |
+| HEAD | `5ca7fb9` |
 | CI | ✅ |
 | approvals | APR-0001 + APR-0002 |
 | tags | approval/phase-A-v1, approval/phase-B-v1 |
@@ -19,22 +19,17 @@
 - Phase 05 (Azkar skeleton) ✅
 - Phase 06 (القرآن + Mushaf View + Device Test) ✅
 
-## مؤجل
+## مؤجل (v1.5)
 
-### Phase 06b (التفاسير) → v1.5
-- OD-0030: مصدر حقوق (OPEN)
-- CR-0017: إسقاط من v1.0
-- السبب: shamela.ws حقوق محفوظة + النسخ محققة حديثاً
+### Phase 06b (التفاسير)
+- OD-0030 (مصدر حقوق) — CR-0017
+
+### Phase 07 (التلاوة)
+- OD-0007 (مصدر الصوت) — CR-0018
 
 ## المتبقي
 
-### Phase 07 (التلاوة) ← الآن
-- Wikimedia Commons CC0
-- OD-0007
-- audio_service + just_audio
-- **3-4 أيام**
-
-### Phase 08 (التقويم)
+### Phase 08 (التقويم) ← الآن
 - OD-0005
 - **1-2 يوم**
 

@@ -251,11 +251,15 @@ assets:
     license_type: "UNKNOWN"
     redistribution_allowed: false
     attribution_required: true
-    status: BLOCKED
-    reviewed_at: null
+    status: DEFERRED
+    reviewed_at: "2026-10-17"
     evidence: []
     reviewer: null
     phase: 07
+    notes: |
+      - مؤجل لـv1.5 (CR-0018، OD-0007).
+      - لا مصدر موثق: Wikimedia بلا مصحف كامل، Archive حقوق محفوظة،
+        EveryAyah بلا شروط مقروءة.
 
   # ===== الخطوط =====
   - asset_id: amiri-quran-font

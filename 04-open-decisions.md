@@ -34,11 +34,28 @@
 - **Blocking Phase**: قبل Phase 01
 - **Status**: DECIDED — Android فقط في v1.0 (minSdk 24, compileSdk 36, targetSdk 34)؛ iOS مؤجل إلى v2.0+ → OD-0021 (DEC-0015، 2026-10-05؛ minSdk amended by CR-0003 وcompileSdk amended by CR-0007 on 2026-10-06)
 
-## OD-0007 — مصدر صوت التلاوة
-- **Question**: من القارئ؟ ما شروط ترخيصه؟
-- **Blocking Phase**: قبل Phase 07
-- **Status**: OPEN
-- **Rule**: لا استخدام قبل ترخيص مكتوب.
+## OD-0007 — Recitation audio source
+
+**Status:** OPEN
+**Blocking Phase:** 07 (deferred to v1.5)
+**Date:** 2026-10-17
+
+**Question:** ما مصدر صوت التلاوة بحقوق إعادة نشر مثبتة؟
+
+**Context (verified 2026-10-17):**
+- Wikimedia Commons: لا مصحف كامل (52 تسجيلاً متفرقاً فقط —
+  سور قصار + مقاطع جزئية، لا 114 سورة من قارئ واحد).
+- Archive.org: حقوق محفوظة (قراء مشهورون توفوا 1969–1988م؛
+  لا PD قبل 1929م للتسجيل الصوتي؛ عنصر `quran_mp3` بلا بيان ترخيص).
+- EveryAyah: لا صفحة شروط قابلة للقراءة (صفحات فارغة/404).
+- لا مصدر APPROVED. `quran-recitation` = DEFERRED (CR-0018).
+
+**Options:**
+- A: مراسلة EveryAyah/قارئ واحد (2-6 أسابيع).
+- B: إسقاط من v1.0 → v1.5 (الحالي).
+- C: إيجاد مصدر PD آخر.
+
+**Decision:** B — مؤجل لـv1.5 (CR-0018، 2026-10-17).
 
 ## OD-0008 — ترحيل بيانات المستخدم
 - **Question**: آلية schemaVersion وmigration؟
