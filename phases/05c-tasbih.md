@@ -1,7 +1,10 @@
 # Phase 05c — Tasbih Counter (عدّاد التسبيح)
 
 ## Status
-DRAFT (spec only — no code before Abdo approval)
+APPROVED (code) — device test partial PASS (2026-10-18).
+
+Note: "Deep link via adb is GAP-deeplink-coldstart (Phase 09+); in-app
+navigation (/tasbih, /tasbih/:id) works."
 
 ## Objective
 

@@ -91,6 +91,19 @@
 - **Needs**: shaykh-1 review (scope expanded 2026-10-18).
 - **Priority**: P3 | **Phase**: 07 | **Status**: OPEN
 
+### GAP-deeplink-coldstart — adb deep links do not reach go_router
+- **Finding (2026-10-18, device test partial PASS)**: `/tasbih` → Home (splash
+  forces `/home` before any pending deep link settles); `/tasbih/subhanallah`
+  → "Page not found". Root causes: (1) no `app_links`/`uni_links` listener in
+  `lib/` — no `getInitialLink`/`uriLinkStream` wiring, so cold-start intents
+  never reach `DeepLinkParser`; (2) `SplashScreen` calls `context.go('/home')`
+  unconditionally after bootstrap, crushing any in-flight deep link.
+- **In-app navigation works** (`/tasbih`, `/tasbih/:id`, parser mappings all
+  verified read-only). Only the adb/external path is broken.
+- **Fix (deferred)**: add `app_links` package (needs CR + license check) +
+  pending-deep-link hold in splash before `go('/home')`.
+- **Priority**: P3 | **Phase**: 05c → Phase 09+ | **Status**: OPEN
+
 ### GAP-azkar-expansion-deferred — Full Azkar/Adiya expansion deferred
 - **Finding**: `الأذكار.docx` contains 304 entries (not 382 — Director estimate corrected, no second file).
 - **Reasons**: (1) dorar.net/sunnah.com blocked (HTTP 403 — no automated verification possible);
