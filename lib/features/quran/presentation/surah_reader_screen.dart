@@ -112,12 +112,26 @@ class _MushafWithBasmalaState extends State<MushafWithBasmala> {
             Padding(
               key: MushafWithBasmala.basmalaKey,
               padding: const EdgeInsets.only(bottom: AppSpacing.l),
-              child: Text(
-                surah.basmala!,
-                style: AppTypography.quran.copyWith(color: textColor),
-                textAlign: TextAlign.center,
-                textDirection: TextDirection.rtl,
-              ),
+              // Basmala stays on one line at default text scale: FittedBox
+              // scales the header down only (verse text untouched below).
+              // At 200% the header wraps instead of overflowing.
+              child: MediaQuery.textScalerOf(context).scale(1) > 1.5
+                  ? Text(
+                      surah.basmala!,
+                      style: AppTypography.quran.copyWith(color: textColor),
+                      textAlign: TextAlign.center,
+                      textDirection: TextDirection.rtl,
+                    )
+                  : FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: Text(
+                        surah.basmala!,
+                        style: AppTypography.quran.copyWith(color: textColor),
+                        textAlign: TextAlign.center,
+                        textDirection: TextDirection.rtl,
+                        maxLines: 1,
+                      ),
+                    ),
             ),
           Semantics(
             label: '${surah.nameAr}, ${surah.verses.length}',

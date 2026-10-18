@@ -29,7 +29,7 @@ class HomePlaceholder extends ConsumerWidget {
           // القرآن
           ElevatedButton.icon(
             icon: const Icon(Icons.menu_book),
-            label: const Text('القرآن الكريم'),
+            label: Text(l10n.quran_title),
             onPressed: () => context.go('/quran'),
           ),
           const SizedBox(height: 12),
@@ -37,7 +37,7 @@ class HomePlaceholder extends ConsumerWidget {
           // المواقيت
           ElevatedButton.icon(
             icon: const Icon(Icons.access_time),
-            label: const Text('مواقيت الصلاة'),
+            label: Text(l10n.prayer_title),
             onPressed: () => context.go('/prayer'),
           ),
           const SizedBox(height: 12),
@@ -45,7 +45,7 @@ class HomePlaceholder extends ConsumerWidget {
           // القبلة
           ElevatedButton.icon(
             icon: const Icon(Icons.explore),
-            label: const Text('القبلة'),
+            label: Text(l10n.qibla_title),
             onPressed: () => context.go('/qibla'),
           ),
           const SizedBox(height: 12),
@@ -53,7 +53,7 @@ class HomePlaceholder extends ConsumerWidget {
           // الأذكار
           ElevatedButton.icon(
             icon: const Icon(Icons.auto_stories),
-            label: const Text('الأذكار'),
+            label: Text(l10n.azkar_library_title),
             onPressed: () => context.go('/azkar'),
           ),
           const SizedBox(height: 12),
@@ -69,7 +69,7 @@ class HomePlaceholder extends ConsumerWidget {
           // التقويم الهجري
           ElevatedButton.icon(
             icon: const Icon(Icons.calendar_month),
-            label: const Text('التقويم الهجري'),
+            label: Text(l10n.hijri_calendar_title),
             onPressed: () => context.go('/hijri'),
           ),
           const SizedBox(height: 12),
@@ -77,7 +77,7 @@ class HomePlaceholder extends ConsumerWidget {
           // الإعدادات
           ElevatedButton.icon(
             icon: const Icon(Icons.settings),
-            label: const Text('الإعدادات'),
+            label: Text(l10n.settings_calculation_title),
             onPressed: () => context.go('/settings/calculation'),
           ),
         ],
