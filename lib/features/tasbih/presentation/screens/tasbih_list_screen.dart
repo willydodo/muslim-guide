@@ -129,11 +129,19 @@ class _EntryRow extends StatelessWidget {
     return Semantics(
       button: true,
       label: title,
-      child: SizedBox(
-        height: 48,
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(minHeight: 48),
         child: ListTile(
-          title: Text(title),
-          subtitle: Text(subtitle),
+          title: Text(
+            title,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
+          subtitle: Text(
+            subtitle,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
           trailing: const Icon(Icons.chevron_right),
           onTap: onTap,
         ),

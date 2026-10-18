@@ -35,39 +35,54 @@ class CircularCounter extends StatelessWidget {
       label: semanticsLabel ?? '$count / $target',
       child: GestureDetector(
         onTap: onTap,
-        child: SizedBox(
-          width: 220,
-          height: 220,
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              SizedBox(
-                width: 220,
-                height: 220,
-                child: CircularProgressIndicator(
-                  value: progress,
-                  strokeWidth: 12,
-                  backgroundColor:
-                      theme.colorScheme.surfaceContainerHighest,
-                ),
-              ),
-              Column(
-                mainAxisSize: MainAxisSize.min,
+        child: LayoutBuilder(
+          builder: (context, constraints) {
+            // Fit the ring inside the available space so 200% text scale
+            // cannot overflow; the number text stays full-size (no FittedBox)
+            // per accessibility rules.
+            final side = constraints.biggest.shortestSide;
+            final ringSize = side.isFinite && side > 0
+                ? side.clamp(120.0, 280.0)
+                : 220.0;
+            return SizedBox(
+              width: ringSize,
+              height: ringSize,
+              child: Stack(
+                alignment: Alignment.center,
                 children: [
-                  Text(
-                    '$count',
-                    style: theme.textTheme.displayMedium,
-                    textDirection: TextDirection.ltr,
+                  SizedBox(
+                    width: ringSize,
+                    height: ringSize,
+                    child: CircularProgressIndicator(
+                      value: progress,
+                      strokeWidth: 12,
+                      backgroundColor:
+                          theme.colorScheme.surfaceContainerHighest,
+                    ),
                   ),
-                  Text(
-                    '/ $target',
-                    style: theme.textTheme.titleMedium,
-                    textDirection: TextDirection.ltr,
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        '$count',
+                        style: theme.textTheme.displayMedium,
+                        textDirection: TextDirection.ltr,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      Text(
+                        '/ $target',
+                        style: theme.textTheme.titleMedium,
+                        textDirection: TextDirection.ltr,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
                   ),
                 ],
               ),
-            ],
-          ),
+            );
+          },
         ),
       ),
     );

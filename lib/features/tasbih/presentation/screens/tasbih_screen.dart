@@ -36,7 +36,13 @@ class TasbihScreen extends ConsumerWidget {
       ),
     );
     return Scaffold(
-      appBar: AppBar(title: Text(entry.dhikr)),
+      appBar: AppBar(
+        title: Text(
+          entry.dhikr,
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+      ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(AppSpacing.l),
@@ -83,7 +89,12 @@ class TasbihScreen extends ConsumerWidget {
                   // E-3: confirmation dialog + SnackBar on reset.
                   onPressed: () => _confirmReset(context, ref,
                       entry.id, entry.target, localizations),
-                  child: Text(localizations.tasbih_reset),
+                  child: Text(
+                    localizations.tasbih_reset,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    textAlign: TextAlign.center,
+                  ),
                 ),
               ),
             ],

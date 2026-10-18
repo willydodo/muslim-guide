@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:muslim_guide/features/tasbih/presentation/screens/tasbih_list_screen.dart';
 import 'package:muslim_guide/features/tasbih/presentation/screens/tasbih_screen.dart';
 
 import 'tasbih_test_helpers.dart';
@@ -40,6 +41,32 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.text('DHIKR-allahuakbar'), findsOneWidget);
+    });
+
+    testWidgets('no overflow at 200% text scale (list + counter)',
+        (tester) async {
+      tester.platformDispatcher.textScaleFactorTestValue = 2.0;
+      addTearDown(
+        tester.platformDispatcher.clearTextScaleFactorTestValue,
+      );
+
+      await tester.pumpWidget(
+        buildTasbihTestApp(
+          overrides: [tasbihPackOverride(stubTasbihPack())],
+          child: const TasbihListScreen(),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+
+      await tester.pumpWidget(
+        buildTasbihTestApp(
+          overrides: [tasbihPackOverride(stubTasbihPack())],
+          child: const TasbihScreen(entryId: 'subhanallah'),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
     });
   });
 }
