@@ -28,6 +28,14 @@
 | 08 | Calendar (Hijri) | Completed 2026-10-17 |
 | 09 | v1.0 stabilization | Upcoming (after 05b) |
 
+## Phase 06 — القرآن
+- Status: ✅ COMPLETED (2026-10-17)
+- Deliverables: quran-uthmani.json (Tanzil CC BY 3.0) + AmiriQuran.ttf (OFL) + فهرس + reader + actions sheet + router + ARB + 597 tests + device 12/12
+- Decisions: DEC-0030 (JSON storage — OD-0003 closed)
+- Output Report: docs/phase-06-output-report.md
+- Deferrals: التفسير (OD-0030/CR-0017)، التلاوة (OD-0007/CR-0018)، البحث (OD-0002/OD-0004)، lastRead (Phase 10)، المفضلة (Phase 11)
+- **GAP-phase-06-4criteria:** 4 items untested (Amiri/LTR/200%/Offline) → Phase 09
+
 ## Phase 05b (Azkar Pack) — Pilot ✅ (2026-10-17)
 
 - Source: HadeethEnc.com (NoDerivs + Attribution) — CR-0020.

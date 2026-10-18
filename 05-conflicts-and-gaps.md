@@ -118,3 +118,12 @@
 - **Decision**: v1.0 = 7 approved morning adhkar only (`morning.json`, PARTIALLY_APPROVED).
 - **Priority**: P2 | **Phase**: 07 (frozen) | **Status**: OPEN (deferred to Phase 09+)
 - **Date**: 2026-10-17
+
+### GAP-phase-06-4criteria — 4 Exit Criteria untested (Phase 06 → Phase 09)
+- **Finding**: `docs/phase-06-output-report.md` covers 12 device items only
+  (index, 4 surahs, dark/light, basmala scroll, tap→sheet, copy, share,
+  cold start). Four Exit Criteria were never tested: Amiri clipping,
+  LTR interface, Text scale 200%, Offline mode.
+- **Needs**: Abdo verifies on Oppo A95 before Phase 09, then mark `[x]`
+  in `phases/06.md` with evidence (no `[x]` without evidence — Rule 020).
+- **Priority**: P3 | **Phase**: 06 → 09 | **Status**: OPEN
