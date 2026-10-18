@@ -127,3 +127,7 @@
 - **Needs**: Abdo verifies on Oppo A95 before Phase 09, then mark `[x]`
   in `phases/06.md` with evidence (no `[x]` without evidence — Rule 020).
 - **Priority**: P3 | **Phase**: 06 → 09 | **Status**: OPEN
+
+| GAP | Description | Priority | Phase | Status |
+|---|---|---|---|---|
+| GAP-phase-08-sharia-review | Phase 08 events (Ramadan, Hajj, White Days, Ashura, Arafah) — إجماعية. شهادة شرعية (shaykh-1) للتأكيد النهائي. | P3 | Phase 08 | OPEN |
