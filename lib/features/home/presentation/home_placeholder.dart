@@ -58,6 +58,14 @@ class HomePlaceholder extends ConsumerWidget {
           ),
           const SizedBox(height: 12),
 
+          // التسبيح
+          ElevatedButton.icon(
+            icon: const Icon(Icons.repeat),
+            label: Text(l10n.tasbih_list_title),
+            onPressed: () => context.go('/tasbih'),
+          ),
+          const SizedBox(height: 12),
+
           // التقويم الهجري
           ElevatedButton.icon(
             icon: const Icon(Icons.calendar_month),
