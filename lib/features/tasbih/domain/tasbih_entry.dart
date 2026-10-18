@@ -44,9 +44,29 @@ class TasbihEntry {
       );
     }
 
+    final rawDhikr = json['dhikr'];
+    // 'dhikr' short label (builder only set it for 33/33/34). The labels
+    // below are verbatim from the APPROVED spec table (phases/05c-tasbih.md
+    // §Scope), themselves matching the quoted wording inside each item's
+    // 'arabic' hadeeth text — no new religious text introduced.
+    const fallbackDhikr = {
+      'subhanallah_wa_bihamdihi': 'سُبْحَانَ اللَّهِ وَبِحَمْدِهِ',
+      'la_ilaha_illallah': 'لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ '
+          'لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ '
+          'وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+      'astaghfirullah': 'أَسْتَغْفِرُ اللَّهَ',
+    };
+    final dhikrValue = (rawDhikr is String && rawDhikr.trim().isNotEmpty)
+        ? rawDhikr
+        : fallbackDhikr[json['id']];
+
     return TasbihEntry(
       id: requiredString('id'),
-      dhikr: requiredString('dhikr'),
+      dhikr: dhikrValue != null && dhikrValue.trim().isNotEmpty
+          ? dhikrValue
+          : throw const FormatException(
+              'Tasbih entry field "dhikr" must be a non-empty string.',
+            ),
       target: requiredCount('repeat'),
       hadeeth: requiredString('arabic'),
       grade: requiredString('grade_simple'),

@@ -5,22 +5,46 @@ import 'package:muslim_guide/features/tasbih/data/tasbih_loader.dart';
 import 'package:muslim_guide/features/tasbih/domain/tasbih_pack.dart';
 
 void main() {
+  Map<String, dynamic> withDhikr(
+      Map<String, dynamic> base, String label) {
+    return {...base, 'dhikr': label};
+  }
+
+  Map<String, dynamic> item(String id, String section, int repeat) {
+    return {
+      'id': id,
+      'arabic': 'حديث صحيح',
+      'source_ref': 'HadeethEnc test',
+      'degree_raw': 'صحيح',
+      'grade': 'صحيح',
+      'grade_simple': 'صحيح',
+      'repeat': repeat,
+      'section': section,
+    };
+  }
+
   Map<String, dynamic> approvedPackJson() {
     return {
       'pack_id': 'tasbih-v1',
       'status': 'APPROVED',
       'items': [
-        {
-          'id': 'subhanallah',
-          'arabic': 'حديث صحيح',
-          'dhikr': 'ذكر',
-          'source_ref': 'HadeethEnc 6259',
-          'degree_raw': 'صحيح',
-          'grade': 'صحيح',
-          'grade_simple': 'صحيح',
-          'repeat': 33,
-          'section': 'after_prayer',
-        },
+        withDhikr(item('subhanallah', 'after_prayer', 33), 'ذكر'),
+      ],
+    };
+  }
+
+  /// Real-pack-shaped APPROVED fixture: three free-section items carry no
+  /// 'dhikr' short label (as in the bundled tasbih.json). The model must
+  /// fall back to the APPROVED spec-table labels instead of failing.
+  Map<String, dynamic> approvedPackJsonNoDhikr() {
+    return {
+      'pack_id': 'tasbih-v1',
+      'status': 'APPROVED',
+      'items': [
+        withDhikr(item('subhanallah', 'after_prayer', 33), 'ذكر'),
+        item('subhanallah_wa_bihamdihi', 'free', 100),
+        item('la_ilaha_illallah', 'free', 100),
+        item('astaghfirullah', 'free', 100),
       ],
     };
   }
@@ -53,6 +77,23 @@ void main() {
       final pack = await loader.load();
       expect(pack?.entries, hasLength(1));
       expect(pack?.entries.first.id, 'subhanallah');
+    });
+
+    test('loads items missing the dhikr label via spec fallback', () async {
+      final loader = TasbihLoader(
+        assetBundle: _FixedBundle(approvedPackJsonNoDhikr()),
+      );
+      final pack = await loader.load();
+      expect(pack?.entries, hasLength(4));
+      expect(pack?.entries.map((entry) => entry.id), containsAll([
+        'subhanallah',
+        'subhanallah_wa_bihamdihi',
+        'la_ilaha_illallah',
+        'astaghfirullah',
+      ]));
+      for (final entry in pack!.entries) {
+        expect(entry.dhikr.trim(), isNotEmpty);
+      }
     });
 
     test('returns null on invalid JSON shape', () async {
