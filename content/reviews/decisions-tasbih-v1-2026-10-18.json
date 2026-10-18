@@ -1,0 +1,49 @@
+{
+  "pack_id": "tasbih-v1",
+  "version": "0.1.0",
+  "checksum": "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc",
+  "decisions": [
+    {
+      "id": "subhanallah",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.227Z"
+    },
+    {
+      "id": "alhamdulillah",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.228Z"
+    },
+    {
+      "id": "allahuakbar",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.228Z"
+    },
+    {
+      "id": "subhanallah_wa_bihamdihi",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.228Z"
+    },
+    {
+      "id": "la_ilaha_illallah",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.228Z"
+    },
+    {
+      "id": "astaghfirullah",
+      "status": "approved",
+      "notes": "",
+      "proposed_text": null,
+      "decided_at": "2026-10-18T08:32:38.228Z"
+    }
+  ]
+}

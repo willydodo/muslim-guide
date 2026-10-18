@@ -48,6 +48,7 @@ flutter:
     - assets/cities/
     - assets/audio/adhan.ogg
     - assets/content/quran/
+    - assets/content/tasbih/
   fonts:
     - family: AmiriQuran
       fonts:

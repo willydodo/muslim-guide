@@ -92,21 +92,23 @@ assets:
     provider: "HadeethEnc.com"
     source_url: "https://hadeethenc.com"
     path: "assets/content/tasbih/tasbih.json"
-    checksum: "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc"
-    checksum_method: "canonical-json-sha256-v1 content-only"
+    checksum: "sha256:339136d2efe0483958dc0b0c264f8a463691f3484afd68d6f3cf5499364a1e35"
+    checksum_method: "canonical-json-sha256-v1 content-only (excl. review/proposal/approval fields; UTF-8, sort_keys, indent=2)"
     license_type: "HadeethEnc (NoDerivs + Attribution)"
     redistribution_allowed: true
     modification_allowed: false
     attribution_required: true
-    status: SOURCE_IDENTIFIED
-    reviewed_at: null
+    status: APPROVED
+    reviewed_at: "2026-10-18"
     reviewer: shaykh-1
     phase: "05c"
-    review_status: PENDING_REVIEW
+    review_status: APPROVED
+    decisions_ref: "content/reviews/decisions-tasbih-v1-2026-10-18.json"
     notes: |
       - 6 entries (صحيح): 6259 (33/33/34), 5516, 65905, 4809 (100x).
       - hawqala REMOVED E-1 (2026-10-18): Bukhari 6384 not in HadeethEnc (Rule 020).
       - E-1: sunnah.com cross-check blocked (HTTP 403) — recorded as limitation.
+      - APPROVED shaykh-1 (2026-10-18): 6 approved, no edits.
   - asset_id: azkar-hisn
     asset_type: text
     name: "حصن المسلم"

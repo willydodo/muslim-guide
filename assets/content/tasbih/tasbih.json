@@ -1,13 +1,14 @@
 {
   "approval": {
-    "approved_at": null,
-    "checksum_approved": null,
+    "approved_at": "2026-10-18",
+    "checksum_approved": "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc",
+    "decisions_ref": "content/reviews/decisions-tasbih-v1-2026-10-18.json",
     "reviewer_id": "shaykh-1",
-    "version_approved": null
+    "version_approved": "0.1.0"
   },
   "category": "tasbih",
-  "checksum": "sha256:6cca0748f268e49c7e2786186c902a156716a43412f87245f4416854de6491cc",
-  "checksum_method": "canonical-json-sha256-v1 content-only",
+  "checksum": "sha256:339136d2efe0483958dc0b0c264f8a463691f3484afd68d6f3cf5499364a1e35",
+  "checksum_method": "canonical-json-sha256-v1 content-only (excl. review/proposal/approval fields; UTF-8, sort_keys, indent=2)",
   "items": [
     {
       "arabic": "عَنْ كَعْبِ بْنِ عُجْرَةَ رضي الله عنه عَنْ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «مُعَقِّبَاتٌ لَا يَخِيبُ قَائِلُهُنَّ -أَوْ فَاعِلُهُنَّ- دُبُرَ كُلِّ صَلَاةٍ مَكْتُوبَةٍ، ثَلَاثٌ وَثَلَاثُونَ تَسْبِيحَةً، وَثَلَاثٌ وَثَلَاثُونَ تَحْمِيدَةً، وَأَرْبَعٌ وَثَلَاثُونَ تَكْبِيرَةً».",
@@ -21,12 +22,12 @@
       "quran_ref": null,
       "repeat": 33,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.227Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "after_prayer",
       "source": {
@@ -49,12 +50,12 @@
       "quran_ref": null,
       "repeat": 33,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.228Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "after_prayer",
       "source": {
@@ -77,12 +78,12 @@
       "quran_ref": null,
       "repeat": 34,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.228Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "after_prayer",
       "source": {
@@ -103,12 +104,12 @@
       "quran_ref": null,
       "repeat": 100,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.228Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "free",
       "source": {
@@ -129,12 +130,12 @@
       "quran_ref": null,
       "repeat": 100,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.228Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "free",
       "source": {
@@ -155,12 +156,12 @@
       "quran_ref": null,
       "repeat": 100,
       "review": {
-        "decided_at": null,
+        "decided_at": "2026-10-18T08:32:38.228Z",
         "edit_source": null,
         "notes": "",
         "proposed_text": null,
         "reviewer_id": "shaykh-1",
-        "status": "pending"
+        "status": "approved"
       },
       "section": "free",
       "source": {
@@ -174,13 +175,13 @@
   ],
   "license": "Kutub al-Sittah refs + Albani verification (reference only, no copy)",
   "pack_id": "tasbih-v1",
-  "reviewed_at": null,
+  "reviewed_at": "2026-10-18",
   "reviewer": "shaykh-1",
   "source": {
     "entries": 6,
     "file": "HadeethEnc API (verbatim)",
     "name": "Abdo verified file"
   },
-  "status": "PENDING_REVIEW",
+  "status": "APPROVED",
   "version": "0.1.0"
 }

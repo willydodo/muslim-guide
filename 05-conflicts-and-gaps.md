@@ -80,7 +80,13 @@
   manual check by Abdo/shaykh-1 pending.
 - **Review artifacts (2026-10-18)**: `content/reviews/tasbih-v1-review-2026-10-18.html`
   + `.json` — sent to shaykh-1, awaiting decisions.
-- **Priority**: P3 | **Phase**: 05c | **Status**: OPEN (awaiting shaykh-1)
+- **APPROVED (2026-10-18)**: shaykh-1 approved all 6 (no edits, no notes).
+  Decisions: `content/reviews/decisions-tasbih-v1-2026-10-18.json`.
+  Checksum rotated content-only: `sha256:339136d2…` (old `6cca0748…` was
+  computed before the review merge script existed — see deviation note in
+  `58ef3b8` report; pack content itself unchanged, checksum matches
+  decisions file).
+- **Priority**: P3 | **Phase**: 05c | **Status**: CLOSED (APPROVED, production)
 
 ### GAP-azkar-core-v2-part2 — Phase 07 part 2 (237 entries) PENDING_REVIEW
 - **Finding**: 13 packs built from Abdo's verified part-2 file (237 blocks):
