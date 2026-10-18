@@ -28,9 +28,35 @@ def main() -> None:
     json_path = out_dir / ('%s-review-%s.json' % (pack_id, today))
 
     cards = []
+    is_tasbih = (pack.get('category') == 'tasbih')
     for it in pack['items']:
         arid = html.escape(it['id'])
         arabic = html.escape(it.get('arabic') or '')
+        if is_tasbih:
+            title = html.escape(it.get('dhikr') or '')
+            grade = html.escape(str(it.get('grade_simple') or ''))
+            attr = html.escape(str(it.get('source_ref') or ''))
+            section = html.escape(str(it.get('section') or ''))
+            repeat = html.escape(str(it.get('repeat') or ''))
+            cards.append(
+                '\n'.join([
+                    '  <div class="item" data-id="%s">' % arid,
+                    '    <h3>%s — %s× (%s)</h3>' % (arid, repeat, section),
+                    '    <p class="arabic">%s</p>' % title,
+                    '    <details><summary>نص الحديث الكامل</summary>'
+                    '<p class="arabic">%s</p></details>' % arabic,
+                    '    <p class="source">%s — %s</p>' % (attr, grade),
+                    '    <div class="actions">',
+                    '      <button onclick="decide(\'%s\',\'approved\')">موافق</button>' % arid,
+                    '      <button onclick="decide(\'%s\',\'edited\')">تعديل</button>' % arid,
+                    '      <button onclick="decide(\'%s\',\'rejected\')">رفض</button>' % arid,
+                    '    </div>',
+                    '    <textarea data-notes="%s" placeholder="ملاحظات / مصدر التعديل..."></textarea>' % arid,
+                    '    <textarea data-proposed="%s" placeholder="النص المقترح (للتعديل فقط)..."></textarea>' % arid,
+                    '  </div>',
+                ])
+            )
+            continue
         title = html.escape(it.get('title_ar') or '')
         grade = html.escape(str(it.get('grade') or ''))
         attr = html.escape(str(it.get('attribution') or ''))
@@ -65,7 +91,9 @@ def main() -> None:
         '</head>',
         '<body>',
         '  <h1>حزمة: %s — v%s</h1>' % (html.escape(pack_id), html.escape(str(pack.get('version')))),
-        '  <p>المصدر: HadeethEnc.com — الفئة 301 (أذكار الصباح والمساء)</p>',
+        ('  <p>المصدر: HadeethEnc.com — عدّاد التسبيح (6 أذكار، E-1: الحوقلة محذوفة)</p>'
+         if is_tasbih else
+         '  <p>المصدر: HadeethEnc.com — الفئة 301 (أذكار الصباح والمساء)</p>'),
         '  <p>المراجع: shaykh-1 — الحالة: PENDING_REVIEW</p>',
         '  <p>checksum المحتوى: <code>%s</code></p>' % html.escape(str(pack.get('checksum'))),
         '\n'.join(cards),

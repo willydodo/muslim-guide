@@ -78,7 +78,9 @@
   5477 (baqiyat) is not a match — removed per Rule 020. 6 entries only.
 - **Limitation**: E-1 sunnah.com cross-check blocked (HTTP 403) — recorded,
   manual check by Abdo/shaykh-1 pending.
-- **Priority**: P3 | **Phase**: 05c | **Status**: OPEN
+- **Review artifacts (2026-10-18)**: `content/reviews/tasbih-v1-review-2026-10-18.html`
+  + `.json` — sent to shaykh-1, awaiting decisions.
+- **Priority**: P3 | **Phase**: 05c | **Status**: OPEN (awaiting shaykh-1)
 
 ### GAP-azkar-core-v2-part2 — Phase 07 part 2 (237 entries) PENDING_REVIEW
 - **Finding**: 13 packs built from Abdo's verified part-2 file (237 blocks):
